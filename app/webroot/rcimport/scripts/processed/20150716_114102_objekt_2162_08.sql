@@ -1,0 +1,7 @@
+/* Objekteigenschaften */
+INSERT INTO Objekteigenschaften (OBE_ID,OBE_DATE,OBE_VARCHAR,OBE_UEN_VARCHAR,OBE_INTEGER,OBE_NUMBER,OBE_ENSUITE,OBE_FKID_EIA_ID,OBE_FKID_OBJ_ID,OBE_EXPOSERELEVANT,OBE_INTERNETRELEVANT) VALUES 
+('26169',Null,Null,'30778','0','390','0','2','2162',1,'1'),
+('26170',Null,Null,'30779','0','9000','0','553','2162',1,'1'),
+('26171',Null,'2006','30780','0','0','0','558','2162',1,'1'),
+('26172',Null,Null,'30781','5','0','0','1','2162',1,'1'),
+('26173',Null,Null,'30782','4','0','0','478','2162',1,'1');

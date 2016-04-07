@@ -1,0 +1,23 @@
+/* Uebersetzungen */
+INSERT INTO Uebersetzungen (UEB_ID,UEB_NUMMER,UEB_FKID_SPR_ID,UEB_TEXT) VALUES 
+('95663','33000','1','Finca Apartmentanlage zu vermieten'),
+('95664','33001','1','Diese Finca Apartmentanlage befindet sich nur 15 Fahrminuten vom Flughafen und Palma de Mallorca entfernt. Die sehr gepflegte und ruhig gelegene Apartmentanlage ist seit 12 Jahren im Betrieb und bietet 2 Aussenpool, Fischspa, Masagepavillon, Sauna, BBQ uvm. 2 Brunnen   verkauft Wasser an Nachbarn  ca 3.000€ im Jahr\r\nGS Grösse:  45.000m²                                                     Finca Hotel: seit 12 Jahren im Betrieb                      Kaufpreis:  nicht zu verkaufen                                  Traspaso:  270.000€ (Ablösesumme)                         Laufzeit des Mietvertrages ist 5+5 Jahre mit Option auf weitere 5 Jahre                                                 Maklergebühr: 2 fache einer Monatsmiete. \r\n1.Privathaus:                                                                       3 SZ, 2 Bäder, Wohnzimmer, Küche                              Miete 2.200€ im Monat\r\n2. Haus                                                                            EG: 4 DZ mit je einem Badezimmer.                              1.OG: 2 Suiten mit je einem Badezimmer.                       Eine Casita: 2 SZ, 1 Bad.                                        Mietpreis 4.000€ im Monat\r\n3. 13 Apartments                                                                 9 DZ mit je einem Bad ensuite.                                         2x2 Sz mit 1 Badezimmer.                                                     2x2 Sz mit 2 Badezimmer.                                         Mietpreis 10.000€ im  Monat\r\n'),
+('95665','33002','1',Null),
+('95666','33003','1',Null),
+('95667','33004','1',Null),
+('95668','33005','1',Null),
+('95669','33006','1',Null),
+('95671','33000','5','Finca apartment complex for rent'),
+('95672','33001','5','This Finca apartment complex is located just 15 minutes from the airport and Palma de Mallorca away. The very well-kept and quiet apartment complex has 12 years of operation and features 2 outdoor swimming pools, fischspa, masage pavillon, sauna, BBQ and much more.The Hotel has ist own water dwell and sells also water to the nabors for about 3.000€ a year.\r\n\r\nplot size: 45,000m²\r\nFinca Hotel: 12 years in operation\r\nPrice: not for sale\r\nTraspaso 270.000 € (transfer fee)\r\nTerm of the lease is 5 + 5 years with an option for another 5 years\r\nBroker Fee: 2 times a monthly rent.\r\n\r\n1.house I:\r\n3 bedrooms, 2 bathrooms, living room, kitchen, pool.\r\nRent € 2,200 per month\r\n\r\n2. house II\r\nground flor: 4 double rooms with a bathroos ensuite.\r\n1st floor: 2 suites each with a bathroom.\r\nA Casita: 2 bedrooms, 1 bathroom.\r\nRent 4.000 € per month\r\n\r\n3. \r\n13 Apartments\r\n9 doub. rooms, each with a bathroom ensuite.\r\n2x2 bedrooms with 1 bathroom.\r\n2x2 bedrooms with 2 bathrooms.\r\nRental price € 10,000 monthly\r\n\r\n'),
+('95673','33002','5',Null),
+('95674','33003','5',Null),
+('95675','33004','5',Null),
+('95676','33005','5',Null),
+('95677','33006','5',Null),
+('95679','33000','22','Finca apartamentos en alquiler'),
+('95680','33001','22','Este complejo de apartamentos estylo Finca se encuentra a sólo 15 minutos del aeropuerto y Palma de Mallorca. El complejo de apartamentos muy bien cuidado y tranquilo tiene 12 años de funcionamiento y cuenta con 2 piscina al aire libre, Fishspa, pavillon para dar masges, sauna, barbacoa y mucho más. El hotel tiene agua propia que se vende tambiena las vecinos por aprox 3.000€ al ano.\r\n\r\nSolar tamaño: 45,000m²\r\nFinca Hotel: 12 años en funcionamiento\r\nPrecio: no esta a la venta\r\nTraspaso 270.000 € (tasa de transferencia)\r\nPlazo del arrendamiento es de 5 + 5 años, con una opción por otros 5 años\r\nprovisiones para agencia inmobiliaria: 2 veces a la renta mensual.\r\n1.Casa:\r\n3 dormitorios, 2 Baños, cocina, piscina, Carport\r\nAlquilar € 2,200 por mes\r\n2. Casa\r\n4 habitaciones dobles con baño cada uno.\r\n1ª planta: 2 suites cada una con baño.\r\nUna Casita: 2 dormitorios, 1 baño.\r\nAlquiler 4.000 € por mes\r\n3. 13 Apartamentos\r\n9 habitación doble, cada uno con un baño en suite.\r\n2x2 habitación doble  con 1 baño.\r\n2x2 habitación doble  con 2 baños.\r\nAlquilar € 10,000 Mes\r\n'),
+('95681','33002','22',Null),
+('95682','33003','22',Null),
+('95683','33004','22',Null),
+('95684','33005','22',Null),
+('95685','33006','22',Null);

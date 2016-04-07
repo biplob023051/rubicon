@@ -1,0 +1,4 @@
+20150624_101654_objektdelete_1868_1.sql
+20150624_101654_objektdelete_1868_2.sql
+20150624_101654_objektdelete_1868_3.sql
+20150624_101654_objektdelete_1868_4.sql

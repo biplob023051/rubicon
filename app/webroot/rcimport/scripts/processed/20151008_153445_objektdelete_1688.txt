@@ -1,0 +1,4 @@
+20151008_153445_objektdelete_1688_1.sql
+20151008_153445_objektdelete_1688_2.sql
+20151008_153445_objektdelete_1688_3.sql
+20151008_153445_objektdelete_1688_4.sql

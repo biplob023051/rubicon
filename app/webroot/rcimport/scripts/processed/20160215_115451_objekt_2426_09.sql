@@ -1,0 +1,23 @@
+/* Uebersetzungen */
+INSERT INTO Uebersetzungen (UEB_ID,UEB_NUMMER,UEB_FKID_SPR_ID,UEB_TEXT) VALUES 
+('98664','34047','1','3 Sterne Hotel an der Playa de Palma zu verkaufen'),
+('98665','34048','1','Dieses 3 Sterne Hotel liegt nur wenige Meter vom Badestrand entfernt. Das Hotel hat ca  9.000m² konstruierte Fläche und ca 190 Zimmer. Des Weiteren hat es noch einen Speisesaal, Küche, Bar, Salon, Büroräume, 4 Geschäftslokale, Hallenbad, Sauna und einen Aussenpool.\r\nWeitere Informationen und einen Besichtigungstermin erhalten Sie nur bei Vorlage eines Bonitätsnachweises des Kaufpreises\r\n'),
+('98666','34049','1',Null),
+('98667','34050','1',Null),
+('98668','34051','1',Null),
+('98669','34052','1',Null),
+('98670','34053','1',Null),
+('98672','34047','5','3 star hotel in Playa de Palma, Mallorca for sale'),
+('98673','34048','5','This 3 star hotel is located a few meters from the beach. The hotel has approximately 9,000 m² constructed area and approximately 190 rooms. Furthermore, it has a dining room, kitchen, bar, lounge, offices, 4 shops, indoor pool, sauna  and an outdoor pool.\r\nMore informations and an visiting appointment only on presentation of proof of creditworthiness of the purchase price.\r\n'),
+('98674','34049','5',Null),
+('98675','34050','5',Null),
+('98676','34051','5',Null),
+('98677','34052','5',Null),
+('98678','34053','5',Null),
+('98680','34047','22','Hotel 3 estrellas en Playa de Palma en venta'),
+('98681','34048','22','Este hotel de 3 estrellas está situado a pocos metros de la playa. El hotel cuenta con aproximadamente 9.000 m² de área construida y aproximadamente 190 habitaciones. Además, tiene una sala comedor, cocina, bar, salón, oficinas, 4 tiendas, pool interior, Sauna y una piscina al aire libre.\r\nPara obtener más información y una cita es a la presentación de la prueba de la solvencia del precio de compra.\r\n'),
+('98682','34049','22',Null),
+('98683','34050','22',Null),
+('98684','34051','22',Null),
+('98685','34052','22',Null),
+('98686','34053','22',Null);

@@ -1,0 +1,4 @@
+20151104_102733_objektdelete_1660_1.sql
+20151104_102733_objektdelete_1660_2.sql
+20151104_102733_objektdelete_1660_3.sql
+20151104_102733_objektdelete_1660_4.sql

@@ -1,0 +1,2 @@
+/* Objekteigenschaften */
+DELETE FROM Objekteigenschaften WHERE obe_id IN (19591,19592,19593,19594,19595,19833,19834,19835,19836,19837,26937,26938);

@@ -1,0 +1,23 @@
+/* Uebersetzungen */
+INSERT INTO Uebersetzungen (UEB_ID,UEB_NUMMER,UEB_FKID_SPR_ID,UEB_TEXT) VALUES 
+('95399','32906','22','Campo de golf de 9 hoyos con permiso de construcción para un Hotel de 5 estrellas'),
+('95400','32907','22','Al norte de Mallorca es este campo de golf de 9 hoyos en buen estado en un 240.000m² de terreno. Más 347.000m² son disponible para ampliar del campo de golf a 18 hoyos. Un permisode construir un Golf Hotel 5 estrellas con máx. 50 habitaciones y zona de club está disponible. Planes del proyecto del hotel le invitamos a ver en nuestra oficina. El propietario acepta ofertas serios.\r\nEn el borde del campo de golf hay un parque de villas exclusivas con 12 villas de lujo vendias.\r\nAdemas hay 15 parcelas para villas, con un total de 21.300m². El precio total de las solares son 12 millones de €. Todas las parcelas están situadas en una ladera con orientación sur-oeste y tiene una vista panorámica sobre el campo de golf y parcialmente en el mar.\r\n'),
+('95401','32908','22','precio a consultar'),
+('95402','32909','22',Null),
+('95403','32910','22',Null),
+('95404','32911','22',Null),
+('95405','32912','22',Null),
+('95407','32906','5','9 hole golf course with building permit for 5 Star Hotel'),
+('95408','32907','5','To the north of Mallorca is this well-maintained 9-hole golf course on is built on a 240.000m² of land. More than 347.000m² are available around the golf courseto extand to 18 holes. A permit for a 5 star Golf Hotel with max. 50 rooms and club area is available. You are welcome to see in our office plans of the hotel project. The owner accepts only serious offers.\r\nAt the edge of the golf course is an exclusive villa park with 12 sold luxury villas. 15 villa plots, with a total of 21.300m², can still be purchased. The total price of the land is € 12 million. All plots are located on a hillside in south-west orientation and have a fantastic  panoramic view over the golf course and partially to the sea\r\n'),
+('95409','32908','5','price on request'),
+('95410','32909','5',Null),
+('95411','32910','5',Null),
+('95412','32911','5',Null),
+('95413','32912','5',Null),
+('95415','32906','1','9 Loch Golfplatz mit Baugenehmigung für 5 Sterne Hotel'),
+('95416','32907','1','Im  Norden von Mallorca befindet sich dieser sehr gepflegte 9 Lochgolfplatz auf einem 240.000m² großen Grundstück. Weitere 347.000m² stehen zur Verfügung um den Golfplatz auf 18 Loch zu erweitern. Eine Genehmigung für ein 5 Sterne Golfhotel mit max. 50 Zimmern und Clubbereich ist vorhanden. Pläne des Hotelprojektes können Sie gerne bei uns im Büro einsehen. Der Eigentümer nimmt nur ernst gemeinte Angebote entgegen. \r\nAm Rand der Golfanlage befindet sich ein exklusiver Villenpark mit 12 erstellten und verkauften Luxusvillen.\r\nWeitere 11-15 Villen Baugrundstücke, mit insgesamt 21.300m², können noch erworben werden. Der Gesamtpreis der Grundstücke liegt bei 12 Mio'),
+('95417','32908','1','Preis auf Anfrage'),
+('95418','32909','1',Null),
+('95419','32910','1',Null),
+('95420','32911','1',Null),
+('95421','32912','1',Null);

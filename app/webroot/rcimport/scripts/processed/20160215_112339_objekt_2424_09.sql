@@ -1,0 +1,23 @@
+/* Uebersetzungen */
+INSERT INTO Uebersetzungen (UEB_ID,UEB_NUMMER,UEB_FKID_SPR_ID,UEB_TEXT) VALUES 
+('98615','34030','1','Ferienapartment Anlage mit über 80 Apartments auf Mallorca zu verkaufen'),
+('98616','34031','1','Dieses Aparthotel liegt an der Ostküste Mallorcas in einem sehr beliebten Ferienort mit sehr schönem Sandstrand, Restaurants, Bars, Shops, Supermärkte ect.  in unmittelbarer Nähe. Das Aparthotel ist ausgestattet mit Aufzug, Außenpool mit Poolbar, Spabereich (Hallenbad, Saunas, Hammam, Fitnessraum, Massageraum), Spielzimmer, Speisesaal, Küche, Hotelbar, Konferenz und Veranstaltungsräume, Businesscenter, 24 Std Rezeption, u.v.m.  Die Apartments sind ausgestattet mit Radio, WLAN, Computeranschluss, Tel, TV, Haartrockner, Küchenzeile, Kühlschrank, Minibar, Schreibtisch, Sofa, Bett, Klimaanlage.\r\nWeitere Infos erhalten Sie von uns bei Angabe Ihres vollen Namens, Tel Nr. und Postanschrift. Für eine Objekt Besichtigung verlangt der Verkäufer einen Bonitätsnachweis über die Kaufsumme. Bilanzen des Objektes können nach der Besichtigung eingesehen werden.\r\n'),
+('98617','34032','1',Null),
+('98618','34033','1',Null),
+('98619','34034','1',Null),
+('98620','34035','1',Null),
+('98621','34036','1',Null),
+('98623','34030','5','Holiday apartment complex with more than 80 apartments in Majorca for sale'),
+('98624','34031','5','This aparthotel is located on the east coast of Mallorca in a very popular resort with beautiful sandy beach, restaurants, bars, shops, supermarkets ect. The apartment hotel has an elevator, an outdoor pool with poolside bar, spa area (swimming pool, saunas, hammam, fitness room, massage room), games room, dining room, kitchen, bar, meeting and function rooms, business center, 24 Hour Reception and more. The apartments are equipped with radio, computer connection, Phone, TV, hair dryer, kitchenette, refrigerator, mini bar, desk, sofa, bed, WiFi, air conditioning.\r\nFurther information can be obtained from us by sending your full name, phone no., and postal address. For a property viewing the seller demands a credit proof of the purchase price. Budgets of the object can be viewed after the visit\r\n'),
+('98625','34032','5',Null),
+('98626','34033','5',Null),
+('98627','34034','5',Null),
+('98628','34035','5',Null),
+('98629','34036','5',Null),
+('98631','34030','22','Complejo con mas de 80 apartamentos de vacacion en Mallorca en venta'),
+('98632','34031','22','Este aparthotel se encuentra en la costa este de Mallorca, en un pueblo muy popular con hermosa playa de arena, restaurantes, bares, tiendas, supermercados en las inmediaciones. El complejo de apartamentos cuenta con un ascensor, una piscina exterior con bar, zona de spa (piscina, saunas, baños turcos, gimnasio, sala de masajes), sala de juegos, comedor, cocina, bar, salas de reuniones y salas de reuniones, centro de negocios, Recepción 24 horasy mas. Los apartamentos están equipados con radio, conexión inalámbrica, conexión de ordenador, teléfono, TV, secador de pelo, cocina, nevera, mini bar, escritorio, sofá, cama y aire acondicionado.\r\nMás informaciónes se puede obtener de nosotros a que contiene su nombre completo, teléfono y dirección postal. Para la visualización de una propiedad el vendedor exige una prueba de crédito del precio de compra. Datos de occupacio del objeto se pueden ver después de la visita\r\n'),
+('98633','34032','22',Null),
+('98634','34033','22',Null),
+('98635','34034','22',Null),
+('98636','34035','22',Null),
+('98637','34036','22',Null);

@@ -1,0 +1,4 @@
+20150609_163749_objektdelete_1505_1.sql
+20150609_163749_objektdelete_1505_2.sql
+20150609_163749_objektdelete_1505_3.sql
+20150609_163749_objektdelete_1505_4.sql

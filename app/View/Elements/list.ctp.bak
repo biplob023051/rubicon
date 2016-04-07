@@ -1,0 +1,197 @@
+﻿<?php
+    //debug($objects);
+    //debug($this->params);
+    if($this->params['controller'] == 'bookmark' && !isset($objects)):
+?>
+<div style="height: 54px;"></div>
+<div class="border_orange_thin"></div>
+<div class="clr"></div>
+<div class="searchresultrows emptybookmark" style="height: 500px;">
+    <p><?php echo __('Derzeit liegen keine gespeicherten Immobilien vor.'); ?></p>
+    <p><?php echo __('Haben Sie schon einen Login und vorher Immobilien auf die Merkliste gesetzt?'); ?></p>
+    <p><?php echo __('Dann loggen Sie sich bitte ein.'); ?></p>
+</div>
+<?php
+    elseif($this->params['controller'] == 'gesamtobjekt' && !count($objects)):
+?>
+<div style="height: 54px;"></div>
+<div class="border_orange_thin"></div>
+    <div class="searchresultrows"  style="height: 500px;">
+    <p><?php echo __('Keine Ergebnisse gefunden, bitte verändern Sie Ihre Sucheinstellungen!'); ?></p>
+</div>
+<?php
+    else:
+?>
+<div id="searchheader">
+    <div id="foundresults">
+        <?php if($this->params['models'][0] != 'Bookmark'): ?>
+            <?php echo __('Ergebnis'); ?>: <?=count($this->Session->read('objectSlider'));?>
+            <?php if(isset($headerinfos['mixedCats'])):?>
+                <?php if(count($this->Session->read('objectSlider')) == 1) __('Immobilie gefunden'); ?><?php if(count($this->Session->read('objectSlider')) != 1) __('Immobilien gefunden'); ?>
+            <?php else:?>
+                <?=$headerinfos['searchCat'];?>
+            <?php endif;?>
+        <?php else: ?>
+            <?php echo __('Ihre Merkliste enthält'); ?> <?=count($this->Session->read('objectSlider'));?> <?php if(count($this->Session->read('objectSlider')) == 1) __('Immobilie'); ?><?php if(count($this->Session->read('objectSlider')) != 1) __('Immobilien'); ?>
+        <?php endif; ?>
+    </div>
+    <div id="resultsperpage">
+    <?php echo __('Ergebnisse pro Seite'); ?> <?php echo $html->image('dpdown.jpg') ?>
+        <ul class="drop_down_list">
+              <li><?php echo $this->Paginator->link('5',array('limit' => '5'), $options = array('escape' => false)); ?></li>
+              <li><?php echo $this->Paginator->link('10',array('limit' => '10'), $options = array('escape' => false)); ?></li>
+              <li><?php echo $this->Paginator->link('15',array('limit' => '15'), $options = array('escape' => false)); ?></li>
+         </ul>
+    </div>
+    <div id="pricesort"><?php echo __('Sortierung nach Preis:'); ?>
+        <?php
+            $sortDir = $paginator->sortDir();
+            $text = ($sortDir == 'asc')?__('aufsteigend', true):__('absteigend', true);
+        ?>
+        <?php echo $this->Paginator->sort($text, 'OBJ_PREIS', $options = array('escape' => false, 'direction'=>'DESC', 'class' => 'asc')); ?>
+    </div>
+    <?php if(count($objects) && count($this->Session->read('objectSlider')) > $defaultMaxPerPage):?>
+    <div class="page_navigator">
+        <div class="page_numbers">
+            <ul>
+            <?php echo $this->Paginator->prev($html->image('arrow_left.png', array('border' => 0, 'tag'=>'li')), array('escape'=>false, 'tag'=>'li')); ?>
+            <?php echo $this->Paginator->numbers(array('separator' => '', 'tag'=>'li')); ?>
+            <?php echo $this->Paginator->next($html->image('arrow_right.png', array('border' => 0, 'tag'=>'li')), array('escape'=>false, 'tag'=>'li')); ?>
+            </ul>
+        </div>
+    </div>
+    <?php endif; ?>
+</div>
+<div class="border_orange_thin"> </div>
+<div class="clr"></div>
+<?php if(isset($objects) && count($objects) > 0):?>
+    <?php foreach($objects as $key => $data): //debug($data['Gesamtobjekt']); ?>
+    <div class="searchresultrows" id="row_<?=$data['Gesamtobjekt']['OBJ_ID']?>"><a name="<?=$data['Gesamtobjekt']['OBJ_ID']?>" />
+        <?php
+                        $alt = $data['Gesamtobjekt']['OBI_UET_BESCHREIBUNG'].' - '.$data['Gesamtobjekt']['REG_NAME'].' - ';
+                        $linkcity = ($data['Gesamtobjekt']['REG_ID'] > 1) ? $data['Gesamtobjekt']['REG_NAME']: 'Mallorca';
+                        if($data['Gesamtobjekt']['BER_EXPOSERELEVANT'] == 1){
+                            $alt .= $data['Gesamtobjekt']['BER_NAME'].' - ';
+                            $linkcity .= '_'.$data['Gesamtobjekt']['BER_NAME'];
+                        }
+                        $alt .= $data['Gesamtobjekt']['OBJ_UET_UEBERSCHRIFT'];
+                    ?>
+<!--        <a href="/gesamtobjekt/show/--><?//=$data['Gesamtobjekt']['OBJ_ID']?><!--">-->
+<!--            <img src="/imagesrc/resize.php?src=--><?//=$data['Gesamtobjekt']['OBJ_NUMMER']?><!---1.jpg&q=100&w=521&h=353" alt="--><?//=$alt?><!--"/>-->
+<!--        </a>-->
+        <?=$this->Html->link(
+                    $this->Html->image('/imagesrc/resize.php?src='.$data['Gesamtobjekt']['OBJ_NUMMER'].'-1.jpg&q=100&w=521&h=353', array('alt' => $alt)),
+                    '/l/'.$this->Propertylinks->stringToSlug($data['Gesamtobjekt']['OBJ_UET_UEBERSCHRIFT']).'/'.$this->Propertylinks->stringToSlug($data['Gesamtobjekt']['OBI_UET_BESCHREIBUNG']).'/'.$this->Propertylinks->stringToSlug($linkcity).'/'.$data['Gesamtobjekt']['OBJ_ID'],
+                    array('escape'=>false)
+                );?>
+        <div class="rightarea">
+
+        <div class="part1">
+
+        <h4 class="orange">
+<!--            <a href="/gesamtobjekt/show/--><?//=$data['Gesamtobjekt']['OBJ_ID']?><!--">--><?//=$data['Gesamtobjekt']['OBJ_UET_UEBERSCHRIFT']?><!--</a>-->
+            <?=$this->Html->link($data['Gesamtobjekt']['OBJ_UET_UEBERSCHRIFT'], '/l/'.$this->Propertylinks->stringToSlug($data['Gesamtobjekt']['OBJ_UET_UEBERSCHRIFT']).'/'.$this->Propertylinks->stringToSlug($data['Gesamtobjekt']['OBI_UET_BESCHREIBUNG']).'/'.$this->Propertylinks->stringToSlug($linkcity).'/'.$data['Gesamtobjekt']['OBJ_ID']);?>
+        </h4>
+
+        </div>
+        <div class="part2">
+
+            <?php $coords = $this->Coords->getGeo($data['Gesamtobjekt']['OBJ_ID']); ?>
+            <div class="info_rows"><?php echo __('Mallorca'); ?><?php if($data['Gesamtobjekt']['REG_ID'] > 1){?>, <a href="/gesamtobjekt/search/cityR:<?=$data['Gesamtobjekt']['REG_ID']?>" class="secretlink"><?=$data['Gesamtobjekt']['REG_NAME']?></a><?php if($data['Gesamtobjekt']['BER_EXPOSERELEVANT'] == 1) echo ', <a href="/gesamtobjekt/search/cityB:'.$data['Gesamtobjekt']['BER_ID'].'" class="secretlink">'.$data['Gesamtobjekt']['BER_NAME'];  ?></a><span style="float:right"><img src="/img/dot.png" class="map_icon" id="OBJ<?=$data['Gesamtobjekt']['OBJ_ID']?>lati<?=$coords['reg_latitude'];?>long<?=$coords['reg_longitude'];?>" rel="#googlemap" /></span><?php } ?></div>
+            <?php
+                if(is_array($data['Gesamtobjekt']['EIAS'])):
+                $rent = false;
+                $onlyrent = false;
+                foreach($data['Gesamtobjekt']['EIAS'] as $k => $eia): debug($eia);
+                    if($k == 'PLOT' && $eia != '-') echo '<div class="info_rows"><span class="spec_title">'.__('Grundstück', true).': </span>'.$eia.' m²</div>';
+                    if($k == 'LIVING' && $eia != '-') echo '<div class="info_rows"><div class="spec_title">'.__('Wohnfläche', true).': </div>'.$eia.' m²</div>';
+                    if($k == 'YEAR' && $eia != '-') echo '<div class="info_rows"><div class="spec_title">'.__('Baujahr', true).': </div>'.$eia.'</div>';
+                    if($k == 'ROOM' && $eia != '-') echo '<div class="info_rows"><div class="spec_title">'.__('Schlafzimmer', true).': </div>'.$eia.'</div>';
+                    if($k == 'BATH' && $eia != '-') echo '<div class="info_rows"><div class="spec_title">'.__('Bäder', true).': </div>'.$eia.'</div>';
+                    if($k == 'RENT' && $eia != '-') $rent = true;
+                    if($k == 'ONLYRENT' && $eia != '-') $onlyrent = true;
+                    if($k == 'ONLYRENTPrice' && $eia != '-') $onlyrentprice = $eia;
+            ?>
+            <?php
+                endforeach;
+                endif;
+            ?>
+            <div class="info_rows"><div class="spec_title"><?php echo __('Ref'); ?>:  </div><?=$data['Gesamtobjekt']['OBJ_NUMMER']?></div>
+            <div class="info_rows<?=($rent)?'_rent':'';?>"><div class="spec_title"><?php echo __('Kaufpreis'); ?>:</div><?=$data['Gesamtobjekt']['OBJ_PREIS']?><?php if(!empty($data['Gesamtobjekt']['OBJ_UET_PREISZUSATZ']) && $data['Gesamtobjekt']['OBJ_PREIS'] != 0):?> | <?=$data['Gesamtobjekt']['OBJ_UET_PREISZUSATZ']?><?php endif; ?></div>
+
+            <?php if($rent): ?>
+                <?php if($onlyrent): ?>
+                    <div class="info_rows"><div class="spec_title"><?php echo __('Mietpreis'); ?>:</div>&#8364; <?=$onlyrentprice?></div>
+                <?php else: ?>
+                    <div class="info_rows"><div class="spec_title"><?php echo __('Mietpreis'); ?>:</div><?php echo __('auf Anfrage'); ?></div>
+                <?php endif; ?>
+            <?php endif; ?>
+
+        </div>
+        <div class="part3">
+            <?php
+                $text = strip_tags($this->Menu->myTruncate($data['Gesamtobjekt']['OBJ_UET_WERBETEXT'], 135));
+                $laenge = strlen($text);
+                if($laenge > 130){
+                    $text = strip_tags($this->Menu->myTruncate($data['Gesamtobjekt']['OBJ_UET_WERBETEXT'], 120));
+                }
+            ?>
+            <div class="info_col"><?=$text?><span class="more_details">
+<!--                <a href="/gesamtobjekt/show/--><?//=$data['Gesamtobjekt']['OBJ_ID']?><!--">--><?php //__('mehr Details'); ?><!--</a>-->
+                <?=$this->Html->link(__('mehr Details', true), '/l/'.$this->Propertylinks->stringToSlug($data['Gesamtobjekt']['OBJ_UET_UEBERSCHRIFT']).'/'.$this->Propertylinks->stringToSlug($data['Gesamtobjekt']['OBI_UET_BESCHREIBUNG']).'/'.$this->Propertylinks->stringToSlug($linkcity).'/'.$data['Gesamtobjekt']['OBJ_ID']);?>
+            </span></div>
+        </div>
+
+            <div class="clr"></div>
+        <div class="part4">
+            <?php
+                if($this->params['models'][0] == 'Bookmark'):
+            ?>
+            <div class="more_details bookmarklink">
+                <?=$this->Html->link($this->Html->image('bookmarked.png').__('von dieser Liste entfernen', true), array('controller'=>'bookmark', 'action'=>'delete', $data['Gesamtobjekt']['OBJ_ID']), array('style' => 'padding-left: 4px;', 'escape' => false));?>
+            </div>
+
+
+             <?php
+                else:
+                if($this->Bookmark->checkBookmarkStatus($data['Gesamtobjekt']['OBJ_ID']) == 'bookmark'){
+                    $image = 'bookmark.png';
+                    $text = __('Immobilie merken', true);
+                    $action = 'add';
+                }else{
+                    $image = 'bookmarked.png';
+                    $text = __('Immobilie vorgemerkt', true);
+                    $action = 'delete';
+                }
+            ?>
+            <div class="more_details bookmarklink">
+                <?=$this->Html->link($this->Html->image($image).$text, array('controller'=>'bookmark', 'action'=>$action, $data['Gesamtobjekt']['OBJ_ID']), array('style' => 'padding-left: 4px;', 'escape' => false));?>
+            </div>
+            <?php
+                endif;
+            ?>
+        </div>
+        </div>
+    </div>
+    <div class="clr" style="height: 5px;"></div>
+    <?php endforeach; ?>
+<?php endif; ?>
+<?php if(count($objects) && count($this->Session->read('objectSlider')) > $defaultMaxPerPage):?>
+    <div class="border_orange"/>
+    <div class="page_navigator" style="padding: 15px 0 15px 0;">
+        <div class="page_numbers">
+            <ul>
+            <?php echo $this->Paginator->prev($html->image('arrow_left.png', array('border' => 0, 'tag'=>'li')), array('escape'=>false, 'tag'=>'li')); ?>
+            <?php echo $this->Paginator->numbers(array('separator' => '', 'tag'=>'li')); ?>
+            <?php echo $this->Paginator->next($html->image('arrow_right.png', array('border' => 0, 'tag'=>'li')), array('escape'=>false, 'tag'=>'li')); ?>
+            </ul>
+        </div>
+    </div>
+    <div class="clr"></div>
+    <span style="font-size: 10px; float: right;"><?php //echo $this->Paginator->counter(array('format' => 'Seite %page% von %pages%, angezeigt werden %current% Ergebnisse von insgesamt %count%, beginnend bei %start%, endend bei %end%'));?></span>
+    <?php endif; ?>
+
+<?php
+    endif;
+?>
+<?= $this->element('map');?>

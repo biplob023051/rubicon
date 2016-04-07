@@ -1,0 +1,23 @@
+/* Uebersetzungen */
+INSERT INTO Uebersetzungen (UEB_ID,UEB_NUMMER,UEB_FKID_SPR_ID,UEB_TEXT) VALUES 
+('97474','33638','1','Hotel auf dem Land zum verkauf mit 10 Schlafzimmern'),
+('97475','33639','1','Very well-maintained country hotel located just 15 minutes drive from Palma away. The hotel offers doub rooms, suites and apartments. In the garden you can relax by the pool. More Information you´ll get by request'),
+('97476','33640','1',Null),
+('97477','33641','1',Null),
+('97478','33642','1',Null),
+('97479','33643','1',Null),
+('97480','33644','1',Null),
+('97482','33638','5','For sale country hotel with 10 rooms on Mallorca'),
+('97483','33639','5','Very well-maintained country hotel located just 15 minutes drive from Palma away. The hotel offers doub rooms, suites and apartments. In the garden you can relax by the pool. More Information you´ll get by request'),
+('97484','33640','5',Null),
+('97485','33641','5',Null),
+('97486','33642','5',Null),
+('97487','33643','5',Null),
+('97488','33644','5',Null),
+('97490','33646','22','1800'),
+('97491','33646','5','1800'),
+('97492','33646','1','1800'),
+('97493','33647','1',Null),
+('97494','33648','1',Null),
+('97495','33649','1',Null),
+('97496','33650','1',Null);

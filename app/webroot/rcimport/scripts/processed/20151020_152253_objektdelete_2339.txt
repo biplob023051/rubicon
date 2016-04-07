@@ -1,0 +1,4 @@
+20151020_152253_objektdelete_2339_1.sql
+20151020_152253_objektdelete_2339_2.sql
+20151020_152253_objektdelete_2339_3.sql
+20151020_152253_objektdelete_2339_4.sql

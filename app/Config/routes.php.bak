@@ -1,0 +1,118 @@
+<?php
+/**
+ * Routes Configuration
+ *
+ * In this file, you set up routes to your controllers and their actions.
+ * Routes are very important mechanism that allows you to freely connect
+ * different urls to chosen controllers and their actions (functions).
+ *
+ * PHP versions 4 and 5
+ *
+ * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
+ * Copyright 2005-2010, Cake Software Foundation, Inc. (http://cakefoundation.org)
+ *
+ * Licensed under The MIT License
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @copyright     Copyright 2005-2010, Cake Software Foundation, Inc. (http://cakefoundation.org)
+ * @link          http://cakephp.org CakePHP(tm) Project
+ * @package       cake
+ * @subpackage    cake.app.config
+ * @since         CakePHP(tm) v 0.2.9
+ * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
+ */
+
+/**
+ * Here, we are connecting '/' (base path) to controller called 'Pages',
+ * its action called 'display', and we pass a param to select the view file
+ * to use (in this case, /app/views/pages/home.ctp)...
+ */
+	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
+	Router::connect('/index.html', array('controller' => 'pages', 'action' => 'display', 'home'));
+
+    // SUCHE
+	Router::connect('/exklusive-mallorca-immobilien.html', array('controller' => 'gesamtobjekt', 'action' => 'search', array('lng' => 'deu')));
+	Router::connect('/exclusive-mallorca-majorca-properties.html', array('controller' => 'gesamtobjekt', 'action' => 'search', array('lng' => 'eng')));
+	Router::connect('/exclusivo-mallorca-propiedad-inmueble.html', array('controller' => 'gesamtobjekt', 'action' => 'search', array('lng' => 'spa')));
+	Router::connect('/rus-exclusive-mallorca-majorca-properties.html', array('controller' => 'gesamtobjekt', 'action' => 'search', array('lng' => 'rus')));
+	Router::connect('/fre-exclusive-mallorca-majorca-properties.html', array('controller' => 'gesamtobjekt', 'action' => 'search', array('lng' => 'fre')));
+
+    // MERKLISTE
+    Router::connect('/immobilien-merkliste.html', array('controller' => 'bookmark', 'action' => 'search', array('lng' => 'deu')));
+    Router::connect('/properties-real-estates-bookmarks.html', array('controller' => 'bookmark', 'action' => 'search', array('lng' => 'eng')));
+    Router::connect('/propiedades-inmuebles-bookmarks.html', array('controller' => 'bookmark', 'action' => 'search', array('lng' => 'spa')));
+    Router::connect('/fre-properties-real-estates-bookmarks.html', array('controller' => 'bookmark', 'action' => 'search', array('lng' => 'fre')));
+    Router::connect('/rus-properties-real-estates-bookmarks.html', array('controller' => 'bookmark', 'action' => 'search', array('lng' => 'rus')));
+
+    // UNSER TEAM
+    Router::connect('/finestpropertiesmallorca-markus-redlich.html', array('controller' => 'content', 'action' => 'team', array('lng' => 'deu')));
+    Router::connect('/finestpropertiesmallorca-markus-redlich.html', array('controller' => 'content', 'action' => 'team', array('lng' => 'eng')));
+    Router::connect('/sobre-finestpropertiesmallorca-markus-redlich.html', array('controller' => 'content', 'action' => 'team', array('lng' => 'spa')));
+    Router::connect('/fre-finestpropertiesmallorca-markus-redlich.html', array('controller' => 'content', 'action' => 'team', array('lng' => 'fre')));
+    Router::connect('/rus-finestpropertiesmallorca-markus-redlich.html', array('controller' => 'content', 'action' => 'team', array('lng' => 'rus')));
+
+    // KONTAKT
+    Router::connect('/kontakt-zu-finestpropertiesmallorca-markus-redlich.html', array('controller' => 'contacts', 'action' => 'show', array('lng' => 'deu')));
+    Router::connect('/contact-to-finestpropertiesmallorca-markus-redlich.html', array('controller' => 'contacts', 'action' => 'show', array('lng' => 'eng')));
+    Router::connect('/contacto-a-finestpropertiesmallorca-markus-redlich.html', array('controller' => 'contacts', 'action' => 'show', array('lng' => 'spa')));
+    Router::connect('/fre-contact-to-finestpropertiesmallorca-markus-redlich.html', array('controller' => 'contacts', 'action' => 'show', array('lng' => 'fre')));
+    Router::connect('/rus-contact-to-finestpropertiesmallorca-markus-redlich.html', array('controller' => 'contacts', 'action' => 'show', array('lng' => 'rus')));
+
+    // IMPRESSUM
+    Router::connect('/Impressum.html', array('controller' => 'contacts', 'action' => 'show', array('lng' => 'deu')));
+    Router::connect('/Imprint.html', array('controller' => 'contacts', 'action' => 'show', array('lng' => 'eng')));
+    Router::connect('/Imprenta.html', array('controller' => 'contacts', 'action' => 'show', array('lng' => 'spa')));
+    Router::connect('/fre-Imprint.html', array('controller' => 'contacts', 'action' => 'show', array('lng' => 'fre')));
+    Router::connect('/rus-Imprint.html', array('controller' => 'contacts', 'action' => 'show', array('lng' => 'rus')));
+
+    // SITEMAP
+    Router::connect('/immobilien-uebersicht-luxus-mallorca-finestpropertiesmallorca-markus-redlich.html', array('controller' => 'content', 'action' => 'sitemap', array('lng' => 'deu')));
+    Router::connect('/properties-real-estate-overview-luxury-mallorca-finestpropertiesmallorca-markus-redlich.html', array('controller' => 'content', 'action' => 'sitemap', array('lng' => 'eng')));
+    Router::connect('/propiedades-inmuebles-vista-general-lujo-mallorca-finestpropertiesmallorca-markus-redlich.html', array('controller' => 'content', 'action' => 'sitemap', array('lng' => 'spa')));
+    Router::connect('/fre-properties-real-estate-overview-luxury-mallorca-finestpropertiesmallorca-markus-redlich.html', array('controller' => 'content', 'action' => 'sitemap', array('lng' => 'fre')));
+    Router::connect('/rus-properties-real-estate-overview-luxury-mallorca-finestpropertiesmallorca-markus-redlich.html', array('controller' => 'content', 'action' => 'sitemap', array('lng' => 'rus')));
+
+    // OBJEKT DETAIL
+    Router::connect('/luxus-immobilien-mallorca-details/:one/:two/:id', array('controller' => 'gesamtobjekt', 'action' => 'show', array('lng' => 'deu')));
+    Router::connect('/luxury-properties-real-estates-mallorca-details/:one/:two/:id', array('controller' => 'gesamtobjekt', 'action' => 'show', array('lng' => 'eng')));
+    Router::connect('/lujo-propiedades-inmuebles-mallorca-detalles/:one/:two/:id', array('controller' => 'gesamtobjekt', 'action' => 'show', array('lng' => 'spa')));
+    Router::connect('/fre-luxury-properties-real-estates-mallorca-details/:one/:two/:id', array('controller' => 'gesamtobjekt', 'action' => 'show', array('lng' => 'fre')));
+    Router::connect('/rus-luxury-properties-real-estates-mallorca-details/:one/:two/:id', array('controller' => 'gesamtobjekt', 'action' => 'show', array('lng' => 'rus')));
+Router::connect('/l/:text/:one/:two/:id', array('controller' => 'gesamtobjekt', 'action' => 'show'));
+
+    // LINK ZUR KATEGORIE
+    Router::connect('/immobilien-mallorca-auswahl/:cat/:id.html', array('controller' => 'gesamtobjekt', 'action' => 'search', array('lng' => 'deu')));
+    Router::connect('/immobilien-mallorca-auswahl/:cat/:two/:id.html', array('controller' => 'gesamtobjekt', 'action' => 'search', array('lng' => 'deu')));
+    Router::connect('/properties-real-estate-mallorca-choice/:cat/:id.html', array('controller' => 'gesamtobjekt', 'action' => 'search', array('lng' => 'eng')));
+    Router::connect('/properties-real-estate-mallorca-choice/:cat/:two/:id.html', array('controller' => 'gesamtobjekt', 'action' => 'search', array('lng' => 'eng')));
+    Router::connect('/propiedades-inmuebles-mallorca-seleccion/:cat/:id.html', array('controller' => 'gesamtobjekt', 'action' => 'search', array('lng' => 'spa')));
+    Router::connect('/propiedades-inmuebles-mallorca-seleccion/:cat/:two/:id.html', array('controller' => 'gesamtobjekt', 'action' => 'search', array('lng' => 'spa')));
+    Router::connect('/fre-properties-real-estate-mallorca-choice/:cat/:id.html', array('controller' => 'gesamtobjekt', 'action' => 'search', array('lng' => 'fre')));
+    Router::connect('/fre-properties-real-estate-mallorca-choice/:cat/:two/:id.html', array('controller' => 'gesamtobjekt', 'action' => 'search', array('lng' => 'fre')));
+    Router::connect('/rus-properties-real-estate-mallorca-choice/:cat/:id.html', array('controller' => 'gesamtobjekt', 'action' => 'search', array('lng' => 'rus')));
+    Router::connect('/rus-properties-real-estate-mallorca-choice/:cat/:two/:id.html', array('controller' => 'gesamtobjekt', 'action' => 'search', array('lng' => 'rus')));
+
+    // LINK ZUM ORT
+    Router::connect('/mallorca-immobilien-in-:loc/:id.html', array('controller' => 'gesamtobjekt', 'action' => 'search', array('lng' => 'deu')));
+    Router::connect('/mallorca-properties-real-estates-in-:loc/:id.html', array('controller' => 'gesamtobjekt', 'action' => 'search', array('lng' => 'eng')));
+    Router::connect('/mallorca-propiedad-inmueble-en-:loc/:id.html', array('controller' => 'gesamtobjekt', 'action' => 'search', array('lng' => 'spa')));
+    Router::connect('/fre-mallorca-properties-real-estates-in-:loc/:id.html', array('controller' => 'gesamtobjekt', 'action' => 'search', array('lng' => 'fre')));
+    Router::connect('/rus-mallorca-properties-real-estates-in-:loc/:id.html', array('controller' => 'gesamtobjekt', 'action' => 'search', array('lng' => 'rus')));
+
+
+/**
+ * ...and connect the rest of 'Pages' controller's urls.
+ */
+	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
+
+    // ÜBERSETZUNGN
+    Router::connect('/lng/:lang', array('controller' => 'p28n', 'action' => 'shuntRequest', array(
+        'lang' => '[a-z]{3}'
+    )));
+
+
+    // 404
+    Router::connect('/l', array('controller' => 'pages', 'action' => 'display', 'home'));
+    Router::connect('search.php*', array('controller' => 'pages', 'action' => 'display', 'home'));
+    Router::connect('search.php&loc=*&cat=*&price=*&keyword=*&pageID=*&limit=*&obj_id=:id&bookmark_done=*&LID=*', array('controller' => 'gesamtobjekt', 'action' => 'show'));
+

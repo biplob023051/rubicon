@@ -1,0 +1,2024 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Redlich\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-04-08 17:23+0100\n"
+"Last-Translator: Heidi Anselstetter <heidi.anselstetter@consultingteam.de>\n"
+"Language-Team: Heidi Anselstetter <heidi.anselstetter@consultingteam.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Controller/ContactsController.php:70
+#: Controller/SmscallbacksController.php:67
+msgid "Ihre Anfrage wurde erfolgreich versandt!"
+msgstr ""
+
+#: Controller/ContactsController.php:79
+#: Controller/NewsController.php:33;76
+#: Controller/SmscallbacksController.php:72
+#: Controller/UsersController.php:92
+msgid "Es sind Fehler aufgetreten."
+msgstr ""
+
+#: Controller/NewsController.php:25
+msgid "Ihre E-Mailadresse wurde erfolgreich in unserem Verteiler eingetragen. Wir bedanken uns für Ihr Interesse."
+msgstr ""
+
+#: Controller/NewsController.php:70
+msgid "Wir bedanken uns für Ihr Interesse. Unser russisch-sprachiger Mitarbeiter wird Sie sofort kontaktieren."
+msgstr ""
+
+#: Controller/UsersController.php:40
+msgid "Erfolgreicher Login, Seite wird geladen ..."
+msgstr ""
+
+#: Controller/UsersController.php:49
+msgid "Es sind Fehler aufgetreten!"
+msgstr ""
+
+#: Controller/UsersController.php:50
+msgid "E-Mail / Passwort nicht korrekt!"
+msgstr ""
+
+#: Controller/UsersController.php:86
+msgid "Der Zugang zu Ihrer Merkliste wurde abgespeichert. Sie können sich jetzt mit Ihren Zugangsdaten in Ihre Merkliste einloggen."
+msgstr ""
+
+#: Controller/Component/MiscfunctionsComponent.php:28
+msgid "Preis ab &#8364; "
+msgstr ""
+
+#: Controller/Component/MiscfunctionsComponent.php:34
+msgid "Preis auf Anfrage"
+msgstr ""
+
+#: Controller/Component/TranslatorComponent.php:8
+msgid "!! missing translation !!"
+msgstr ""
+
+#: View/Bookmark/search.ctp:2
+msgid "Merkliste für Ihre ausgewählten Mallorca Immobilien"
+msgstr ""
+
+#: View/Bookmark/search.ctp:3
+msgid "Bei Ihrer Suche nach einer exklusiven Mallorca Immobilie können Sie hier Ihre Favoriten abspeichern und auf die Merkliste setzen."
+msgstr ""
+
+#: View/Contact/index.ctp:10
+#: View/News/rus.ctp:10
+#: View/Smscallbacks/index.ctp:11
+#: View/User/add.ctp:10
+msgid "Bitte geben Sie Ihren Namen an."
+msgstr ""
+
+#: View/Contact/index.ctp:13
+#: View/News/index.ctp:10
+#: View/News/rus.ctp:13
+#: View/Smscallbacks/index.ctp:14
+#: View/User/add.ctp:13
+msgid "Bitte geben Sie Ihre E-Mailadresse an."
+msgstr ""
+
+#: View/Contact/index.ctp:14
+#: View/News/index.ctp:11
+#: View/News/rus.ctp:14
+#: View/Smscallbacks/index.ctp:15
+#: View/User/add.ctp:14
+msgid "Bitte prüfen Sie auf Fehler in der Schreibweise."
+msgstr ""
+
+#: View/Contact/index.ctp:17
+#: View/News/index.ctp:14
+#: View/News/rus.ctp:17
+#: View/Smscallbacks/index.ctp:32
+#: View/User/add.ctp:22
+msgid "Keine erlaubte Eingabe. Bitte korrigieren Sie die Eingabe."
+msgstr ""
+
+#: View/Contact/index.ctp:18
+#: View/News/index.ctp:15
+#: View/News/rus.ctp:18
+#: View/Smscallbacks/index.ctp:33
+#: View/User/add.ctp:23
+msgid "... vertippt? Bitte Eingabe prüfen"
+msgstr ""
+
+#: View/Contact/show.ctp:2
+msgid "Kontaktieren Sie unser Immobilienbüro in Mallorca Costa de la Calma"
+msgstr ""
+
+#: View/Contact/show.ctp:3
+msgid "Wir stehen Ihnen jederzeit zur Verfügung bei allen Fragen rund um den Kauf von Immobilien auf Mallorca. Nutzen Sie unseren Rückruf-Service oder schreiben Sie uns eine Email."
+msgstr ""
+
+#: View/Contact/show.ctp:7
+msgid "Kontaktieren Sie unser Immobilienbüro"
+msgstr ""
+
+#: View/Contact/show.ctp:8
+#: View/Elements/contact.ctp:7
+msgid "Gerne senden wir Ihnen weitere Informationen zu Ihrer Immobilienanfrage zu oder beantworten Ihnen Ihre Fragen. Füllen Sie dazu bitte möglichst alle Felder aus, wir werden uns dann in Kürze bei Ihnen melden."
+msgstr ""
+
+#: View/Contact/show.ctp:12
+#: View/Elements/contact.ctp:17
+#: View/Elements/news.ctp:11
+#: View/Elements/sms.ctp:22
+msgid "* Ihr Name"
+msgstr ""
+
+#: View/Contact/show.ctp:13
+#: View/Elements/contact.ctp:18
+#: View/Elements/news.ctp:12
+#: View/Elements/sms.ctp:23
+msgid "* Ihre E-Mail Adresse"
+msgstr ""
+
+#: View/Contact/show.ctp:14
+#: View/Elements/contact.ctp:19
+#: View/Elements/register.ctp:15
+#: View/Emails/html/contact.ctp:5
+#: View/Emails/text/contact.ctp:5
+msgid "Telefon"
+msgstr ""
+
+#: View/Contact/show.ctp:15
+#: View/Elements/contact.ctp:20
+msgid "Ihre Nachricht an uns"
+msgstr ""
+
+#: View/Contact/show.ctp:20
+msgid "Sie haben ausgewählte Immobilien auf Ihrer Merkliste gespeichert."
+msgstr ""
+
+#: View/Contact/show.ctp:20
+msgid "Möchten Sie für diese Objekte weitere Details anfragen?"
+msgstr ""
+
+#: View/Contact/show.ctp:21
+msgid "Merkliste anzeigen?"
+msgstr ""
+
+#: View/Contact/show.ctp:39
+#: View/Elements/contact.ctp:26
+#: View/Elements/news.ctp:15
+#: View/Elements/register.ctp:20
+#: View/Elements/sms.ctp:31
+msgid "absenden"
+msgstr ""
+
+#: View/Contact/show.ctp:41
+#: View/Elements/contact.ctp:27
+#: View/Elements/news.ctp:16
+#: View/Elements/register.ctp:21
+#: View/Elements/rus.ctp:17
+#: View/Elements/sms.ctp:32
+msgid "Daten werden übertragen ..."
+msgstr ""
+
+#: View/Contact/show.ctp:49
+msgid "Adresse"
+msgstr ""
+
+#: View/Contact/show.ctp:55
+#: View/Layouts/default.ctp:98
+msgid "Tel"
+msgstr ""
+
+#: View/Contact/show.ctp:56
+msgid "Fax"
+msgstr ""
+
+#: View/Contact/show.ctp:67
+msgid "Urheberrecht"
+msgstr ""
+
+#: View/Contact/show.ctp:69
+msgid "Finest Properties Mallorca S.L Produkte und Leistungen sind durch das spanische Urheberrecht geschützt. Die auf dieser Website enthaltenen Informationen, Fotos, Texte oder Grafiken dürfen ohne ausdrückliche schriftliche Genehmigung von Finest Properties Mallorca S.L. in keiner Weise kopiert, verliehen oder weitergegeben werden. Jede Reproduktion oder Veränderung mit heutigen technischen Mitteln ist ohne die schriftliche Erlaubnis streng verboten und wird mit allen rechtlichen Mitteln verfolgt und zur Anzeige gebracht."
+msgstr ""
+
+#: View/Contact/show.ctp:72
+msgid "Haftungsausschluss"
+msgstr ""
+
+#: View/Contact/show.ctp:74
+msgid "Trotz inhaltlicher Kontrolle übernehmen wir keine Haftung für die Vollständigkeit, Richtigkeit und Aktualität der Website und für die Inhalte externer Links, für Forenbeiträge und für die auf dem Portal eingestellten Angebote. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich, für Forenbeiträge die Verfasser und für eingestellte Angebote die Anbieter."
+msgstr ""
+
+#: View/Content/links.ctp:4
+msgid "Partner Links"
+msgstr ""
+
+#: View/Content/links.ctp:6
+msgid "Qualifizierte Unternehmen, mit denen wir gerne zusammenarbeiten:"
+msgstr ""
+
+#: View/Content/links.ctp:9;16
+msgid "Branche:"
+msgstr ""
+
+#: View/Content/links.ctp:9
+msgid "Rechtsanwälte"
+msgstr ""
+
+#: View/Content/links.ctp:10;17
+msgid "Web:"
+msgstr ""
+
+#: View/Content/links.ctp:16
+msgid "Restaurant"
+msgstr ""
+
+#: View/Content/sell.ctp:2
+msgid "Apartments und Fincas Mallorca – Landhäuser und Villen Mallorca - Verkauf und Vermietung"
+msgstr ""
+
+#: View/Content/sell.ctp:3
+msgid "Verkaufen oder vermieten Sie Ihre Mallorca Immobilie mit Finest Properties Mallorca. Wir finden für Sie den richtigen Käufer oder einen zuverlässigen Langzeitmieter. Erfahren Sie mehr über Vermarktungsmöglichkeiten Ihrer Immobilie!"
+msgstr ""
+
+#: View/Content/sell.ctp:13
+msgid "Ihre Immoblie ist einzigartig"
+msgstr ""
+
+#: View/Content/sell.ctp:16
+msgid "Unsere Kunden sind es auch"
+msgstr ""
+
+#: View/Content/sell.ctp:19
+msgid "Den richtigen Käufer für Ihre Immobilie zu finden, ist keine Glücksache"
+msgstr ""
+
+#: View/Content/sell.ctp:22
+msgid "Sondern beruht auf Analyse der Kundenwünsche"
+msgstr ""
+
+#: View/Content/sell.ctp:25
+msgid "Sprechen Sie jetzt mit uns über Ihre Immobilie!"
+msgstr ""
+
+#: View/Content/sell.ctp:33
+msgid "Villen Mallorca, Appartements und Fincas Mallorca vermieten und verkaufen"
+msgstr ""
+
+#: View/Content/sell.ctp:34
+msgid "Fincas Mallorca an Urlauber vermieten"
+msgstr ""
+
+#: View/Content/sell.ctp:35
+msgid "Es gibt viele naturverbundene Urlauber mit gehobenen Ansprüchen, die für Ihren Sommerurlaub auf <strong>Mallorca</strong>, der sich dann meist über mehrere Wochen erstreckt <strong>Fincas Mallorca</strong> mieten möchten, um sich zu erholen. Sie möchten nicht in den Touristenhochburgen in einem Hotel ihren Urlaub verbringen, sondern einen ungebundenen Urlaub auf <strong>Mallorca</strong> in ruhiger Umgebung. Wenn Sie eine Finca an Urlauber vermieten möchten, wenden Sie sich vertrauensvoll telefonisch oder per E-Mail an die Finest Properties. Wir stellen Ihnen ausgesuchte Mieter zur Verfügung. Dabei handelt es sich um Mieter mit gehobenen Ansprüchen, die auf gewissen Luxus nicht verzichten möchten. Sie legen Wert auf eine gute Ausstattung und sind bereit, für die <strong>Fincas</strong> auf der Baleareninsel <strong>Mallorca</strong> einen guten Mietpreis zu zahlen."
+msgstr ""
+
+#: View/Content/sell.ctp:36
+msgid "Appartements vermieten oder verkaufen"
+msgstr ""
+
+#: View/Content/sell.ctp:37
+msgid "Viele Urlauber möchten ihren Urlaub nicht in einem Hotel verbringen. Sie möchten lieber unabhängig sein und bevorzugen das Wohnen in einem der <strong>Apartments Mallorca</strong>, weil sie dort nicht an feste Essenszeiten oder dergleichen gebunden sind. Wir bieten Ihnen Mieter, die <strong>Apartments</strong> anmieten möchten, die auch gehobenen Ansprüchen entsprechen. Wir können Ihnen auch Dauermieter für Ihre <strong>Apartments</strong> zur Verfügung stellen. Diese haben sich auf <strong>Mallorca</strong> niedergelassen, um hier zu arbeiten oder ein Unternehmen aufzubauen. Hierbei gibt es auch einige, die eines der <strong>Apartments</strong> kaufen möchten. Gerade weil sie länger dort wohnen möchten, legen sie auf ein ansprechendes Wohnambiente wert. Wenn Sie Wert auf gut situierte Mieter oder Käufer legen, sind wir Ihnen bei der Auswahl gern behilflich. Selbstverständlich nehmen wir Rücksicht auf Ihre Privatsphäre und zu Besichtigungen kommt es nur, wenn sichergestellt ist, dass Ihr angebotenes Apartment auf <strong>Mallorca</strong> den Wünschen des potentiellen Mieters und Käufers entspricht."
+msgstr ""
+
+#: View/Content/sell.ctp:38
+msgid "Villen Mallorca mit Gewinn verkaufen"
+msgstr ""
+
+#: View/Content/sell.ctp:39
+msgid "Sie suchen Käufer für <strong>Villen Mallorca</strong>? Setzen Sie sich mit uns in Verbindung und wir suchen die perfekten Käufer für Ihre <strong>Villen</strong>. Wir haben viele Kaufinteressenten, die sich für <strong>Villen</strong> auf <strong>Mallorca</strong> interessieren, die sich in guter Wohnlage befinden und über eine gehobene Ausstattung verfügen. Auch wenn sie über gute Wohnanlagen mit <strong>Villen</strong> verfügen, die über eine gute Ausstattung verfügen, haben wir sowohl Käufer als auch Mieter für Sie, die sicherlich Ihren Kriterien entsprechen werden. Denn es handelt sich hier nur um ausgesuchte Mieter und Käufer. Setzen Sie sich deshalb mit uns in Verbindung, damit wir die von Ihnen angebotene Villa gründlich besichtigen können. Wir vergleichen die Wünsche des potentiellen Käufers genau mit den Kriterien der von Ihnen angebotenen Villa auf <strong>Mallorca</strong>. Wenn diese den Ansprüchen des Käufers entsprechen, werden wir mit Ihnen einen Besichtigungstermin vereinbaren, so dass es nicht zu unnötigen Besichtigungen kommt."
+msgstr ""
+
+#: View/Content/sell.ctp:40
+msgid "Fincas günstig verkaufen"
+msgstr ""
+
+#: View/Content/sell.ctp:41
+msgid "Viele Urlauber, die auf <strong>Mallorca</strong> Ihren Urlaub verbringen, haben einen Traum. Sie möchten eine Finca auf <strong>Mallorca</strong> kaufen. Bei ihren Ausflügen über die Insel sind sie in den Genuss gekommen, eine der vielen <strong>Fincas</strong> aus der Nähe zu sehen und wünschen sich nun, ihre Urlaube und später im Alter das Landleben und die dazu gehörende Ruhe zu genießen. Darauf wird mehrere Jahre gespart und irgendwann kommt der Zeitpunkt, zu dem der Kauf möglich ist. Sie besitzen eine dieser <strong>Fincas Mallorca</strong> und möchten diese günstig verkaufen? Wir sind spezialisiert auf den Verkauf von <strong>Fincas</strong>. Unsere Immobilienmakler sind bestens geschult. Setzen Sie sich mit uns in Verbindung, damit diese eine gründliche Besichtigung vornehmen können. Die Immobilienmakler wissen genau, welche potentiellen Käufer für <strong>Fincas Mallorca</strong> ansprechen müssen. Besichtigungstermine werden nur vereinbart, wenn die Kriterien die Ihre <strong>Fincas</strong> aufweisen, den Anforderungen des Käufers entsprechen. So kommt es nicht zu unnötigen Besichtigungen und Ihre Privatsphäre wird bestens gewahrt."
+msgstr ""
+
+#: View/Content/sell.ctp:42
+msgid "Villen auf Mallorca für Urlauber"
+msgstr ""
+
+#: View/Content/sell.ctp:43
+msgid "Sie besitzen einer der <strong>Villen</strong> auf <strong>Mallorca</strong> und nutzen diese, um Ihren Urlaub dort zu verbringen. Sie wurde als Anlage für das Alter gekauft, steht aber mehrere Monate im Jahr leer? Die Finest Properties hat sich unter anderem darauf spezialisiert, solche <strong>Villen</strong> an Urlauber zu vermieten, die in ihrem Urlaub auf <strong>Mallorca</strong> lieber in einer der <strong>Villen Mallorca</strong> als in einem Hotel verbringen möchten. Sie suchen deshalb eine Villa mit Meerblick oder auch eine Villa im Landesinneren, die über ein freundliches Wohnambiente verfügen. Außerdem sollen die <strong>Villen</strong> auch gehobenen Ansprüchen genügen. Die Urlauber legen Wert auf eine gute Ausstattung der <strong>Villen</strong> mit jedem denkbaren Komfort. Ein Swimmingpool und eine Terrasse mit Meerblick gehören für die meisten beim Mieten einer Villa auf <strong>Mallorca</strong> einfach dazu. Dafür sind sie gerne bereit, für ihren Urlaub auf <strong>Mallorca</strong> in einer der <strong>Villen</strong> einen Betrag zu zahlen, den sie in einem Hotel ebenfalls investieren müssten. Wenden Sie sich also vertrauensvoll an uns, wenn Sie eine Ihrer <strong>Villen</strong> an Urlauber auf <strong>Mallorca</strong> vermieten möchten. Wir halten nur ausgesuchte Mieter für Sie bereit."
+msgstr ""
+
+#: View/Content/sell.ctp:44
+msgid "Stadtpalast mit gehobenen Ansprüchen verkaufen"
+msgstr ""
+
+#: View/Content/sell.ctp:45
+msgid "Sie besitzen einen der Stadtpaläste in Palma de Mallorca und möchten diesen verkaufen? Wir haben immer wieder potentielle Käufer, die sich für einen der Stadtpaläste auf <strong>Mallorca</strong> interessieren. Sie möchten diese außergewöhnliche Art des Wohnens in der Inselhauptstadt genießen und nahe am Geschehen sein. Um Ihre Privatsphäre zu wahren, werden Besichtigungstermine allerdings nur vereinbart, wenn sichergestellt ist, dass diese Käufer sich auch ernsthaft für einen Stadtpalast interessieren. Außerdem müssen sie über die notwendigen Mittel verfügen, sich einen der Stadtpaläste in Palma, der Hauptstadt der Baleareninsel <strong>Mallorca</strong> zu kaufen."
+msgstr ""
+
+#: View/Content/sell.ctp:47
+msgid "Sie möchten Ihre Mallorca Immobilie verkaufen oder vermieten?"
+msgstr ""
+
+#: View/Content/sell.ctp:48
+msgid "Finest Properties Mallorca ist ein junges Unternehmen mit kompetenten und freundlichen Mitarbeitern, die seit 10 Jahren erfolgreich auf dem Immobilienmarkt Mallorcas tätig sind. Uns ist es wichtig den richtigen Käufer für die richtige Immobilie zu finden, so wie sich zwei Puzzleteile zusammenfügen. Wir respektieren in hohem Maße die Privatsphäre der Verkäufer und verzichten auf unnötige Besichtigungen, in dem wir den Kaufwunsch unseres Kunden genauestens analysieren und somit eine exakte Vorstellung seiner Traumimmobilie haben. Vielleicht haben wir bereits den passenden Käufer für Ihre Immobilie? Geben Sie uns die Chance Ihr Eigentum kennen zu lernen und vielleicht schon bald einen weiteren Kunden glücklich zu machen."
+msgstr ""
+
+#: View/Content/sell.ctp:49
+#: View/Content/team.ctp:22
+msgid "Wir freuen uns auf Ihren Anruf oder"
+msgstr ""
+
+#: View/Content/sell.ctp:49
+#: View/Content/team.ctp:22
+msgid "schreiben Sie uns hier!"
+msgstr ""
+
+#: View/Content/sell.ctp:49
+#: View/Content/team.ctp:22
+#: View/Content/vip.ctp:44
+#: View/Layouts/default.ctp:68
+msgid "Kontakt"
+msgstr ""
+
+#: View/Content/sitemap.ctp:2
+msgid "Sitemap Finest Properties Mallorca SL Immobilienbüro auf Mallorca"
+msgstr ""
+
+#: View/Content/sitemap.ctp:3
+msgid "Sitemap von Finest Properties Mallorca, dem Immobilienbüro für exklusive Immobilien auf Mallorca."
+msgstr ""
+
+#: View/Content/sitemap.ctp:8
+msgid "Alle Angebote im Überblick"
+msgstr ""
+
+#: View/Content/sitemap.ctp:11
+msgid "Kategorie / Ort / Referenz / Titel"
+msgstr ""
+
+#: View/Content/team.ctp:2
+msgid "Finest Porperties Mallorca – Ihr kompetentes Immobilienmakler Mallorca Team"
+msgstr ""
+
+#: View/Content/team.ctp:3
+msgid "Immobilienmakler Mallorca – Finest Porperties Mallorca Ihr Makler wenn es um exklusive Immobilien, Villas, Fincas und Apartments geht."
+msgstr ""
+
+#: View/Content/team.ctp:10
+msgid "Unsere Immobilienmakler sind für Sie auf Mallorca da"
+msgstr ""
+
+#: View/Content/team.ctp:13
+msgid "Unsere <strong>Immobilienmakler Mallorca</strong> vermitteln Ihnen Ihre <strong>Wunschimmobilie</strong> auf <strong>Mallorca</strong>. Die Immobilien werden nach Ihren Vorgaben ausgesucht. Selbstverständlich erhalten Sie die Möglichkeit zu mehreren Besichtigungen, um sich ein Bild von unseren Anliegen zu machen."
+msgstr ""
+
+#: View/Content/team.ctp:14
+msgid "Vor und nach dem Kauf Ihrer neuen Mallorca Immobilie können Sie auf uns zählen"
+msgstr ""
+
+#: View/Content/team.ctp:15
+msgid "Unsere <strong>Makler</strong> stehen Ihnen vor und nach dem Verkauf auf <strong>Mallorca</strong> beratend zur Seite. Sie sind jederzeit für Sie da, wenn Fragen auftauchen oder Probleme entstehen sollten. Auch bei der Vertragsabwicklung sind Sie Ihnen natürlich gerne behilflich."
+msgstr ""
+
+#: View/Content/team.ctp:16
+msgid "SMS – Rückrufservice"
+msgstr ""
+
+#: View/Content/team.ctp:17
+msgid "Sie haben mehrere Möglichkeiten unsere <strong>Immobilienmakler</strong> auf <strong>Mallorca</strong> zu kontaktieren. Nehmen Sie telefonisch Kontakt auf oder schicken Sie uns eine SMS. Unsere <strong>Immobilienmakler</strong> werden sich so schnell wie möglich bei Ihnen melden um gemeinsam mit Ihnen Ihre <strong>Wunschimmobilie</strong> auf <strong>Mallorca</strong> zu finden. Selbstverständlich stehen Ihnen unsere <strong>Makler</strong> auch gerne via E-Mail Kontakt zur Verfügung."
+msgstr ""
+
+#: View/Content/team.ctp:18
+#: View/Elements/news.ctp:6
+#: View/Layouts/default.ctp:58
+#: View/Pages/home.ctp:110
+msgid "Newsletter"
+msgstr ""
+
+#: View/Content/team.ctp:19
+msgid "Um immer auf dem Laufenden zu sein, empfehlen wir Ihnen, unseren <strong>kostenlosen Newsletter</strong> zu abonnieren. Hier erfahren Sie als erstes, welche neuen Immobilien auf <strong>Mallorca</strong> zum Verkauf angeboten werden und <strong>welches Angebot Sie auf keinen Fall versäumen sollten</strong>!"
+msgstr ""
+
+#: View/Content/team.ctp:24
+msgid "Immobilienmakler Markus Redlich"
+msgstr ""
+
+#: View/Content/team.ctp:24
+msgid "Inhaber + CEO"
+msgstr ""
+
+#: View/Content/team.ctp:24
+#: View/Gesamtobjekt/show.ctp:177
+msgid "SMS Rückruf-Service"
+msgstr ""
+
+#: View/Content/team.ctp:24;25;26;27
+msgid "E-Mail senden"
+msgstr ""
+
+#: View/Content/team.ctp:25
+msgid "Sales Manager Volker Schupp"
+msgstr ""
+
+#: View/Content/team.ctp:25
+msgid "Sales Manager"
+msgstr ""
+
+#: View/Content/team.ctp:26
+msgid "Office Manager Cornelia Schädlich"
+msgstr ""
+
+#: View/Content/team.ctp:26
+msgid "Office Manager"
+msgstr ""
+
+#: View/Content/video.ctp:2
+msgid "Exklusive Mallorca Immobilien präsentiert von Finest Properties Mallorca"
+msgstr ""
+
+#: View/Content/video.ctp:3
+msgid "Unser Imagevideo gibt Ihnen einen kurzen Einblick in unsere Arbeit als Immobilienmakler für exklusive Immobilien auf Mallorca. Viel Spaß beim Anschauen."
+msgstr ""
+
+#: View/Content/video.ctp:12
+msgid "Wir präsentieren ausgewählte Luxus Immobilien auf Mallorca"
+msgstr ""
+
+#: View/Content/video.ctp:13
+msgid "Lehnen Sie sich zurück und erhalten Sie einen ersten Eindruck von unserem Angebot an Immobilien auf Mallorca. Unser Immobilien Angebot ist so vielseitig wie die Wünsche unserer Kunden es sind. Alle vereint jedoch der Traum eine Residenz auf Mallorca zu besitzen und diesen endlich zu verwirklichen. Wir stehen Ihnen dabei mit Rat und Tat zur Seite."
+msgstr ""
+
+#: View/Content/vip.ctp:2
+msgid "Unser VIP Service für Mallorca Einsteiger"
+msgstr ""
+
+#: View/Content/vip.ctp:3
+msgid "Unser exklusiver Mallorca VIP Service bietet allen, die die Insel noch nicht kennen, die Möglichkeit einen ersten Einblick in Luxus und Lifestyle auf Mallorca zu bekommen."
+msgstr ""
+
+#: View/Content/vip.ctp:27
+msgid "VIP-Luxus-Wochenende auf Mallorca erleben"
+msgstr ""
+
+#: View/Content/vip.ctp:28
+msgid "Mallorca als Luxus- und Lifestyle Residenz kennen lernen"
+msgstr ""
+
+#: View/Content/vip.ctp:29
+msgid "Lernen Sie die attraktivsten Seiten Mallorcas kennen – individuell, exklusiv, authentisch!"
+msgstr ""
+
+#: View/Content/vip.ctp:31
+msgid "Eine individuelle Beratung und intensive, professionelle Betreuung ist unsere Handlungsmaxime für jeden unserer Kunden."
+msgstr ""
+
+#: View/Content/vip.ctp:32
+msgid "Für diejenigen unter ihnen, denen nur die höchsten Ansprüche genügen, bieten wir  darüber hinaus ein individuell gestricktes VIP-Programm an, um Mallorcas Lifestyle und Hot Spots kennenzulernen."
+msgstr ""
+
+#: View/Content/vip.ctp:33
+msgid "Unser Rundum-Betreuungspaket beinhaltet:"
+msgstr ""
+
+#: View/Content/vip.ctp:35
+msgid "2-3 Tage Übernachtung im Hotel der Fünf-Sterne-Kategorie"
+msgstr ""
+
+#: View/Content/vip.ctp:36
+msgid "Fahrservice"
+msgstr ""
+
+#: View/Content/vip.ctp:37
+msgid "Ausflug mit Helikopter und / oder Boot"
+msgstr ""
+
+#: View/Content/vip.ctp:38
+msgid "Entdecken Sie mit uns die Hot Spots der Insel wie z.B. der angesagtesten Restaurants, Clubs, Bodegas, etc."
+msgstr ""
+
+#: View/Content/vip.ctp:39
+msgid "auf Wunsch Besichtigung von ausgewählten Luxusimmobilien und exklusiven Wohnlagen auf Mallorca"
+msgstr ""
+
+#: View/Content/vip.ctp:40
+msgid "und vieles mehr"
+msgstr ""
+
+#: View/Content/vip.ctp:43
+msgid "Bevor Sie sich für eine Immobilie entscheiden und Mallorca als Ihre neues Urlaubsdomizil oder gar permanente Residenz wählen, ist es uns wichtig, dass Sie Mallorca und sein mediterranes Lebensgefühl kennen lernen. Alles, was Mallorca an Lifestyle bietet, zeigen wir Ihnen daher mit diesem VIP-Angebot. Da wir selbst seit vielen Jahren auf der Insel leben, garantieren wir Ihnen authentische Einblicke in die Inselwelt weitab von den üblichen Touristenpfaden."
+msgstr ""
+
+#: View/Content/vip.ctp:44
+msgid "Preis und alle weiteren Informationen auf Anfrage."
+msgstr ""
+
+#: View/Content/vip.ctp:44
+msgid "Schreiben Sie uns hier!"
+msgstr ""
+
+#: View/Elements/contact.ctp:4
+#: View/Elements/news.ctp:4
+#: View/Elements/register.ctp:4
+#: View/Elements/rus.ctp:4
+#: View/Elements/sms.ctp:4
+msgid "Mallorca-Finest-Properties"
+msgstr ""
+
+#: View/Elements/contact.ctp:6
+msgid "Sie wünschen weitere Details zu diesem Objekt?"
+msgstr ""
+
+#: View/Elements/contact.ctp:11
+#: View/Elements/sms.ctp:14
+msgid "Objekt:"
+msgstr ""
+
+#: View/Elements/contact.ctp:12
+#: View/Elements/sms.ctp:15
+msgid "Titel:"
+msgstr ""
+
+#: View/Elements/contact.ctp:13
+#: View/Elements/sms.ctp:16
+msgid "Ort:"
+msgstr ""
+
+#: View/Elements/contact.ctp:23
+msgid "** Daten merken?"
+msgstr ""
+
+#: View/Elements/contact.ctp:31
+msgid "** Wir speichern Ihre Daten (z.B. Name und E-Mailadresse) temporär für die Zeit Ihres Besuchs auf unserer Webseite ab, damit Sie bei weiteren Anfragen, diese nicht erneut eingeben müssen. Nach dem Schliessen des Browsers und dem Verlassen unserer Webseite werden Ihre Daten wieder gelöscht."
+msgstr ""
+
+#: View/Elements/jcarousel.ctp:16
+msgid "auch anfragen"
+msgstr ""
+
+#: View/Elements/list.ctp:10
+msgid "Derzeit liegen keine gespeicherten Immobilien vor."
+msgstr ""
+
+#: View/Elements/list.ctp:11
+msgid "Haben Sie schon einen Login und vorher Immobilien auf die Merkliste gesetzt?"
+msgstr ""
+
+#: View/Elements/list.ctp:12
+msgid "Dann loggen Sie sich bitte ein."
+msgstr ""
+
+#: View/Elements/list.ctp:20
+msgid "Keine Ergebnisse gefunden, bitte verändern Sie Ihre Sucheinstellungen!"
+msgstr ""
+
+#: View/Elements/list.ctp:30
+msgid "Immobilie gefunden"
+msgstr ""
+
+#: View/Elements/list.ctp:30
+msgid "Immobilien gefunden"
+msgstr ""
+
+#: View/Elements/list.ctp:35
+msgid "Ihre Merkliste enthält"
+msgstr ""
+
+#: View/Elements/list.ctp:35
+msgid "Immobilie"
+msgstr ""
+
+#: View/Elements/list.ctp:35
+msgid "Immobilien"
+msgstr ""
+
+#: View/Elements/list.ctp:87
+msgid "Preis:"
+msgstr ""
+
+#: View/Elements/list.ctp:90
+msgid "aufsteigend"
+msgstr ""
+
+#: View/Elements/list.ctp:90
+msgid "absteigend"
+msgstr ""
+
+#: View/Elements/list.ctp:152
+#: View/Gesamtobjekt/show.ctp:1;86
+msgid "Mallorca"
+msgstr ""
+
+#: View/Elements/list.ctp:158
+#: View/Gesamtobjekt/show.ctp:95
+msgid "Grundstück"
+msgstr ""
+
+#: View/Elements/list.ctp:159
+#: View/Gesamtobjekt/show.ctp:96
+msgid "Wohnfläche"
+msgstr ""
+
+#: View/Elements/list.ctp:160
+#: View/Gesamtobjekt/show.ctp:97
+msgid "Baujahr"
+msgstr ""
+
+#: View/Elements/list.ctp:161
+#: View/Gesamtobjekt/show.ctp:98
+msgid "Schlafzimmer"
+msgstr ""
+
+#: View/Elements/list.ctp:162
+#: View/Gesamtobjekt/show.ctp:99
+msgid "Bäder"
+msgstr ""
+
+#: View/Elements/list.ctp:171
+#: View/Gesamtobjekt/show.ctp:29;108
+msgid "Ref"
+msgstr ""
+
+#: View/Elements/list.ctp:172
+#: View/Gesamtobjekt/show.ctp:109
+msgid "Kaufpreis"
+msgstr ""
+
+#: View/Elements/list.ctp:176
+#: View/Gesamtobjekt/show.ctp:113
+msgid "Mietpreis"
+msgstr ""
+
+#: View/Elements/list.ctp:179
+#: View/Gesamtobjekt/show.ctp:115
+msgid "Objekt kann angemietet werden, Preis auf Anfrage"
+msgstr ""
+
+#: View/Elements/list.ctp:193
+msgid "mehr Details"
+msgstr ""
+
+#: View/Elements/map.ctp:4
+msgid "Mallorca-Immobilien-Finest-Properties"
+msgstr ""
+
+#: View/Elements/navigation.ctp:20
+#: View/Gesamtobjekt/search.ctp:34
+msgid "Villen mit Meerblick"
+msgstr ""
+
+#: View/Elements/navigation.ctp:23
+#: View/Gesamtobjekt/search.ctp:37
+msgid "Villen an erster Meereslinie"
+msgstr ""
+
+#: View/Elements/navigation.ctp:26
+#: View/Gesamtobjekt/search.ctp:40
+#: View/Pages/home.ctp:85;86
+msgid "Palma de Mallorca und Altstadtpaläste"
+msgstr ""
+
+#: View/Elements/navigation.ctp:29
+#: View/Gesamtobjekt/search.ctp:43
+msgid "Vermietungen"
+msgstr ""
+
+#: View/Elements/navigation.ctp:52
+#: View/Helper/FlagsHelper.php:331
+msgid "Villen Landhäuser Fincas Mallorca"
+msgstr ""
+
+#: View/Elements/navigation.ctp:74
+msgid "Schnell-Suche"
+msgstr ""
+
+#: View/Elements/navigation.ctp:79
+msgid "Detail-Suche"
+msgstr ""
+
+#: View/Elements/navigation.ctp:81
+msgid "Alle Objektarten"
+msgstr ""
+
+#: View/Elements/navigation.ctp:86
+msgid "Alle Orte"
+msgstr ""
+
+#: View/Elements/navigation.ctp:159
+msgid "Alle Preise"
+msgstr ""
+
+#: View/Elements/navigation.ctp:179;182
+msgid "bis 1 Mio. €"
+msgstr ""
+
+#: View/Elements/navigation.ctp:185;188
+msgid "bis 2 Mio. €"
+msgstr ""
+
+#: View/Elements/navigation.ctp:191;194
+msgid "bis 3 Mio. €"
+msgstr ""
+
+#: View/Elements/navigation.ctp:197;200
+msgid "bis 4 Mio. €"
+msgstr ""
+
+#: View/Elements/navigation.ctp:203;206
+msgid "bis 5 Mio. €"
+msgstr ""
+
+#: View/Elements/navigation.ctp:209;212
+msgid "ab 5 Mio. €"
+msgstr ""
+
+#: View/Elements/navigation.ctp:217
+msgid "Referenz-Nr."
+msgstr ""
+
+#: View/Elements/navigation.ctp:223
+msgid "URLImmobilien Suche nach Referenznummer"
+msgstr "Immobilien Suche nach Referenznummer"
+
+#: View/Elements/navigation.ctp:226
+msgid "URLUnser aktuelles Immobilien Angebot"
+msgstr "Unser aktuelles Immobilien Angebot"
+
+#: View/Elements/navigation.ctp:226
+msgid "Suche starten"
+msgstr ""
+
+#: View/Elements/navigation.ctp:228
+msgid "abbrechen"
+msgstr ""
+
+#: View/Elements/navigation.ctp:232
+msgid "VIP Special"
+msgstr ""
+
+#: View/Elements/navigation.ctp:232
+msgid "URLVIP Special"
+msgstr "VIP Special"
+
+#: View/Elements/news.ctp:7
+msgid "Mit unserem E-Mail Newsletter informieren wir Sie regelmäßig und kostenlos per E-Mail über aktuelle Themen, Events und Angebote."
+msgstr ""
+
+#: View/Elements/register.ctp:6
+msgid "Registrierung Merkliste"
+msgstr ""
+
+#: View/Elements/register.ctp:9
+msgid "Um Ihre gemerkten Immobilien dauerhaft speichern zu können, bitten wir Sie, die nachfolgenden Felder auszufüllen. Sie können sich dann im Anschluss mit Ihrer E-Mailadresse und Ihrem gewählten Passwort jederzeit einloggen und Ihre Objekte verwalten."
+msgstr ""
+
+#: View/Elements/register.ctp:12
+msgid "* Name"
+msgstr ""
+
+#: View/Elements/register.ctp:13
+msgid "* E-Mail Adresse"
+msgstr ""
+
+#: View/Elements/register.ctp:14
+msgid "* Passwort"
+msgstr ""
+
+#: View/Elements/register.ctp:16
+msgid "Ort"
+msgstr ""
+
+#: View/Elements/register.ctp:17
+#: View/Elements/sms.ctp:24
+msgid "Land"
+msgstr ""
+
+#: View/Elements/rus.ctp:11
+msgid "* Ваш имя и фамилия:"
+msgstr ""
+
+#: View/Elements/rus.ctp:12
+msgid "* E-Mail:"
+msgstr ""
+
+#: View/Elements/rus.ctp:13
+msgid "* телефон:"
+msgstr ""
+
+#: View/Elements/rus.ctp:16
+msgid "послатъ"
+msgstr ""
+
+#: View/Elements/sms.ctp:6
+msgid "SMS - Rückrufservice"
+msgstr ""
+
+#: View/Elements/sms.ctp:7
+msgid "Wünschen Sie weitere Informationen in einem persönlichen Gespräch? Dann füllen Sie bitte das nachstehende Formular vollständig aus, wir werden direkt per SMS über Ihren Kontaktwunsch benachrichtigt und können uns zeitnah um Ihre Anfrage kümmern und Sie zurückrufen!"
+msgstr ""
+
+#: View/Elements/sms.ctp:24
+msgid "* Telefon"
+msgstr ""
+
+#: View/Elements/sms.ctp:25
+msgid "Vorwahl"
+msgstr ""
+
+#: View/Elements/sms.ctp:26
+msgid "Nummer"
+msgstr ""
+
+#: View/Elements/sms.ctp:28
+msgid "Beispiel:"
+msgstr ""
+
+#: View/Emails/html/contact.ctp:1
+#: View/Emails/text/contact.ctp:1
+msgid "Folgende Kontaktdaten wurden über das Kontaktformular hinterlegt:"
+msgstr ""
+
+#: View/Emails/html/contact.ctp:3
+#: View/Emails/text/contact.ctp:3
+msgid "Name"
+msgstr ""
+
+#: View/Emails/html/contact.ctp:4
+#: View/Emails/text/contact.ctp:4
+msgid "E-Mail"
+msgstr ""
+
+#: View/Emails/html/contact.ctp:6
+#: View/Emails/text/contact.ctp:6
+msgid "Nachricht"
+msgstr ""
+
+#: View/Emails/html/contact.ctp:8
+#: View/Emails/text/contact.ctp:8
+msgid "Angefragtes Objekt"
+msgstr ""
+
+#: View/Emails/html/contact.ctp:9
+#: View/Emails/text/contact.ctp:9
+msgid "Zusätzlich angefragte Objekte (Merkliste)"
+msgstr ""
+
+#: View/Emails/html/contact.ctp:11
+#: View/Emails/text/contact.ctp:11
+msgid "Anfrage abgeschickt am:"
+msgstr ""
+
+#: View/Emails/html/news.ctp:1
+#: View/Emails/text/news.ctp:1
+msgid "Newsletter Anmeldung"
+msgstr ""
+
+#: View/Emails/html/news.ctp:4
+#: View/Emails/text/news.ctp:4
+msgid "Anmeldung erfolgte am:"
+msgstr ""
+
+#: View/Emails/html/rus.ctp:1
+#: View/Emails/text/rus.ctp:1
+msgid "Anfrage für Russischen Kontakt"
+msgstr ""
+
+#: View/Emails/html/rus.ctp:5
+#: View/Emails/text/rus.ctp:5
+msgid "Anfrage erfolgte am:"
+msgstr ""
+
+#: View/Errors/error404.ctp:1;4
+msgid "Fehler 404: Seite wurde nicht gefunden"
+msgstr ""
+
+#: View/Errors/error404.ctp:6
+msgid "Zurück zu Start, gehen Sie über LOS und ziehen Sie 2.000 Euro ein ..."
+msgstr ""
+
+#: View/Errors/error404.ctp:7
+msgid "Bitte entschuldigen Sie die Unannehmlichkeiten! Leider haben Sie eine Seite erreicht, die nicht korrekt verlinkt wurde."
+msgstr ""
+
+#: View/Errors/missing_controller.ctp:20
+msgid "Missing Controller"
+msgstr ""
+
+#: View/Errors/missing_controller.ctp:22;26
+msgid "Error"
+msgstr ""
+
+#: View/Errors/missing_controller.ctp:23
+msgid "%s could not be found."
+msgstr ""
+
+#: View/Errors/missing_controller.ctp:27
+msgid "Create the class %s below in file: %s"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:46;49
+msgid "Luxusimmobilien"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:59
+msgid "Apartments und Penthäuser kaufen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:60
+msgid "Apartments und Penthäuser %s kaufen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:60;62;66;68;72;74;78;80;84;89;91;95;97;101;103;112;113;123
+msgid "in"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:61
+msgid "Bei Finest Properties Mallorca finden Sie erstklassige Apartments und Penthäuser auf Mallorca, ob in Santa Ponsa, Port d’Andratx oder direkt in Palma, wir bieten Ihnen Top-Immobilien in den besten Lagen."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:62
+msgid "Bei Finest Properties Mallorca finden Sie erstklassige Apartments und Penthäuser %s auf Mallorca, wir bieten Ihnen Top-Immobilien in den besten Lagen."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:65
+msgid "Exklusive Villen, Landhäusern und Fincas kaufen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:66
+msgid "Exklusive Villen, Landhäusern und Fincas %s kaufen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:67
+msgid "Ob Apartments, Villen oder  exklusive Fincas Mallorca Immobilienmakler Finest Properties Mallorca findet für Sie den richtigen Käufer oder Langzeitmieter. Erfahren Sie hier mehr!"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:68
+msgid "Finest Properties Mallorca bietet eine exklusive Auswahl an Villen, Landhäusern bzw. Fincas %s auf Mallorca. Wir beraten Sie individuell und professionell während der Suche nach einer passenden Mallorca Immobilie."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:71
+msgid "Ausgewählte Villen, Landhäusern und Fincas mit Meerblick kaufen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:72
+msgid "Ausgewählte Villen, Landhäusern und Fincas mit Meerblick %s kaufen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:73
+msgid "Finest Properties Mallorca offeriert Ihnen ausgewählte Mallorca Luxus-Villen mit Meerblick. Dank unserer langjährigen Erfahrung als Mallorca Immobilienmakler können wir Ihnen ein interessantes Portfolio an Luxusimmobilien in erster Meereslinie bieten."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:74
+msgid "Finest Properties Mallorca offeriert Ihnen ausgewählte Mallorca Luxus-Villen mit Meerblick %s. Dank unserer langjährigen Erfahrung als Mallorca Immobilienmakler können wir Ihnen ein interessantes Portfolio an Luxusimmobilien in erster Meereslinie bieten."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:77
+msgid "Mietobjekte: Apartments, Villen, Fincas mieten"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:78
+msgid "Mietobjekte > Apartments, Villen, Fincas %s mieten"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:79
+msgid "Bei uns gibt es eine Vielzahl an interessanten Mallorca Villen, Fincas, Apartments und Penthäusern zum Mieten. Werfen Sie einen Blick auf unsere Rubrik Vermietungen oder kontaktieren Sie uns direkt und wir suchen Ihnen die passende Mietimmobilie auf Mallorca."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:80
+msgid "Bei uns gibt es eine Vielzahl an interessanten Mallorca Villen, Fincas, Apartments und Penthäusern %s zum Mieten. Werfen Sie einen Blick auf unsere Rubrik Vermietungen oder kontaktieren Sie uns direkt und wir suchen Ihnen die passende Mietimmobilie auf Mallorca."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:83
+msgid "Altstadtpaläste in Palma de Mallorca kaufen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:84
+msgid "Altstadtpaläste in Palma de Mallorca %s kaufen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:85
+msgid "Finden Sie mit Finest Properties Mallorca die schönsten Altstadtpaläste in Palma de Mallorca. Wir sind jederzeit für Sie da als Ihr persönlicher und erfahrener Immobilienmakler auf Mallorca."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:88
+msgid "Grundstücke in bevorzugten Lagen kaufen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:89
+msgid "Grundstücke in bevorzugten Lagen %s kaufen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:90
+msgid "In der Kategorie Mallorca Grundstücke bieten wir Ihnen herausragende Baugrundstücke auf Mallorca in den bevorzugten Lagen. Wir beraten Sie gerne und zeigen Ihnen alle interessanten Objekte."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:91
+msgid "In der Kategorie Mallorca Grundstücke bieten wir Ihnen herausragende Baugrundstücke %s auf Mallorca in den bevorzugten Lagen. Wir beraten Sie gerne und zeigen Ihnen alle interessanten Objekte."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:94
+msgid "Gewerbeimmobilien > Ladenlokale, Restaurants, Cafeteria pachten oder kaufen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:95
+msgid "Gewerbeimmobilien > Ladenlokale, Restaurants, Cafeteria %s pachten oder kaufen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:96
+msgid "Hier finden Sie sorgfältig ausgesuchte Mallorca Gewerbeimmobilien. Ob Ladenlokal, Restaurant, Cafeteria oder gar ein eigenes Weingut, Finest Properties Mallorca sucht Ihnen Ihre gewünschte Gewerbeimmobilie."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:97
+msgid "Hier finden Sie sorgfältig ausgesuchte Mallorca Gewerbeimmobilien %s. Ob Ladenlokal, Restaurant, Cafeteria oder gar ein eigenes Weingut, Finest Properties Mallorca sucht Ihnen Ihre gewünschte Gewerbeimmobilie."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:100
+msgid "Hotels > Fincahotels, Landhaushotels, Stadthotels pachten oder kaufen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:101
+msgid "Hotels > Fincahotels, Landhaushotels, Stadthotels %s pachten oder kaufen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:102
+msgid "In dieser Kategorie finden Sie eine Vielzahl von Hotels auf Mallorca zum Kaufen oder Pachten. Mit Finest Properties Mallorca haben Sie einen vertrauensvollen und diskreten Partner für Ihre Suche."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:103
+msgid "In dieser Kategorie finden Sie eine Vielzahl von Hotels %s auf Mallorca zum Kaufen oder Pachten. Mit Finest Properties Mallorca haben Sie einen vertrauensvollen und diskreten Partner für Ihre Suche."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:112
+msgid "Exklusive Mallorca Immobilien %s"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:113;123
+msgid "Finden Sie traumhafte Immobilien %s auf Mallorca zum Kaufen oder Mieten. Mit Finest Properties Mallorca haben Sie einen kompetenten und diskreten Partner für Ihre Suche."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:122
+msgid "Die schönsten Mallorca Immobilien %s"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:129
+msgid "Santa Ponsa: Villen und Fincas kaufen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:130
+msgid "Unser Angebot: exklusive Villen und Fincas in Santa Ponsa. Wir vermitteln Ihnen Ihre Traumimmobilie in Santa Ponsa und im ganzen Südwesten von Mallorca"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:133
+msgid "Son Vida: Villen mit Meerblick kaufen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:134
+msgid "Finden Sie hier Ihre Traumimmobilie in Son Vida, Mallorca. Finest Properties Mallorca verfügt über ein exklusives Angebot an Luxus-Villen in Son Vida bei Palma de Mallorca"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:137
+msgid "Puerto de Andratx: Fincas und Villen kaufen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:138
+msgid "Mit Finest Properties finden Sie exklusive Immobilien, Villen und Fincas in Andratx und Puerto de Andratx zum Kaufen. Lassen Sie sich verzaubern von dieser einmaligen Lage im wild-romantischen Westen Mallorcas, direkt am Meer."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:141
+msgid "Palma de Mallorca: Apartment, Penthouse, Wohnung kaufen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:142
+msgid "Hier finden Sie exklusive Apartments, Wohnungen und Penthäuser in Palma de Mallorca in ausgewählten Top-Lagen. Unsere Immobilienmakler helfen Ihnen auf der Suche nach Ihrer Traum Mallorca Immobilie"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:145
+msgid "Puerto Andratx: Apartments, Penthäuser, Wohnungen kaufen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:146
+msgid "Exklusive Immobilien wie ein Apartment oder Penthouse in Puerto de Andratx bietet Finest Properties Mallorca. Verwirklichen Sie Ihren Traum von einer Wohnung in Port Andratx und lassen Sie sich beraten"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:149
+msgid "Santa Ponsa: Apartments, Penthäuser, Wohnungen kaufen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:150
+msgid "Entsprechend der begüterten Klientel fällt die Bebauung aus, großzügige Villen mit spektakulären Ausblicken auf Palma und das Meer dominieren das Bild, Privatsphäre ist aufgrund der lockeren Bebauung garantiert. Diese hat allerdings ihren Preis: Angesichts der hervorragenden Mikrolage zählt Son Vida auf Mallorca zu den luxuriösesten Immobilienstandorten. Wer dort einmal zur Probe wohnen möchte, kann dies problemlos in einem der beiden Top-Hotels vor Ort tun"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:153
+msgid "Palma de Mallorca: Fincas, Landhäuser und Villen kaufen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:154
+msgid "Der Immobilienmakler für exklusive Mallorca Immobilien - Finest Properties Mallorca – bietet ausgewählte Luxus Villen und Häuser in Palma de Mallorca zum Kaufen an"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:157
+msgid "Mallorca: Hotels, Fincahotels, Landhotels und Stadthotels kaufen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:158
+msgid "Finest Properties Mallorca offeriert ausgewählte Hotels auf Mallorca zum Kaufen. Unser exklusives Angebot umfasst Strandhotels, Fincahotels, Landhotels und Stadthotels auf Mallorca"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:169
+msgid "Villen und Fincas in Santa Ponsa"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:170
+msgid "Schon immer begehrt: Santa Ponsa"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:171
+msgid "Rund um den heutigen Badeort Santa Ponsa fühlten sich schon die ersten Einwohner Mallorcas wohl. Davon zeugt heute ein archäologischer Park oberhalb des Ortes. Bereits im 13. Jahrhundert von Christus siedelten sich die Angehörigen der Talayot-Kultur in der Region an. Geschichtsträchtig ist der Ort auch, weil König Jaume I. von Aragón im Jahr 1229 mit seiner Streitmacht dort an Land ging und die Insel von den Mauren zurückeroberte."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:172
+msgid "Santa Ponsa – ein idealer Standort für exklusive Immobilien auf Mallorca"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:173
+msgid "Friedlicher geht es heute zu: Gäste aus ganz Europa schätzen nicht nur den rund 1,3 Kilometer langen Strand, viele von ihnen kommen immer wieder und besitzen mittlerweile in Santa Ponsa Immobilien. Lediglich rund 20 Kilometer trennen den Ort von Palma – ein Pluspunkt für alle, die eine Finca in Santa Ponsa ihr Eigen nennen und sie oft für Kurztrips nutzen. Dementsprechend bietet Santa Ponsa Immobilien für jeden Geschmack. Auch für Familien, die dauerhaft auf Mallorca leben wollen, macht die kurze Distanz zu mehreren internationalen Schulen den Kauf einer Finca in Santa Ponsa interessant."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:174
+msgid "Was macht Santa Ponsa für Käufer von Luxus Immobilien so attraktiv?"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:175
+msgid "Nicht nur die Nähe zu Palma macht eine Villa in Santa Ponsa für Kaufinteressenten reizvoll – insbesondere im Top-Segment. Dafür spricht unter anderem das Angebot erstklassiger Golfplätze, von denen gleich drei in unmittelbarer Nachbarschaft so manch stattlicher Finca in Santa Ponsa liegen. Auch die Infrastruktur für Yachtbesitzer ist hervorragend und macht Santa Ponsa und seine Immobilien auch für Bootseigner interessant. So bietet der Ort selbst einen wunderschönen Yachthafen, hinzu kommt der vom Stardesigner Philippe Starck entworfene Yachthafen Port Adriano mit seinen Luxus-Shops und edlen Restaurants. Mega-Yachten mit bis zu 100 Metern Länge können dort vor Anker gehen."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:176
+msgid "Abwechslungsreiches Angebot in Santa Ponsa an Villen in erster Meereslinie"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:177
+msgid "Neben der auf eine anspruchsvolle Klientel zugeschnittenen Infrastruktur sprechen auch die geographischen Gegebenheiten dafür, in Santa Ponsa eine Immobilie zu erwerben: Insbesondere entlang der benachbarten Costa de la Calma lässt sich der Traum von einem Domizil in erster Meereslinie verwirklichen. Einige Immobilienmakler in Santa Ponsa haben sich auf die anspruchsvolle Klientel spezialisiert, darunter auch Finest Properties Mallorca. Von der futuristischen Villa in Santa Ponsa bis zum zur traditionellen Finca im Hinterland bietet das Unternehmen ein breites Portfolio exklusiver Objekte an. Die Immobilienmakler in Santa Ponsa wissen zudem auch, wo der Neubau des individuellen Traumdomizils möglich ist."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:178
+msgid "Eine Villa oder Finca in Santa Ponsa kaufen als Investition für die Zukunft"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:179
+msgid "Aufgrund der attraktiven Rahmenbedingungen ist der Kauf einer Villa in Santa Ponsa auch eine interessante Investition in die Zukunft, da das Werterhaltungs- beziehungsweise -Steigerungspotenzial von Experten als sehr attraktiv eingeschätzt wird. Immobilienmakler wie Finest Properties Mallorca in Santa Ponsa erteilen hierzu gern detailliert Auskunft."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:182
+msgid "Erste Adresse für Luxus Immobilien auf Mallorca: Son Vida - Top of Town"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:183
+msgid "Mallorca ist reich an privilegierten Lagen für eine höchst anspruchsvolle Klientel. Einer dieser Top-Standorte für exklusive Immobilien ist Son Vida, eine Urbanisation der Luxusklasse in den Bergen oberhalb der Inselmetropole Palma. Die Lage von Son Vida auf Mallorca könnte besser nicht sein: Von der Hafenpromenade \"Paseo Maritimo\" sind es über den Straßenring Via Cintura nur wenige Autominuten bis in das exklusive Villenresort, der Flughafen ist lediglich rund zehn bis 15 Autominuten entfernt."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:184
+msgid "Was bietet Son Vida als bevorzugte Lage für Luxus Villen auf Mallorca?"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:185
+msgid "Die Nähe zu Palma macht Immobilien in Son Vida attraktiv für alle, die auf der Insel Ruhe genießen und dennoch nicht auf die Vorzüge einer Großstadt mit ihrer kulturellen und gastronomischen Vielfalt verzichten möchten. So eignet sich eine Villa in Son Vida perfekt für diejenigen, die ihren Lebensmittelpunkt nach Mallorca verlegen und dort auch beruflich tätig sein wollen. Dafür spricht ebenfalls der nahegelegene Flughafen mit exzellenten Verbindungen von und nach Deutschland sowie in die europäischen Metropolen, die sich binnen zwei Flugstunden und ohne Umsteigen erreichen lassen."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:186
+msgid "Was macht Son Vida für Käufer von Luxusimmobilien so attraktiv?"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:187
+msgid "Erste Wahl ist der Standort Son Vida auf Mallorca auch für Golfer: Die drei wunderschönen Golfplätze Son Quint, Son Vida und Son Muntaner ermöglichen es Besitzern einer Luxus Villa in Son Vida, quasi direkt vor der Haustür am Handicap zu feilen. Wer eine Yacht besitzt, ist mit einer Villa in Son Vida ebenfalls gut bedient: bis zum exklusiven Yachthafen Puerto Portals, der sogar Megayachten bis 70 Metern Länge Platz bietet, sind es nur wenige Fahrminuten. Hinzu kommen vier weitere Yachthäfen im Raum Palma, darunter zwei am immer beliebter werdenden Standort Portixol."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:188
+msgid "Eine Villa in Son Vida: sicher, privat, exklusiv"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:189
+msgid "Nicht von der Hand zu weisen ist auch der Vorteil, dass die Immobilien in Son Vida innerhalb einer Urbanisation liegen, die von privaten Sicherheitskräften bewacht wird: Die Zufahrt ist lediglich über eine einzige Straße möglich, das Wachhäuschen ist Tag und Nacht besetzt. Insbesondere, wer häufig abwesend ist, wird diesen Pluspunkt zu schätzen wissen. Die Urbanisation verfügt zudem über einen rund 500 Hektar großen Park, von dem die Hälfte unter Naturschutz steht. "
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:190
+msgid "Entsprechend der begüterten Klientel fällt die Bebauung aus, großzügige Villen mit spektakulären Ausblicken auf Palma und das Meer dominieren das Bild, Privatsphäre ist aufgrund der lockeren Bebauung garantiert. Diese hat allerdings ihren Preis: Angesichts der hervorragenden Mikrolage zählt Son Vida auf Mallorca zu den luxuriösesten Immobilienstandorten. Wer dort einmal zur Probe wohnen möchte, kann dies problemlos in einem der beiden Top-Hotels vor Ort tun."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:193
+msgid "Mallorca Immobilien: Villen und Fincas in Puerto de Andratx kaufen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:194
+msgid "Immobilien in Puerto de Andratx"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:195
+msgid "Die Gemeinde Andratx liegt im Südwesten Mallorcas, am Ausläufer des Tramuntana-Gebirges. Andratx ist eine Küstengemeinde mit malerischen Buchten, Steilküsten und vier kleinen unbewohnten Inseln, wozu auch 'sa Dragonera' gehört, 1995 als Naturschutzpark deklariert. Der Ort Andratx liegt inmitten der Gemeinde. Unser Verkaufsangebot umfasst Immobilien in Puerto de Andratx (auf Katalanisch Port d’Andratx), Cala Llamp, La Mola und Camp de Mar aber auch eine Villa oder Finca in Andratx."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:196
+msgid "Warum eine Villa in Andratx?"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:197
+msgid "Wer hier, in einer der schönsten Ecken Mallorcas lebt, hat unendliche Möglichkeiten sich am kulturellen Lifestyle zu erfreuen und gleichzeitig die Landschaft zu genießen: das Tramuntana-Gebirge, die Steilküsten, die hübschen Buchten und das Meer. All das ist schätzenswerte Lebensqualität. Von der eigenen Finca in Andratx erreichen Sie schnell jede Bucht und können wunderbare Ausflüge ins Umland machen. Immobilien in Port Andratx liegen hübsch eingebettet an Gebirgshängen. Von modernen Apartmentanlagen schauen Sie aufs offene Meer, nach 'sa Dragonera' und bei klarer Sicht sogar bis nach Ibiza."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:198
+msgid "Was zeichnet Port Andratx als Lage für exklusive Mallorca Immobilien aus?"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:199
+msgid "Der moderne Hafenort war ursprünglich ein Fischerdorf. Heutzutage gibt es hier sogar einen Segel- und Jachtclub. Port d‘Andratx bietet eine große Auswahl an erstklassigen Restaurants mit schönen Terrassen und Boutiquen. Der kleine Sturzbach, der Torrente 'es Saluet' mündet hier ins Hafenbecken, wo Fischer auf Booten ihren frischen Fisch verkaufen. Der Wachturm von La Mola ist Zeuge einer antiken Epoche, als Piraten und Freibeuter die Insel heimsuchten. Von der eigenen Villa in Andratx gelangen Sie rasch zu diesem reizvollen und kosmopolitischen Hafenort."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:200
+msgid "Traumhafte Villen Wohnlagen in Camp de Mar, Cala Llamp und La Mola"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:201
+msgid "Fährt man von Puerto de Andratx weiter zur Cala Llamp, ist die Überraschung ob dieser kleinen Bucht groß, denn sie ist nur 35 Meter lang und fünf Meter breit.  In Camp de Mar finden Sie einen der hübschesten Strände mit feinem Sandstrand. Der Ortskern entwickelte sich in den 80er Jahren. Der 'Torre de Cap Andritxol' stammt aus antiker Zeit einstiger Verteidigung gegen Piraten und Freibeuter. Golffreunde finden hier einen der modernsten Golfplätze der Insel, den Golf de Andratx."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:202
+msgid "Idyllisch ist das Ambiente auf La Mola, der nahen Halbinsel. Lustig wippen kleine Fischerboote im Meer, daneben liegen teure Luxusyachten. Beschaulich liegt La Mola inmitten der Felsklippen. Der Wachturm gilt als ihr Wahrzeichen. Römische Galeeren landeten hier einst und versorgten die Bastion Andrachium, den heutigen Ort Andratx mit ihren Waren. Auf einer Finca in Andratx leben Sie inmitten purer Natur, erreichen schnell alle Orte und nehmen zugleich am bunten Leben teil."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:205
+msgid "Apartments und Penthäuser zu kaufen in Palma de Mallorca"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:206
+msgid "In Palma schlägt das Herz der Insel Mallorca - rund die Hälfte aller Inselbewohner lebt in einem Apartment in Palma an der langgezogenen Bucht an den Ausläufern des Tramuntana-Gebirges. Die Stadt selbst hat rund 300.000 Einwohner und nicht wenige kommen mittlerweile aus dem Ausland. So haben sich beispielsweise viele Norweger und Schweden ein Apartment in Palma zugelegt, bevorzugt im Szeneviertel Santa Catalina, das unter Insidern bereits den Spitznamen \"Little Scandinavia\" trägt."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:207
+msgid "Mit einem Apartment in Palma mitten im kulturellen Zentrum der Insel"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:208
+msgid "Die Inselhauptstadt glänzt mit einem reichhaltigen Kulturangebot, das sich nicht allein auf die wunderschöne Kathedrale la Seu und andere Sehenswürdigkeiten wie die Plaza Major und den Almudaina-Palast beschränkt. Auch die Shopping-Vielfalt von der kleinen ausgefallenen Boutique bis hin zu den großen Ketten wie Zara spricht für die Stadt, ebenso das lebendige Nachtleben, das sich vor allem in Santa Catalina, rund um die Placa Mercat und entlang des Paseo Maritimo abspielt. Zum Sundowner laden die zahlreichen Beachclubs ein. Besonders exklusiv genießen lässt sich die Abendstimmung in einem Penthouse in Palma mit Blick über die gesamte Bucht."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:209
+msgid "Was macht Palma de Mallorca für den Kauf von Luxus Apartments attraktiv?"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:210
+msgid "Die Vielfalt, die eine Großstadt mit sich bringt, ist jedoch nicht der einzige Pluspunkt, der für einen Kauf einer Wohnung in Palma de Mallorca spricht: Nur wenige Autominuten sind es zu den vier Golfplätzen in der direkten Umgebung, die teils eine atemberaubende Aussicht auf die Stadt bieten. Die Qual der Wahl haben auch Yachtbesitzer, die gleich sechs Yachthäfen ansteuern können. Besonders exklusiv geht es etwa in Puerto Portals mit Plätzen für Megayachten von bis 70 Metern Länge zu. Dementsprechend gibt es vom Appartement bis zum Penthouse in Palma ein großes Angebot an luxuriösen Immobilien, die dank der dauerhaften Beliebtheit der Metropole Wertsteigerungspotenzial bieten."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:211
+msgid "Portixol, Paseo Marítimo und die Altstadt - beste Lagen für exklusive Apartments in Palma"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:212
+msgid "Ein Apartment in Palma ist dank der unmittelbaren Nähe zum Flughafen ideal für alle, die ihren Wohnsitz auf die Insel verlegen und dort beziehungsweise in Deutschland berufstätig sind. Insbesondere wer häufig fliegt, ist im Vorort Portixol unweit des Flughafens gut aufgehoben. Der charmante Fischerort mit seinen Stadthäusern direkt am Strand gehört zu den begehrtesten Lagen für den Kauf einer Wohnung in Palma de Mallorca, ebenso der Hafenboulevard Paseo Maritimo und die Altstadt. Besonders exklusiv lebt es sich in einem Penthouse in Palma, was allerdings seinen Preis hat. Dafür lässt sich ein solches Juwel hervorragend vermieten. Auch eine Wohnung in Palma de Mallorca bietet bei entsprechender Lage und Ausstattung ganzjährig gute Möglichkeiten zur Vermietung."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:215
+msgid "Apartments und Penthäuser in Puerto de Andratx"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:216
+msgid "Im äußersten Südwesten Mallorcas befindet sich der malerische Ort Andratx mit seinem Ableger Puerto de Andratx - oder Port d'Andratx, wie ihn die Katalanen und Mallorquiner nennen. Sowohl das Bergdorf als auch der Hafenort sind bei deutschen Auswanderern beliebt. Für viele ist etwa ein Apartment in Puerto Andratx zur zweiten Heimat geworden."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:217
+msgid "Puerto de Andratx – eine besondere Lage für Immobilien auf Mallorca"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:218
+msgid "Die idyllische Lage an der fjordartigen Bucht, eingebettet in die hügelige Landschaft, deren Berggipfel auf eine Höhe von 927 Metern hinaufreichen, ist ideal für alle, die ein Faible für Wandertouren haben. Zu den Highlights der Insel gehört eine Tour zum ehemaligen Kloster La Trapa, rund 380 Meter über dem Meer. Auch Wasserfans finden rund um Puerto de Andratx ein schönes Plätzchen zum Ausspannen und Baden, etwa in Sant Elm."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:219
+msgid "Der Doppelort hat auch Kulturinteressierten einiges zu bieten - etwa das Centro Cultural und das Studio Weil der Künstlerin Barbara Weil, das von ihr und dem Star-Architekten Daniel Libeskind gegründet wurde. Puerto de Andratx punktet vor allem mit den einladenden Cafés und Restaurants entlang der Flaniermeile Avenida Mateo Bosch, etwa dem Cappuccino, das von vielen besucht wird, die eine Wohnung in Puerto Andratx besitzen."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:220
+msgid "Was macht Puerto de Andratx für Käufer von Luxus Immobilien so interessant?"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:221
+msgid "Nicht nur die wunderschöne Lage, auch die exzellente Infrastruktur für höchste Ansprüche macht den Kauf einer Wohnung in Puerto Andratx lohnend. Zu den Attraktionen des Ortes gehört der Yachthafen mit einer Kapazität von rund 200 Schiffen, der unter Kennern als einer der schönsten Naturhäfen weltweit gilt. Für alle, die Hafenatmosphäre lieben, eignet sich am besten ein Penthouse in Port Andratx - oder am benachbarten Yacht Club de Vela. Ein Highlight für Golfer ist der Platz Golf de Andratx in Camp de Mar, nur wenige Kilometer entfernt."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:222
+msgid "Reiches Angebot an Meerblick Appartements in Puerto de Andratx"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:223
+msgid "Wer Meerblick wünscht, wird auf der Suche nach einem Apartment in Puerto Andratx und insbesondere rund um Cala Llamp fündig: Die Hanglage macht es möglich. Ebenso reizvoll kann ein Penthouse in Port Andratx sein, was vor allem für Kaufinteressenten eine attraktive Alternative ist, die \"mittendrin\" wohnen wollen."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:224
+msgid "Ein Apartment in Port Andratx als Investition mit Potential zur Wertsteigerung"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:225
+msgid "Mit dem Kauf eines Apartments in Puerto Andratx darf auch eine stabile Wertentwicklung erwartet werden. Der Erwerb einer Wohnung in Puerto Andratx, vor allem in den privilegierten Lagen von La Mola, Cala Moragues oder Montport kann auch aus Renditegesichtspunkten lohnen, denn es gibt nur wenige Hotels, was eine Vermietung erleichtert. Das gilt ebenso für alle, die ein Penthouse in und um Port Andratx in Betracht ziehen."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:228
+msgid "Apartments und Penthäuser in Santa Ponsa"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:229
+msgid "Santa Ponsa – eine begehrte Wohnlage auf Mallorca"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:230
+msgid "Die Bucht von Santa Ponsa gehört zu den beliebtesten Gegenden der Ferieninsel Mallorca - und das nicht erst, seit die ersten Touristen das Eiland für sich entdeckten. Bereits im 13. Jahrhundert vor Christus wählten die Angehörigen der so genannten Talayot-Kultur die Gegend zum Siedeln aus. Die Spuren der ersten Bewohner in der Region lassen sich noch heute auf einem Hügel auf einem Ausgrabungsgelände oberhalb des Ortes besichtigen."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:231
+msgid "Gute Gründe für den Kauf einer Immobilie in Santa Ponsa"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:232
+msgid "Der Badeort ist nicht ohne Grund seit vielen Jahren beliebt bei Touristen und solchen, die ihren Wohnsitz beispielsweise in Apartments in Santa Ponsa verlegt haben: Der etwa 1,3 Kilometer lange Strand wird von einer schön angelegten Promenade gesäumt, auf der es mediterran-lebendig zugeht - nicht nur in der Hauptsaison im Sommer. Damit ist eine Wohnung in Santa Ponsa auch für diejenigen attraktiv, die Mallorca außerhalb der Hauptreisezeit schätzen. Die kurze Distanz von etwa 20 Kilometern zur Hauptstadt Palma spricht ebenfalls für Immobilien in Santa Ponsa. Nicht nur die Inselmetropole liegt praktisch nur einen Katzensprung entfernt, auch der Prominenten-Hotspot Andratx ist lediglich eine kurze Autofahrt entfernt - ein weiterer Pluspunkt für den Erwerb von Immobilien in Santa Ponsa."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:233
+msgid "Residieren in bevorzugter Wohnlage – mit einem Apartment in Santa Ponsa"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:234
+msgid "Die günstige geographische Lage ist nicht der einzige Vorteil, wenn es um einen nachhaltig attraktiven Kauf von Immobilien in Santa Ponsa geht. Der Ort bietet auch eine hervorragende Infrastruktur für gehobene Ansprüche an die Freizeitgestaltung. Viele Appartements in Santa Ponsa sind nur einen Katzensprung von den drei Golfplätzen vor Ort entfernt. Für Wasserportbegeisterte mit eigenem Boot ist ein Penthouse oder eine Wohnung in Santa Ponsa ebenfalls erste Wahl: Sie können sowohl in Santa Ponsa direkt, als auch im benachbarten edlen Yachthafen Port Adriano vor Anker gehen, der vom Stardesigner Philippe Starck entworfen wurde."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:235
+msgid "Santa Ponsa: Meerblick-Immobilien für höchste Ansprüche"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:236
+msgid "Wer entsprechend solvent ist, findet Penthäuser und Apartments in Santa Ponsa, die auch allerhöchsten Ansprüchen genügen - insbesondere an der benachbarten Costa de la Calma ist es je nach Grundstückslage möglich, in erster Meereslinie zu wohnen - keineswegs selbstverständlich auf der Insel. Wer eine solche Wohnung in Santa Ponsa erwirbt, kann sicher sein, ein nachhaltiges Investment getätigt zu haben, denn ein unverbaubarer Meerblick wird immer heiß begehrt sein."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:239
+msgid "Mit einer Villa in Palma im Herzen Mallorcas wohnen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:240
+msgid "Palma bildet den kulturellen und wirtschaftlichen Mittelpunkt der Insel Mallorca, etwa die Hälfte der Einwohner lebt dort. Doch die quirlige Mittelmeer-Metropole ist für viele Zugereiste auch zur zweiten Heimat geworden, und das nicht nur in Apartments: Eine Villa und die Großstadt nahezu vor der Tür - der Markt für Immobilien in Palma bietet auch das."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:241
+msgid "Warum eine Immobilie in Palma de Mallorca?"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:242
+msgid "Immobilien in Palma zu kaufen, kann attraktive Chancen eröffnen, denn die Stadt bietet aufgrund ihrer gewachsenen Struktur attraktive Rahmenbedingungen - etwa eine lebendige Kulturszene, die durch historische Bauten wie die Kathedrale La Seu, den Almudaina-Palast und die Plaza Major abgerundet. Hinzu kommen zahlreiche Läden, die zum Shoppen und Entdecken animieren. Ein weiteres Highlight bildet das Nachtleben der Stadt, das allen Altersgruppen gerecht wird."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:243
+msgid "Ein weiteres Plus: die Nähe zum Flughafen mit Direktverbindungen in alle Metropolen Europas. Ebenso ist die Anbindung an alle Inselgegenden dank des gut ausgebauten Straßennetzes hervorragend. Damit eignet sich eine Villa in Palma nicht nur für diejenigen, die ein Feriendomizil suchen, sondern insbesondere für alle, die vor Ort beruflich tätig sind."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:244
+msgid "Was macht Palma de Mallorca für den Kauf von Luxusvillen attraktiv?"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:245
+msgid "Neben den Vorteilen einer historisch gewachsenen Metropole bietet Palma auch einer erholungsbedürftigen Klientel mit hohen Ansprüchen das passende Umfeld. So laden allein vier Golfplätze in der direkten Umgebung zu einer Partie ein. Wer weder auf eine Villa noch auf eine Yacht verzichten will, findet in und um Palma sechs Yachthäfen, von denen derjenige in Puerto Portals besonders exklusiv ist."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:246
+msgid "Breitgefächertes Angebot: eine Villa, ein Stadthaus oder ein Altstadtpalast in Palma"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:247
+msgid "Für den Kauf von Immobilien in Palma kommen nicht nur Apartments und Penthäuser in Betracht. Vor allem in Bonanova, Son Armadams und Son Vida am Golfplatz werden Käufer, die mit einer Villa in Palma liebäugeln, fündig und dürfen sich je nach Grundstückslage auf einen atemberaubenden Blick über die Bucht von Palma freuen. Wer auf einen Garten verzichten kann und dennoch ein eigenes Haus statt einer Wohnung bevorzugt, kann statt einer Villa in Palma auch einen der wunderschönen Altstadtpaläste in Betracht ziehen, die mit Charme und urbanem Flair punkten. Wer direkte Meeresnähe bevorzugt, sollte ein Auge auf die Stadthäuser in Portixol werfen: Nur die kleine Uferstraße trennt die teils futuristisch sanierten Häuser von Strand und Meer."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:248
+msgid "Die erstklassigen Rahmenbedingungen machen Immobilien in Palma mit zu den exklusivsten der Insel. Das hat seinen Preis, was allerdings gerechtfertigt ist: So bietet eine Villa in Palma mehr Potenzial für eine ganzjährige Vermietung als vergleichbare Objekte in Strandlage, die eher im Sommer gefragt sind."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:251
+msgid "Hotels auf Mallorca kaufen"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:252
+msgid "Mallorca erfreut sich unter Urlaubern seit Jahrzehnten größter Beliebtheit. Insbesondere deutsche Urlauber zieht es immer wieder auf die Baleareninsel, aber auch zahlreiche Briten, gefolgt von Urlaubern aus ganz Europa."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:253
+msgid "Warum ein Hotel auf Mallorca?"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:254
+msgid "Die Baleareninsel besticht durch ihre landschaftliche Vielfalt - von der einsamen Bergwelt der Serra de Tramuntana bis zur flachen Dünenlandschaft im Südosten, vom Großstadtfeeling in Palma bis zum idyllischen Dorfleben in Landesinneren bietet die Insel für jeden Geschmack das Passende. Dementsprechend breit gefächert ist auch das touristische Angebot mit über 300.000 Gästebetten - vom einfachen Hostal bis zum Luxusresort ist alles auf der Insel vertreten. Neben der reizvollen Landschaft punktet die Insel auch mit einer beeindruckenden Vielfalt an Sportmöglichkeiten: Golfer haben die Wahl zwischen 24 Plätzen, die sich über die Insel verteilen. Hinzu kommen zahlreichen Yachthäfen sowie ideale Bedingungen für Tennisspieler und Radfahrer. Für letztere haben sich die Monate Februar bis April fest als Trainingsziel vor der Sommersaison etabliert."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:255
+msgid "Was macht ein Hotelinvestment auf Mallorca attraktiv?"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:256
+msgid "Für den Kauf eines Hotels auf Mallorca spricht aber auch die einfache Anreise aus ganz Europa und insbesondere aus Deutschland. Weitere Pluspunkte sind die niedrige Kriminalitätsrate sowie die politische und rechtliche Stabilität. Das milde Klima spricht außerdem für die Insel, die sich ganzjährig als Urlaubsziel eignet."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:257
+msgid "Vielfältige Auswahl auf Mallorca: Fincahotel, Stadthotel, Strandhotel"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:258
+msgid "Wer ein Hotel auf Mallorca kaufen will, hat die Qual der Wahl: Genauso vielfältig wie sich die Insel als Ganzes präsentiert, ist das Angebot. Insgesamt über 1.500 Beherbergungsbetriebe gibt es auf der Insel. Mit besonderem Charme macht so manches Landhotel auf Mallorca den kleinen Nachteil, nicht direkt am Meer zu liegen, wett. Ein Fincahotel auf Mallorca zu kaufen, kann je nach Lage und Ausstattung ein reizvolles Investment sein, denn immer mehr Individualisten schätzen die Ruhe dieser meist in Alleinlage befindlichen Quartiere. Auch ein Investment in ein Stadthotel auf Mallorca kann attraktive Chancen bieten, etwa ein der beliebten Altstadt von Palma."
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:259
+msgid "Verwirklichung eines Lebenstraums mit dem Kauf eines Hotels auf  Mallorca"
+msgstr ""
+
+#: View/Gesamtobjekt/search.ctp:260
+msgid "Ein Hotel auf Mallorca zu kaufen, ist unter anderem auch deswegen eine Überlegung wert, weil die Insel immer mehr zum Ganzjahresziel wird. Hinzu kommt die zunehmende Beliebtheit der Insel als Ziel für Firmen-Meetings. Ein Fincahotel auf Mallorca zu kaufen, kann jedoch mehr als ein Renditeobjekt sein. So manches liebevoll restaurierte Landhotel auf Mallorca ist der wahrgewordene Traum seines Besitzers und nicht nur Renditeobjekt. Ein gutes Beispiel dafür, wie ein solcher Traum aussehen kann, ist das Castell son Claret, das der Logistik-Milliardär Klaus-Michael Kühne zu einem Fincahotel der Luxusklasse hat umbauen lassen."
+msgstr ""
+
+#: View/Gesamtobjekt/show.ctp:3
+msgid "und"
+msgstr ""
+
+#: View/Gesamtobjekt/show.ctp:8;141;178
+msgid "Anfrage per E-Mail"
+msgstr ""
+
+#: View/Gesamtobjekt/show.ctp:21
+msgid "Objektfotos:"
+msgstr ""
+
+#: View/Gesamtobjekt/show.ctp:58;195
+msgid "Vorheriges Objekt"
+msgstr ""
+
+#: View/Gesamtobjekt/show.ctp:66;203
+msgid "Nächstes Objekt"
+msgstr ""
+
+#: View/Gesamtobjekt/show.ctp:118
+msgid "Die Maklercourtage beträgt 1,5 Monatsmieten zzgl. IVA und wird vom Mieter gezahlt."
+msgstr ""
+
+#: View/Gesamtobjekt/show.ctp:121
+msgid "Provisionsfrei für den Käufer"
+msgstr ""
+
+#: View/Gesamtobjekt/show.ctp:124
+msgid "Energieeffizienzklasse"
+msgstr ""
+
+#: View/Gesamtobjekt/show.ctp:127
+msgid "in Bearbeitung"
+msgstr ""
+
+#: View/Gesamtobjekt/show.ctp:180
+msgid "Exposé laden (PDF)"
+msgstr ""
+
+#: View/Gesamtobjekt/show.ctp:183
+msgid "Zurück zur Auswahl"
+msgstr ""
+
+#: View/Gesamtobjekt/showcontactpopup.ctp:6
+#: View/Gesamtobjekt/showsmspopup.ctp:6
+msgid "Finest Properties Mallorca Immobilien"
+msgstr ""
+
+#: View/Helper/CaptchaHelper.php:33
+msgid "eins"
+msgstr ""
+
+#: View/Helper/CaptchaHelper.php:33
+msgid "zwei"
+msgstr ""
+
+#: View/Helper/CaptchaHelper.php:33
+msgid "drei"
+msgstr ""
+
+#: View/Helper/CaptchaHelper.php:33
+msgid "vier"
+msgstr ""
+
+#: View/Helper/CaptchaHelper.php:33
+msgid "fünf"
+msgstr ""
+
+#: View/Helper/CaptchaHelper.php:33
+msgid "sechs"
+msgstr ""
+
+#: View/Helper/CaptchaHelper.php:33
+msgid "sieben"
+msgstr ""
+
+#: View/Helper/CaptchaHelper.php:33
+msgid "acht"
+msgstr ""
+
+#: View/Helper/CaptchaHelper.php:33
+msgid "neun"
+msgstr ""
+
+#: View/Helper/CaptchaHelper.php:33
+msgid "zehn"
+msgstr ""
+
+#: View/Helper/CaptchaHelper.php:37
+msgid "plus"
+msgstr ""
+
+#: View/Helper/CaptchaHelper.php:37
+msgid "minus"
+msgstr ""
+
+#: View/Helper/CaptchaHelper.php:37
+msgid "calcTimes"
+msgstr ""
+
+#: View/Helper/CaptchaHelper.php:127
+msgid "Anti-Spam-Schutz"
+msgstr ""
+
+#: View/Helper/CaptchaHelper.php:127
+msgid "* Wieviel ergibt"
+msgstr ""
+
+#: View/Helper/GoogleMapV3Helper.php:395
+msgid "Map cannot be displayed!"
+msgstr ""
+
+#: View/Helper/GoogleMapV3Helper.php:532
+msgid "Enter your address"
+msgstr ""
+
+#: View/Helper/GoogleMapV3Helper.php:533
+msgid "Get directions"
+msgstr ""
+
+#: View/Helper/GoogleMapV3Helper.php:1051
+msgid "Map"
+msgstr ""
+
+#: View/Layouts/default.ctp:7
+msgid "Immobilien auf Mallorca ✓ Finestproperties ist Ihr ★★★★★ Immobilienmakler auf Mallorca wenn es um exklusive Immobilien, Villas, Fincas und Apartments auf Mallorca geht"
+msgstr ""
+
+#: View/Layouts/default.ctp:8
+msgid "Immobilien Mallorca, Immobilienmakler Mallorca, Immobilien Mallorca kaufen, Exklusive Mallorca Immobilien, Apartments Mallorca, Fincas Mallorca, Villas Mallorca"
+msgstr ""
+
+#: View/Layouts/default.ctp:51
+msgid "Immobilienmakler Finest Properties"
+msgstr ""
+
+#: View/Layouts/default.ctp:57
+msgid "Start"
+msgstr ""
+
+#: View/Layouts/default.ctp:58
+msgid "URLNewsletter"
+msgstr "Newsletter"
+
+#: View/Layouts/default.ctp:60
+msgid "Über uns"
+msgstr ""
+
+#: View/Layouts/default.ctp:62
+msgid "Sie möchten verkaufen?"
+msgstr ""
+
+#: View/Layouts/default.ctp:62
+msgid "Apartments Fincas Villen Kauf Verkauf Mallorca"
+msgstr ""
+
+#: View/Layouts/default.ctp:63
+msgid "Unser Immobilienmakler Team"
+msgstr ""
+
+#: View/Layouts/default.ctp:63
+msgid "Unser Immobilienmakler Mallorca Team"
+msgstr ""
+
+#: View/Layouts/default.ctp:68;98
+msgid "URLKontakt"
+msgstr "Kontakt"
+
+#: View/Layouts/default.ctp:69;93
+msgid "Finest Propterties bei Facebook"
+msgstr ""
+
+#: View/Layouts/default.ctp:70;94
+msgid "Finest Propterties bei YouTube"
+msgstr ""
+
+#: View/Layouts/default.ctp:71;96
+msgid "Finest Propterties bei Google+"
+msgstr ""
+
+#: View/Layouts/default.ctp:72
+msgid "Tel."
+msgstr ""
+
+#: View/Layouts/default.ctp:84
+msgid "Immobilienmakler-Finest-Properties"
+msgstr ""
+
+#: View/Layouts/default.ctp:98
+msgid "Kontakt / Impressum"
+msgstr ""
+
+#: View/Layouts/default.ctp:99
+msgid "Alle Rechte bei Finest Properties Mallorca S.L."
+msgstr ""
+
+#: View/Layouts/default.ctp:99
+msgid "Wir sind spezialisiert auf die Vermarktung exklusiver Mallorca Immobilien. Ihr Partner für Immobilien auf Mallorca für Sie!"
+msgstr ""
+
+#: View/Pages/home.ctp:1
+msgid "Immobilienmakler für exklusive Immobilien Mallorca | Apartments | Fincas Mallorca kaufen"
+msgstr ""
+
+#: View/Pages/home.ctp:2
+msgid "Immobilien Mallorca kaufen – Finest Properties Ihr Immobilienmakler Mallorca für exklusive Mallorca Immobilien. Große Auswahl an Apartments und Fincas Mallorca"
+msgstr ""
+
+#: View/Pages/home.ctp:5
+msgid "Exklusive Immobilien auf Mallorca kaufen: Ferienwohnungen, Fincas – Leben Sie Ihren Traum – wir helfen Ihnen dabei"
+msgstr ""
+
+#: View/Pages/home.ctp:6
+msgid "Herzlich Willkommen"
+msgstr ""
+
+#: View/Pages/home.ctp:7
+msgid "Bei uns sind Sie an der richtigen Adresse, wenn Sie"
+msgstr ""
+
+#: View/Pages/home.ctp:9
+msgid "Apartments auf Mallorca"
+msgstr "Apartments Mallorca"
+
+#: View/Pages/home.ctp:10
+msgid "Fincas auf Mallorca oder"
+msgstr "Fincas Mallorca oder"
+
+#: View/Pages/home.ctp:11
+msgid "andere exklusive Mallorca Immobilien"
+msgstr "andere exklusive Mallorca Immobilien"
+
+#: View/Pages/home.ctp:13
+msgid "suchen!"
+msgstr ""
+
+#: View/Pages/home.ctp:14
+msgid "Finest Properties: Ihr kompetenter Makler auf Mallorca"
+msgstr ""
+
+#: View/Pages/home.ctp:19
+msgid "Suchen Sie exklusive Mallorca Immobilien? Dann ist Finest Properties <strong>Mallorca</strong> genau der richtige Ansprechpartner für Sie. Luxuriöse Villenanlagen, komfortable <strong>Fincas</strong> oder Apartments auf Mallorca– unsere Immobilienmakler sind in der Lage, Ihnen ein breites Spektrum an hochwertigen <strong>Immobilien</strong> auf Mallorca anzubieten."
+msgstr "Suchen Sie exklusive Mallorca Immobilien? Dann ist Finest Properties <strong>Mallorca</strong> genau der richtige Ansprechpartner für Sie. Luxuriöse Villenanlagen, komfortable <strong>Fincas</strong> oder Apartments Mallorca – unsere Immobilienmakler sind in der Lage, Ihnen ein breites Spektrum an hochwertigen <strong>Immobilien</strong> auf Mallorca anzubieten."
+
+#: View/Pages/home.ctp:20
+msgid "Palma de Mallorca, Santa Ponsa, Puerto Portals oder Puerto de Andratx mit der malerischen Bucht Cala Llamp sind nur einige der beliebten Orte und angesagten Wohngegenden, in denen wir Ihnen exklusive Objekte zum Kauf oder zur Miete vermitteln können. Verwirklichen Sie jetzt Ihren Traum von einer Luxusimmobilie auf Mallorca und nehmen Sie Kontakt mit uns auf."
+msgstr ""
+
+#: View/Pages/home.ctp:31;32;34
+msgid "Finest Properties Mallorca präsentiert Ihnen exklusive Immobilien Mallorca"
+msgstr ""
+
+#: View/Pages/home.ctp:32
+msgid "Finest Properties Mallorca präsentiert Ihnen exklusive Immobilien Fincas Mallorca"
+msgstr ""
+
+#: View/Pages/home.ctp:33
+msgid "<strong>Finest Properties Mallorca</strong> präsentiert Ihnen exklusive <strong>Immobilien auf Mallorca</strong>. Aufgrund unserer langjährigen Erfahrung und Marktkenntnis können wir Ihnen auch die wirklich außergewöhnlichen Mallorca Immobilien zeigen, die nicht offiziell auf dem Immobilienmarkt verfügbar sind. In diesem Video erhalten Sie einen ersten Eindruck von unserer Arbeit als <strong>Immobilienmakler</strong> für Luxusimmobilien auf Mallorca."
+msgstr ""
+
+#: View/Pages/home.ctp:34
+msgid "Video ansehen"
+msgstr ""
+
+#: View/Pages/home.ctp:41;42
+msgid "Mallorca Villen an erster Meereslinie"
+msgstr ""
+
+#: View/Pages/home.ctp:41;42
+msgid "URLMallorca Villen an erster Meereslinie"
+msgstr "Mallorca Villas an erster Meereslinie"
+
+#: View/Pages/home.ctp:42
+msgid "Immobilien an erster Meereslinie und traumhaften Meerblick"
+msgstr ""
+
+#: View/Pages/home.ctp:43
+msgid "Eine Villa direkt am Meer gelegen: der Traum von einer Immobilie auf Mallorca. Hier finden Sie Luxusimmobilien mit sensationellem, unverbautem Blick auf das Meer."
+msgstr ""
+
+#: View/Pages/home.ctp:51;52
+msgid "Mallorca Ferienwohnungen"
+msgstr ""
+
+#: View/Pages/home.ctp:51;52
+msgid "URLMallorca Apartments"
+msgstr "Mallorca Ferienwohnungen"
+
+#: View/Pages/home.ctp:53
+msgid "<strong>Moderne Ferienwohnungen</strong> in den besten Wohnlagen Mallorcas. Genießen Sie Ihren Mallorca Urlaub in Ihrem neuen Ferienapartment oder bewohnen Sie ganzjährig eines der exklusiven Wohnungen aus unserem Angebot."
+msgstr ""
+
+#: View/Pages/home.ctp:57;58
+msgid "Freistehende Villen und Fincas auf Mallorca"
+msgstr "Freistehende Villen und Fincas Mallorca"
+
+#: View/Pages/home.ctp:57;58
+msgid "URLMallorca freistehende Villen"
+msgstr "Freistehende Villen und Fincas auf Mallorca"
+
+#: View/Pages/home.ctp:59
+msgid "Genießen Sie das mediterran- milde Mallorca Wetter das ganze Jahr über in einer Luxus Villa auf Mallorca. Ob als Erst- oder Zweitwohnsitz, Immobilien auf Mallorca zu kaufen, ist eine sichere Investition für die Zukunft."
+msgstr "Genießen Sie das mediterran- milde Mallorca Wetter das ganze Jahr über in einer Luxus Villa auf Mallorca. Ob als Erst- oder Zweitwohnsitz, Immobilien Mallorca kaufen, ist eine sichere Investition für die Zukunft."
+
+#: View/Pages/home.ctp:73;74
+msgid "Grundstücke in besten Lagen"
+msgstr ""
+
+#: View/Pages/home.ctp:73;74
+msgid "URLMallorca Grundstücke in besten Lagen"
+msgstr "Grundstücke in besten Lagen"
+
+#: View/Pages/home.ctp:75
+msgid "Bauen Sie auf Mallorca oder investieren Sie in wertstabile Baugrundstücke. Finest Properties Mallorca bietet Ihnen eine sorgfältige Auswahl an Grundstücken auf Mallorca zum Kaufen in den bevorzugten Lagen der Insel wie Santa Ponsa, Puerto de Andratx oder Sol de Mallorca."
+msgstr ""
+
+#: View/Pages/home.ctp:85;86
+msgid "URLPalma de Mallorca und Altstadtpaläste"
+msgstr "Palma de Mallorca und Altstadtpaläste"
+
+#: View/Pages/home.ctp:86
+msgid "Palma Altstadt Immobilien"
+msgstr ""
+
+#: View/Pages/home.ctp:87
+msgid "Eine Luxusimmobilie mit Charakter: möchten Sie eines der einzigartigen Stadtjuwelen in der historischen Altstadt von Palma bewohnen? Hier können Sie unser Angebot an hochwertig restaurierten Altstadtpalästen einsehen."
+msgstr ""
+
+#: View/Pages/home.ctp:90;91
+msgid "Immobilien auf Mallorca veräußern"
+msgstr ""
+
+#: View/Pages/home.ctp:90;91
+msgid "URLMallorca Immobilien verkaufen"
+msgstr "Immobilien auf Mallorca veräußern"
+
+#: View/Pages/home.ctp:91
+msgid "Mallorca Immobilien verkaufen"
+msgstr ""
+
+#: View/Pages/home.ctp:92
+msgid "Sie möchten Ihre einzigartige Mallorca Immobilie verkaufen und suchen ein Immobilienbüro oder einen Immobilienmakler auf Mallorca, der sich auf die Vermarktung exklusiver Objekte versteht? Dann freuen wir uns auf Ihren Kontakt!"
+msgstr ""
+
+#: View/Pages/home.ctp:98
+msgid "Warum gerade Mallorca?"
+msgstr ""
+
+#: View/Pages/home.ctp:99
+msgid "Immobilien auf Mallorca erfreuen sich schon seit langem großer Beliebtheit und so ist der <strong>Immobilienmarkt</strong> hier ständig in Bewegung. Das ganzjährig milde Klima lockt nicht nur Saisonurlauber, sondern auch viele, die gerne den kalten Wintermonaten entkommen möchten, einen Großteil des Jahres hier verbringen oder Mallorca gar zu ihrem Erstwohnsitz machen möchten. Die Insel bietet alles, um auch höchsten Ansprüchen an Wohn- und Lebensqualität gerecht zu werden. Dazu zählen die vielseitigen Freizeitaktivitäten, Sportmöglichkeiten und kulturellen Einrichtungen. Darüber hinaus verfügt Mallorca über eine gute Infrastruktur und eine hervorragende Anbindung an europäische und internationale Ziele. Die erstklassige ärztliche Versorgung – auch durch deutschsprachige Ärzte - ist ebenfalls ein bedeutender Pluspunkt. Dazu kommen die traumhaften Landschaften und die leichte Lebensart, die auch bei einem dauerhaften Aufenthalt zum Wohlfühlfaktor beitragen und die Kaufentscheidung für Immobilien auf Mallorca erleichtern."
+msgstr ""
+
+#: View/Pages/home.ctp:100
+msgid "Immobilien Mallorca – anspruchsvolle Wohnobjekte für eine anspruchsvolle Klientel"
+msgstr ""
+
+#: View/Pages/home.ctp:101
+msgid "Bereits seit zehn Jahren ist Finest Properties Mallorca als <strong>Immobilienmakler</strong> tätig und hat sich dabei auf die Vermittlung von Luxusobjekten und <strong>Fincas</strong> auf Mallorca spezialisiert. Aus dieser langjährigen Erfahrung heraus sind wir in der Lage, Ihnen die interessantesten <strong>Immobilien</strong> auf Mallorca zu präsentieren. Dabei steht für uns die individuelle Beratung und Betreuung unserer Kunden im Vordergrund, so dass Sie Ihre ganz persönliche Traumimmobilie finden können. Eine Villa direkt am Meer? Eine Finca, romantisch in den Bergen gelegen? Ein Altstadtpalast in Palma mit ganz besonderem Flair? Oder ein gepflegtes Apartment in einer der begehrten Wohnanlagen der Insel? Gemeinsam finden wir die Immobilien, die Ihren Vorstellungen entsprechen. Wenn Sie Ihre Immobilien auf Mallorca bei uns kaufen, lassen wir Ihre Wünsche wahr werden."
+msgstr "Bereits seit zehn Jahren ist Finest Properties Mallorca als <strong>Immobilienmakler</strong> tätig und hat sich dabei auf die Vermittlung von Luxusobjekten und <strong>Fincas</strong> auf Mallorca spezialisiert. Aus dieser langjährigen Erfahrung heraus sind wir in der Lage, Ihnen die interessantesten <strong>Immobilien</strong> auf Mallorca zu präsentieren. Dabei steht für uns die individuelle Beratung und Betreuung unserer Kunden im Vordergrund, so dass Sie Ihre ganz persönliche Traumimmobilie finden können. Eine Villa direkt am Meer? Eine Finca, romantisch in den Bergen gelegen? Ein Altstadtpalast in Palma mit ganz besonderem Flair? Oder ein gepflegtes Apartment in einer der begehrten Wohnanlagen der Insel? Gemeinsam finden wir die Immobilien, die Ihren Vorstellungen entsprechen. Wenn Sie Ihre Immobilien Mallorca bei uns kaufen, lassen wir Ihre Wünsche wahr werden."
+
+#: View/Pages/home.ctp:102
+msgid "Perfekter Rundumservice für Käufer"
+msgstr ""
+
+#: View/Pages/home.ctp:103
+msgid "Sie interessieren sich für Immobilien auf Mallorca? Mit unserem VIP-Special bieten wir Ihnen die perfekte Möglichkeit, die Insel zunächst etwas besser kennenzulernen. Gerne zeigen wir Ihnen die besten Restaurants und Clubs, besichtigen mit Ihnen ausgewählte und exklusive Wohnobjekte und vermitteln Ihnen einen Eindruck vom echten, ursprünglichen Mallorca. Entdecken Sie den mediterranen Lifestyle abseits von jeglichem Massentourismus und lassen Sie sich von dieser wunderschönen, charmanten Insel verzaubern."
+msgstr ""
+
+#: View/Pages/home.ctp:104
+msgid "Für jeden Geschmack die richtige Immobilie"
+msgstr ""
+
+#: View/Pages/home.ctp:105
+msgid "Gemütliche Landhäuser, eine traditionelle Finca, ein modernes Penthouse oder eine <strong>Villa der Extraklasse</strong> – was Stil, Größe und Lage anbetrifft, sind die Immobilien, die wir Ihnen offerieren können, sehr verschieden. Doch so unterschiedlich die Objekte unseres Portfolios auch sein mögen, eines haben sie alle gemeinsam: sie überzeugen durch gute Lage, gehobene Ausstattung, edles Ambiente und einen fairen Preis. Unsere Immobilienmakler sind auf <strong>Mallorca</strong> bestens etabliert und daher in der Lage, Ihnen auch traumhafte Objekte anzubieten, die Sie auf dem offiziellen Markt sonst nicht erhalten. Sie möchten Ihr Traumhaus von Grund auf nach Ihren ganz individuellen Bedürfnissen und Vorlieben gestalten lassen? Dann vermitteln wir Ihnen gerne geeignete Baugrundstücke in TOP-Lagen wie unter anderem Puerto de Andratx, Sol de Mallorca oder Santa Ponsa."
+msgstr ""
+
+#: View/Pages/home.ctp:106
+msgid "Ganz nach gewünschtem Nutzungszweck kann Finest Properties Mallorca Ihnen passende <strong>Fincas</strong>, Villen, Grundstücke oder Apartments auf Mallorca anbieten. Ob Sie ein Objekt als Erst- oder Zweitwohnsitz, als Ferienwohnung oder als reine Investition kaufen möchten – unsere Immobilienmakler auf Mallorca begleiten Sie vom ersten Schritt an auf der Suche nach dem geeigneten Objekt. Lassen Sie sich von unseren Fincas auf Mallorca begeistern, verwirklichen Sie sich den Traum von einer Immobilie mit Meerblick, verwunschenen Landsitzen oder komfortablen Wohnungen in lebhaften Städten, genießen Sie die Ruhe und Einsamkeit in einer allein stehenden Finca oder profitieren Sie vom Komfort und Service in einer modernen Wohnanlage. Bis hin zur Schlüsselübergabe und selbst noch darüber hinaus bleibt Finest Properties Mallorca an Ihrer Seite und ist Ansprechpartner für alle Fragen rund um Ihre Traumimmobilie."
+msgstr "Ganz nach gewünschtem Nutzungszweck kann Finest Properties Mallorca Ihnen passende <strong>Fincas</strong>, Villen, Grundstücke oder Apartments auf Mallorca anbieten. Ob Sie ein Objekt als Erst- oder Zweitwohnsitz, als Ferienwohnung oder als reine Investition kaufen möchten – unsere Immobilienmakler Mallorca begleiten Sie vom ersten Schritt an auf der Suche nach dem geeigneten Objekt. Lassen Sie sich von unseren Fincas auf Mallorca begeistern, verwirklichen Sie sich den Traum von einer Immobilie mit Meerblick, verwunschenen Landsitzen oder komfortablen Wohnungen in lebhaften Städten, genießen Sie die Ruhe und Einsamkeit in einer allein stehenden Finca oder profitieren Sie vom Komfort und Service in einer modernen Wohnanlage. Bis hin zur Schlüsselübergabe und selbst noch darüber hinaus bleibt Finest Properties Mallorca an Ihrer Seite und ist Ansprechpartner für alle Fragen rund um Ihre Traumimmobilie."
+
+#: View/Pages/home.ctp:107
+msgid "Mit Hilfe von Finest Properties Immobilien erfolgreich Fincas veräußern"
+msgstr ""
+
+#: View/Pages/home.ctp:108
+msgid "Sie besitzen bereits eine exklusive Immobilie auf Mallorca und möchten diese gerne verkaufen? Auch dann stehen Ihnen unsere versierten Immobilienmakler auf Mallorca zur Verfügung. Aufgrund ihrer langjährigen Berufserfahrung können sie den Markt bestens einschätzen, Ihr Objekt professionell präsentieren und so die geeigneten Interessentenkreise ansprechen."
+msgstr "Sie besitzen bereits eine exklusive Immobilie auf Mallorca und möchten diese gerne verkaufen? Auch dann stehen Ihnen unsere versierten Immobilienmakler Mallorca zur Verfügung. Aufgrund ihrer langjährigen Berufserfahrung können sie den Markt bestens einschätzen, Ihr Objekt professionell präsentieren und so die geeigneten Interessentenkreise ansprechen."
+
+#: View/Pages/home.ctp:109
+msgid "Ob mieten, kaufen oder verkaufen – Finest Properties ist Ihr Partner für luxuriöse und exklusive Mallorca Immobilien."
+msgstr "Ob mieten, kaufen oder verkaufen – Finest Properties ist Ihr Partner für luxuriöse und exklusive Mallorca Immobilien."
+
+#: View/Pages/home.ctp:111
+msgid "Melden Sie sich hier für unsere kostenlosen Newsletter an und verpassen Sie kein Angebot mehr!"
+msgstr ""
+
+#: View/Pages/home.ctp:112
+msgid "Kontaktieren Sie uns und erfahren Sie mehr über unseren Service"
+msgstr ""
+
+#: View/Pages/home.ctp:113
+msgid "Sie haben noch Fragen? Dann kontaktieren Sie unsere Makler und vereinbaren Sie einen unverbindlichen Termin."
+msgstr ""
+
+#: View/Smscallbacks/index.ctp:19
+msgid "Das Feld Land darf nur Ziffern enthalten."
+msgstr ""
+
+#: View/Smscallbacks/index.ctp:20
+msgid "Feld Land muss minimum 3 Ziffern enthalten"
+msgstr ""
+
+#: View/Smscallbacks/index.ctp:21
+msgid "Feld Land darf maximum 4 Ziffern enthalten"
+msgstr ""
+
+#: View/Smscallbacks/index.ctp:25
+msgid "Das Feld Vorwahl darf nur Ziffern enthalten."
+msgstr ""
+
+#: View/Smscallbacks/index.ctp:29
+msgid "Das Feld Nummer darf nur Ziffern enthalten."
+msgstr ""
+
+#: View/User/add.ctp:15
+msgid "Diese E-Mailadresse gibt es schon, bitte wählen Sie eine andere."
+msgstr ""
+
+#: View/User/add.ctp:18
+msgid "Bitte wählen Sie ein eindeutiges Passwort."
+msgstr ""
+
+#: View/User/add.ctp:19
+msgid "Bitte wählen Sie ein Passwort mit mindestens 6 und maximal 15 Stellen."
+msgstr ""
+
+#: webroot/test.php:88
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+
+#: Model/Contact.php:validation
+#: for field name Model/News.php:validation
+#: Model/Smscallback.php:validation
+#: Model/User.php:validation
+#: ben_name
+msgid "EmptyName"
+msgstr ""
+
+#: Model/Contact.php:validation
+#: for field email Model/News.php:validation
+#: Model/Smscallback.php:validation
+#: Model/User.php:validation
+#: username
+msgid "EmptyEmail"
+msgstr ""
+
+#: Model/Contact.php:validation
+#: for field email Model/News.php:validation
+#: Model/Smscallback.php:validation
+#: Model/User.php:validation
+#: username
+msgid "SyntaxEmail"
+msgstr ""
+
+#: Model/Smscallback.php:validation
+#: for field tel_country
+msgid "NummericTel_country"
+msgstr ""
+
+#: Model/Smscallback.php:validation
+#: for field tel_country
+msgid "NummericTel_max"
+msgstr ""
+
+#: Model/Smscallback.php:validation
+#: for field tel_country
+msgid "NummericTel_min"
+msgstr ""
+
+#: Model/Smscallback.php:validation
+#: for field tel_pre
+msgid "NummericTel_pre"
+msgstr ""
+
+#: Model/Smscallback.php:validation
+#: for field tel_number
+msgid "NummericTel_number"
+msgstr ""
+
+#: Model/User.php:validation
+#: for field username
+msgid "EmailNotUnique"
+msgstr ""
+
+#: Model/User.php:validation
+#: for field passwd
+msgid "EmptyPassword"
+msgstr ""
+
+#: Model/User.php:validation
+#: for field passwd
+msgid "ToShortPassword"
+msgstr ""
+
+#~ msgid "URLFreistehende Villen und Fincas auf Mallorca"
+#~ msgstr "Freistehende Villen und Fincas auf Mallorca"
+
+#, fuzzy
+#~ msgid "Immobilien auf Mallorca veräußernn"
+#~ msgstr "Mallorca Immobilien verkaufen"
+
+#~ msgid "URLImpressum"
+#~ msgstr "Impressum"
+
+#~ msgid "URLMallorca Villen mit Meerblick"
+#~ msgstr "Mallorca Villen mit Meerblick"
+
+#, fuzzy
+#~ msgid "Fincas Mallorca Landsitze und Landhäuser"
+#~ msgstr "Fincas Mallorca Landsitze und Landhäuser"
+
+#~ msgid "URLMallorca Landsitze und Landhäuser"
+#~ msgstr "Fincas Mallorca Landsitze und Landhäuser"
+
+#, fuzzy
+#~ msgid "Fincas, Landsitze und Landhäuser"
+#~ msgstr "Fincas Mallorca Landsitze und Landhäuser"
+
+#, fuzzy
+#~ msgid "Villen in Anlagen"
+#~ msgstr "Mallorca Villas in Anlagen"
+
+#, fuzzy
+#~ msgid "Penthäuser"
+#~ msgstr "Mallorca Penthäuser"
+
+#~ msgid "URLMallorca Penthäuser"
+#~ msgstr "Mallorca Penthäuser"
+
+#, fuzzy
+#~ msgid "Mallorca Exklusive Penthäuser"
+#~ msgstr "Mallorca Penthäuser"
+
+#~ msgid "URLSie möchten verkaufen?"
+#~ msgstr "Sie möchten verkaufen?"
+
+#~ msgid "URLUnser Team"
+#~ msgstr "Unser Team"
+
+#~ msgid "URLSchnell-Suche"
+#~ msgstr "Schnell-Suche"
+
+#~ msgid "URLDetail-Suche"
+#~ msgstr "Detail-Suche"
+
+#~ msgid ""
+#~ "Das Immobilienunternehmen Finest Properties Mallorca ist spezialisiert "
+#~ "auf die Vermarktung von sorgfältig ausgewählten Luxus Immobilien auf "
+#~ "Mallorca. Wir offerieren Ihnen zum Kaufen: exklusive Villen, charmante "
+#~ "Landhäuser, Altstadtpaläste, Wohnungen und Grundstücke an den besten "
+#~ "Standorten Mallorcas wie Palma, Son Vida, Bendinat, Puerto Portals, Santa "
+#~ "Ponsa, Andratx und darüber hinaus."
+#~ msgstr ""
+#~ "Finest Properties Mallorca ist ein inhabergeführtes Unternehmen für "
+#~ "ausgesuchte, hochwertige Luxus-Immobilien auf Mallorca. Unser Portfolio "
+#~ "besteht aus den exklusivsten Immobilienangeboten auf Mallorca in "
+#~ "gefragten Wohnlagen wie Puerto de Andratx, Son Vida, Santa Ponsa, "
+#~ "Bendinat, Puerto Portals, Palma de Mallorca, etc. Wir sind eine junge und "
+#~ "dynamische Immobilienagentur mit engagierten Mallorca Immobilien- "
+#~ "Spezialisten, welche über ein starkes Netzwerk verfügen."
+
+#~ msgid ""
+#~ "Die Grundlage unserer Firmenphilosophie ist die individuelle Betreuung "
+#~ "unserer Kunden auf eine persönliche, diskrete und vertrauensvolle Art. "
+#~ "Unsere langjährige Erfahrung und Marktkenntnis sowie unsere exzellenten "
+#~ "Kontakte ermöglichen es uns, Ihnen auch die wirklich außergewöhnlichen "
+#~ "Objekte zu zeigen, die nicht frei im Markt verfügbar sind."
+#~ msgstr ""
+#~ "Unsere langjährige Berufserfahrung ermöglicht es uns Ihnen die "
+#~ "interessantesten Mallorca Immobilien zu offerieren, zum Kauf oder zur "
+#~ "Miete. Unser Angebotsspektrum reicht dabei von Luxus-Villen, über "
+#~ "Fincas / Landhäuser, Apartments / Penthäuser, Hotels, Gewerbeimmobilien "
+#~ "bis hin zu Baugrundstücken auf Mallorca. Als erfahrene, professionelle "
+#~ "Immobilienmakler auf Mallorca legen wir besonderen Wert auf eine "
+#~ "individuelle Betreuung und Beratung unserer Kunden, die auf der Suche "
+#~ "nach Mallorca Immobilien sind. Wir begleiten Sie bei der Suche nach Ihrer "
+#~ "Traum-Immobilie auf Mallorca vom ersten Kontakt bis zur Schlüsselübergabe "
+#~ "und darüber hinaus."

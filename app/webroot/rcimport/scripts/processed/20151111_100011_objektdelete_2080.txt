@@ -1,0 +1,4 @@
+20151111_100011_objektdelete_2080_1.sql
+20151111_100011_objektdelete_2080_2.sql
+20151111_100011_objektdelete_2080_3.sql
+20151111_100011_objektdelete_2080_4.sql

@@ -1,0 +1,23 @@
+/* Uebersetzungen */
+INSERT INTO Uebersetzungen (UEB_ID,UEB_NUMMER,UEB_FKID_SPR_ID,UEB_TEXT) VALUES 
+('95584','32971','1','Mediterrane Wohnanlage auf dem Hausberg von Paguera'),
+('95585','32972','1','Auf dem Hausberg von Paguera steht diese 1992 erstellte mediterrane Wohnanlage. Die sehr gepflegte Anlage bietet von fast allen Wohnungen aus einen südlich ausgerichteten Panoramablick über Paguera auf das Meer. Die hier angebotenen Studios, 2 und 3 Schlafzimmer Wohnungen haben ab 40 bis 85 m² Wohnfläche plus Terrassen. Private überdachte Autostellplätze sind bei den meisten Apartments vorhanden, ebenso ein Gemeinschaftsparkplatz innerhalb der Wohnanlage. Am Gemeinschaftspool kann man relaxen. Urlaubsvermietungen werden in dieser Wohnanlage aber nicht geduldet'),
+('95586','32973','1',Null),
+('95587','32974','1',Null),
+('95588','32975','1',Null),
+('95589','32976','1',Null),
+('95590','32977','1',Null),
+('95592','32971','5','Mediterranean residence on the hill of Paguera'),
+('95593','32972','5','This apartmentcomlex was buit in 1992. The very well-maintained complex offers from almost all apartments a south-facing panoramic views over Paguera and the sea. The offered 2 and 3 bedroom apartments have approx 85 m² plus terraces. Private covered parking spaces are available with most apartments. At the community pool you can relax. Vacation rentals are not tolerated in this gated community'),
+('95594','32973','5',Null),
+('95595','32974','5',Null),
+('95596','32975','5',Null),
+('95597','32976','5',Null),
+('95598','32977','5',Null),
+('95600','32971','22','Residencia mediterránea de Paguera con vista panoramica'),
+('95601','32972','22','En la montaña de Paguera se esta compilado en 1992 esta residencia mediterránea. El complejo esta en un  muy buen estado y  ofrece apartamentos, casi todos de un orientadas al sur y vistas panorámicas sobre  Paguera y el mar. \r\nHay apartamentos en venta con 2 y 3 dormitorios de aproximadamente 85 m² habitable, más terrazas. Privados plazas de aparcamiento cubierto están disponibles conjunto de la mayoría de los apartamentos. En la piscina de la comunidad se puede relajar. En esta comlejo de apartamentos no se toleran alquilas de vacaciones.\r\n'),
+('95602','32973','22',Null),
+('95603','32974','22',Null),
+('95604','32975','22',Null),
+('95605','32976','22',Null),
+('95606','32977','22',Null);

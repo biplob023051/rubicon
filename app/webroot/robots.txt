@@ -1,0 +1,8 @@
+# Ganze Site für alle Robots sperren
+User-agent: *
+Disallow: /css
+Disallow: /imagesrc
+Disallow: /img
+Disallow: /js
+Disallow: /rcimport
+Disallow: /webfonts

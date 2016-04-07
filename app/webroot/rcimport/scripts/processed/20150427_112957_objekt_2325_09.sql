@@ -1,0 +1,23 @@
+/* Uebersetzungen */
+INSERT INTO Uebersetzungen (UEB_ID,UEB_NUMMER,UEB_FKID_SPR_ID,UEB_TEXT) VALUES 
+('95179','32832','1','Kleine Apartmentanlage in Santaniy-Cala Figuera zu verkaufen'),
+('95180','32833','1','Jedes Apartment hat  ca 80m² mit Wohn-Esszimmer, 2 Schlafzimmern, Küche und ein Badezimmer. \r\nDie Anlage hat keinen Pool\r\n'),
+('95181','32834','1',Null),
+('95182','32835','1',Null),
+('95183','32836','1',Null),
+('95184','32837','1',Null),
+('95185','32838','1',Null),
+('95187','32832','5','Small apartment complex in Santaniy-Cala Figuera for sale'),
+('95188','32833','5','Each apartment has about 80m² with living-dining room, 2 bedrooms, kitchen and a bathroom.\r\nThe complex has no pool.\r\n\r\n'),
+('95189','32834','5',Null),
+('95190','32835','5',Null),
+('95191','32836','5',Null),
+('95192','32837','5',Null),
+('95193','32838','5',Null),
+('95195','32832','22','Pequeño complejo de apartamentos en Santaniy-Cala Figuera a la venta'),
+('95196','32833','22','Cada apartamento tiene aproximadamente 80m² con salón-comedor, 2 dormitorios, cocina y baño.\r\nEl complejo no tiene piscina\r\n'),
+('95197','32834','22',Null),
+('95198','32835','22',Null),
+('95199','32836','22',Null),
+('95200','32837','22',Null),
+('95201','32838','22',Null);

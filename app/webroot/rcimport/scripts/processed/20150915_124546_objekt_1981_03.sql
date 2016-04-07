@@ -1,0 +1,2 @@
+/* Objekteigenschaften */
+DELETE FROM Objekteigenschaften WHERE obe_id IN (23470,23471,23472,23473,23474,23475,23476,23477,23478,23479);
