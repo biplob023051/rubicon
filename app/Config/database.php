@@ -6,10 +6,10 @@ class DATABASE_CONFIG {
 		//'driver' => 'mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'unix_socket' => '/tmp/mysql5.sock',
-		'login' => 'dbo620579444',
-		'password' => 'cHfb3vHawmtf',
-		'database' => 'db620579444',
+		//'unix_socket' => '/tmp/mysql5.sock',
+		'login' => 'root',
+		'password' => '',
+		'database' => 'cakephp_rubicon',
 		'encoding' => 'utf8',
 	);
 }
