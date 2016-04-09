@@ -86,10 +86,10 @@ class AppController extends Controller {
     }
 
     //override redirect
-    public function redirect( $url, $status = NULL, $exit = true ) {
-        if (!isset($url['language']) && $this->Session->check('Config.language')) {
-            $url['language'] = CakeSession::read('Config.language');
-        }
-        parent::redirect($url,$status,$exit);
-    }
+//    public function redirect( $url, $status = NULL, $exit = true ) {
+//        if (!isset($url['language']) && $this->Session->check('Config.language')) {
+//            $url['language'] = CakeSession::read('Config.language');
+//        }
+//        parent::redirect($url,$status,$exit);
+//    }
 }

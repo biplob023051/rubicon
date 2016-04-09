@@ -1,0 +1,8 @@
+# IDE and editor specific files #
+#################################
+nbproject/
+temp/
+app/Config/core.php/
+app/Config/database.php/
+app/tmp/
+app/webroot/imagesrc/
