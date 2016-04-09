@@ -2,7 +2,7 @@
 #################################
 nbproject/
 temp/
-app/Config/core.php/
-app/Config/database.php/
+app/Config/core.php
+app/Config/database.php
 app/tmp/
 app/webroot/imagesrc/
