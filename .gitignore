@@ -6,3 +6,5 @@ app/Config/core.php
 app/Config/database.php
 app/tmp/
 app/webroot/imagesrc/
+/app/webroot/imagesrc/cache
+/app/tmp
