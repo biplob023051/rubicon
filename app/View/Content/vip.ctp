@@ -3,23 +3,23 @@ $this->set('title_for_layout', __('Unser VIP Service für Mallorca Einsteiger'))
 $this->set('metadesc', __('Unser exklusiver Mallorca VIP Service bietet allen, die die Insel noch nicht kennen, die Möglichkeit einen ersten Einblick in Luxus und Lifestyle auf Mallorca zu bekommen.'));
 ?>
 <div id="sell" class="nivoSlider">
-    <img src="/img/vip/1.jpg" alt="" />
-    <img src="/img/vip/2.jpg" alt="" />
-    <img src="/img/vip/3.jpg" alt="" />
-    <img src="/img/vip/4.jpg" alt="" />
-    <img src="/img/vip/6.jpg" alt="" />
-    <img src="/img/vip/7.jpg" alt="" />
-    <img src="/img/vip/8.jpg" alt="" />
-    <img src="/img/vip/9.jpg" alt="" />
-    <img src="/img/vip/10.jpg" alt="" />
-    <img src="/img/vip/11.jpg" alt="" />
-    <img src="/img/vip/12.jpg" alt="" />
-    <img src="/img/vip/13.jpg" alt="" />
-    <img src="/img/vip/14.jpg" alt="" />
-    <img src="/img/vip/15.jpg" alt="" />
-    <img src="/img/vip/16.jpg" alt="" />
+    <img src="/img/vip/1.jpg" alt="" class="img-responsive"/>
+    <img src="/img/vip/2.jpg" alt="" class="img-responsive"/>
+    <img src="/img/vip/3.jpg" alt="" class="img-responsive"/>
+    <img src="/img/vip/4.jpg" alt="" class="img-responsive"/>
+    <img src="/img/vip/6.jpg" alt="" class="img-responsive"/>
+    <img src="/img/vip/7.jpg" alt="" class="img-responsive"/>
+    <img src="/img/vip/8.jpg" alt="" class="img-responsive"/>
+    <img src="/img/vip/9.jpg" alt="" class="img-responsive"/>
+    <img src="/img/vip/10.jpg" alt="" class="img-responsive"/>
+    <img src="/img/vip/11.jpg" alt="" class="img-responsive"/>
+    <img src="/img/vip/12.jpg" alt="" class="img-responsive"/>
+    <img src="/img/vip/13.jpg" alt="" class="img-responsive"/>
+    <img src="/img/vip/14.jpg" alt="" class="img-responsive"/>
+    <img src="/img/vip/15.jpg" alt="" class="img-responsive"/>
+    <img src="/img/vip/16.jpg" alt="" class="img-responsive"/>
 </div>
-<div class="clr"></div>
+<div class="clearfix"></div>
 <div class="border_orange"></div>
 <div class="clr"></div>
 <div class="staticcontent">

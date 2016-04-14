@@ -3,11 +3,11 @@ $this->set('title_for_layout', __('Apartments und Fincas Mallorca – Landhäuse
 $this->set('metadesc', __('Verkaufen oder vermieten Sie Ihre Mallorca Immobilie mit Finest Properties Mallorca. Wir finden für Sie den richtigen Käufer oder einen zuverlässigen Langzeitmieter. Erfahren Sie mehr über Vermarktungsmöglichkeiten Ihrer Immobilie!'));
 ?>
 <div id="sell" class="nivoSlider">
-    <img src="/img/banner_sell_1.jpg" alt="" title="#caption1" />
-    <img src="/img/banner_sell_2.jpg" alt="" title="#caption2" />
-    <img src="/img/banner_sell_3.jpg" alt="" title="#caption3" />
-    <img src="/img/banner_sell_4.jpg" alt="" title="#caption4" />
-    <img src="/img/banner_sell_5.jpg" alt="" title="#caption5" />
+    <img src="/img/banner_sell_1.jpg" alt="" title="#caption1" class="img-responsive"/>
+    <img src="/img/banner_sell_2.jpg" alt="" title="#caption2" class="img-responsive"/>
+    <img src="/img/banner_sell_3.jpg" alt="" title="#caption3" class="img-responsive"/>
+    <img src="/img/banner_sell_4.jpg" alt="" title="#caption4" class="img-responsive"/>
+    <img src="/img/banner_sell_5.jpg" alt="" title="#caption5" class="img-responsive"/>
 </div>
 <div id="caption1" class="nivo-html-caption">
     <?php echo __('Ihre Immoblie ist einzigartig'); ?>

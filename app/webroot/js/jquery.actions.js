@@ -20,7 +20,7 @@ $(document).ready(function() {
     function e() {
         $("#ref").each(function() {
             $(this).animate({
-                marginTop: 200
+                marginTop: 50
             }, 550);
         });
     }

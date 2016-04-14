@@ -109,7 +109,7 @@ a:focus{
     background:#58585a;
     display:block;
     position:absolute;
-    top:37px;
+    top:23px;
     left:0;
     width:280px;
     z-index:300;
@@ -120,11 +120,13 @@ a:focus{
 }
 
 .top_nav ul li:hover ul li {
-    width:280px;
+    width: 100%;
 }
 
 .top_nav ul li:hover ul li a {
     color:#BABBBD;
+    height: inherit;
+    margin: 0;
     padding:5px;
 }
 
@@ -247,11 +249,11 @@ ul.topnav ul ul > span {
 .refsearch {
     background-color:#999;
     border:1px solid #999;
-    width:145px;
+    width:150px;
     color:#fff;
     text-align:left;
     padding-left:3px;
-    margin:2px 20px 2px 0;
+    margin:2px 0 2px 0;
 }
 
 .selItem {
@@ -552,11 +554,11 @@ ul.topnav ul ul > span {
 }
 
 .info_rows_rent {
-    width:365px;
+    width:100%;
     height:18px;
     border-bottom:#6f7072 1px solid;
     float:left;
-    margin-left:26px;
+    /*margin-left:26px;*/
     color:#999;
     font-style:italic;
     font-size:small;
@@ -633,7 +635,7 @@ ul.topnav ul ul > span {
     font-size:14px;
     text-align:justify;
     color:#FFF;
-    padding-top:10px;
+    padding-top:15px;
     vertical-align:top;
 }
 
@@ -730,7 +732,7 @@ ul.topnav ul ul > span {
 }
 
 .form {
-    float:left;
+    /*float:left;*/
     padding-bottom:25px;
 }
 
@@ -796,10 +798,11 @@ ul.topnav ul ul > span {
 }
 
 .address {
-    float:left;
-    width:300px;
+    /*float:left;*/
+    /*width:300px;*/
     line-height:20px;
     margin-top:0;
+    margin-right:0 !important;
     padding-top:0;
 }
 
@@ -929,11 +932,12 @@ ul.topnav ul ul > span {
 }
 
 .blogs {
-    float:left;
-    width:180px;
-    margin:10px 20px 10px 0;
+    /*    float:left;
+        width:180px;
+        margin:10px 20px 10px 0;*/
+    margin-bottom: 15px;
 }
-
+.blogs img{width: 100%;}
 .blogs p {
     margin-left:-15px;
 }
@@ -1153,7 +1157,7 @@ h4 a {
 }
 
 .staticcontentbg {
-    width:948px;
+    width:100%;
     float:left;
     background-color:#646567;
     text-align:justify;
@@ -1162,14 +1166,15 @@ h4 a {
 }
 
 .staticcontent {
-    width:948px;
+    width:100%;
     float:left;
     margin-bottom:5px;
+    margin-top: 10px;
     border:0 solid red;
 }
 
 .staticcontentarea {
-    width:948px;
+    width:100%;
     border:0 solid red;
     font-size:14px;
     text-align:justify;
@@ -1252,12 +1257,13 @@ h4 a {
 .contactform {
     float:left;
     font-size:14px;
-    margin:15px 0 10px 40px;
+    /*margin:15px 0 10px 40px;*/
+    margin-left: 40px;
 }
 
 .contactform input[type=text] {
-    width:300px;
-    text-indent:3px;
+    /*    width:300px;
+        text-indent:3px;*/
 }
 
 .contactform input[type=checkbox] {
@@ -1265,23 +1271,32 @@ h4 a {
 }
 
 .contactform label {
-    display:block;
-    float:left;
-    width:200px;
-    margin-right:10px;
+    /*display:block;*/
+    /*float:left;*/
+    /*width:200px;*/
+    float: left;
+    margin-right: 10px;
+    margin-top: 6px;
+    width: 35%;
 }
 
 .contactform .indent label {
     margin-left:40px;
     width:160px;
 }
+.contactform .form-control {
+    float: left;
+    width: 60%;
+}
+
 
 .contactform textarea {
-    width:300px;
-    height:100px;
+    /*width:300px;*/
+    min-height:100px;
     text-indent:3px;
     font-size:14px;
     font-family:Helvetica;
+    resize: vertical;
 }
 
 .contactform .error-message {
@@ -1413,7 +1428,7 @@ h4 a {
 }
 
 .nivoSlider#sell {
-    width:1668px;
+    width:100%;
     height:600px;
 }
 
@@ -1425,13 +1440,14 @@ h4 a {
 #sell .nivo-caption {
     background:#6c6c6c;
     bottom:40px;
-    width:948px;
-    font-family:Swiss721BTWGL4-Roman,Arial;
+    width:80%;
+    font-family:"Swiss721BTWGL4-Roman",Arial;
 }
 
 #sell .nivo-controlNav {
     border:0 solid red;
-    right:720px;
+    /*right:720px;*/
+    text-align: center;
 }
 
 .nivoSlider#slider {
@@ -1598,7 +1614,7 @@ img,.bookmarklink img {
     border:0;
 }
 
-.logo,.banner,.description,.modal .oneline {
+.logo,.description,.modal .oneline {
     float:left;
 }
 
@@ -1634,7 +1650,7 @@ ul.topnav ul ul li a:hover,.content_box a,#pricesort a,.more_details a:hover,a.w
 
 ul.topnav span,.vip span {
     float:left;
-    margin-left:5px;
+    /*margin-left:5px;*/
 }
 
 .orange,.content_box h2,.content_box_fullwidth h2,.content_box h3,.content_box_fullwidth h3 {
@@ -1728,6 +1744,7 @@ ul.topnav span,.vip span {
 }
 
 #leftnav .close{display: none;}
+#ContactCaptcha{width: 50px !important;}
 
 /* Misc Typo */
 .no-pad{padding: 0;}
@@ -1740,9 +1757,22 @@ ul.topnav span,.vip span {
 .no-mrgn-rgt{margin-right: 0;}
 .no-mrgn-btm{margin-bottom: 0;}
 .no-mrgn-lft{margin-left: 0;}
+.mrgn-btm-15{margin-bottom: 15px;}
 
 /* @media Query Css For All Devices */
-@media (max-width:1024px){}
+@media (max-width:1024px){
+    #leftnav{width: 20%;}
+    .content-part{width: 80%;}
+}
+@media (max-width:800px){
+    .top_nav {
+        margin-top: 75px;
+        padding-left: 0;
+        width: auto;
+    }
+    #leftnav{width: 25%;}
+    .content-part{width: 75%;}    
+}
 @media screen and (max-width:768px){
     .top_nav{
         float: left;
@@ -1794,6 +1824,7 @@ ul.topnav span,.vip span {
     }
     .content-part{
         padding-left: 15px;
+        width: 100%;
     }
     .top_nav {
         border-top-color: #58585a;
@@ -1862,13 +1893,18 @@ ul.topnav span,.vip span {
         top: 8px;
         z-index: 1030;
     }
-    .refsearch{
-        margin-right: 0;
-    }
     /*#appnav{display: inline-block !important;}*/
-    .content_box3 .text-right{text-align: center;}
+    .content_box3 .text-right{text-align: center;}    
 }
-@media (max-width:640px){}
+@media (max-width:640px){
+    #sell .nivo-controlNav{
+        right: 0;
+    }
+    .nivo-controlNav a{
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+}
 @media (max-width:480px){
     #foundresults,
     #resultsperpage,
@@ -1883,6 +1919,16 @@ ul.topnav span,.vip span {
     .page_numbers ul li {
         display: inline-block;
         float: none;
+    }
+    .contactform {
+        margin-left: 0;
+    }
+    .contactform label {
+        margin: 0 0 5px;
+        width: 100%;
+    }
+    .contactform .form-control {
+        width: 100%;
     }
 }
 @media (max-width:400px){

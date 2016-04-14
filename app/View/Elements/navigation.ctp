@@ -211,15 +211,23 @@ if (isset($this->params['controller']) && $this->params['controller'] == 'gesamt
                     $ref = "";
                 }
                 ?>
-                <div><input name="suche" class="refsearch" type="text" value="<?= $ref ?>" rel="<?php echo Inflector::slug(__('Immobilien Suche nach Referenznummer')) ?>" /></div>
+                <div><input name="suche" class="refsearch" type="text" value="<?php echo $ref ?>" rel="<?php echo Inflector::slug(__('Immobilien Suche nach Referenznummer')) ?>"/></div>
             </li>
-            <li><a href="#" >
-                    <div class="button" rel="<?php echo Inflector::slug(__('Unser aktuelles Immobilien Angebot')) . '.html'; ?>"><?php echo __('Suche starten'); ?>&nbsp;</div></a>
+            <li>
+                <a href="#" >
+                    <div class="button" rel="<?php echo Inflector::slug(__('Unser aktuelles Immobilien Angebot')) . '.html'; ?>"><?php echo __('Suche starten'); ?>&nbsp;</div>
+                </a>
             </li>
             <li><a href="#" id='cancel'><?php echo __('abbrechen'); ?>&nbsp;</a></li>
         </ul>
     </li>
-    <li style="padding-top: 284px;">
-        <?php echo $this->Html->link(__('VIP Special'), array('controller' => 'content', 'action' => 'vip', 'language' => $this->Session->read('Config.language'), 'slug' => Inflector::slug(__('VIP Special'))), array('id' => 'vipLink')); ?>
+    <?php
+    $cmenu = '';
+    if ($this->params['controller'] == "content" && $this->params['action'] == "vip") {
+        $cmenu = 'cMenu';
+    }
+    ?>
+    <li style="">
+        <?php echo $this->Html->link(__('VIP Special'), array('controller' => 'content', 'action' => 'vip', 'language' => $this->Session->read('Config.language'), 'slug' => Inflector::slug(__('VIP Special'))), array('id' => 'vipLink', 'class' => $cmenu)); ?>
     </li>
 </ul>
