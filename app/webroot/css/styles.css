@@ -1012,7 +1012,7 @@ ul.topnav ul ul > span {
 }
 
 .modal .row,.login .row,.contactform .row {
-    padding-bottom:5px;
+    padding-bottom:10px;
 }
 
 .modal label {
@@ -1037,20 +1037,21 @@ ul.topnav ul ul > span {
 }
 
 .modal #SmscallbackTelCountry {
-    width:35px;
-    margin-right:5px;
+    float: left;
+    width:60px;
+    /*margin-right:5px;*/
 }
 
 .modal #SmscallbackTelPre {
-    width:55px;
     float:left;
-    margin-right:5px;
+    width:60px;
+    /*margin-right:5px;*/
 }
 
 .modal #SmscallbackTelNumber {
-    width:118px;
     float:left;
-    margin-right:5px;
+    width:120px;
+    /*margin-right:5px;*/
 }
 
 .modal #country {
@@ -1617,6 +1618,9 @@ img,.bookmarklink img {
 .logo,.description,.modal .oneline {
     float:left;
 }
+.oneline {
+    margin-right: 5px;
+}
 
 .top_nav ul li:hover ul li a:hover,ul.topnav ul li a:hover {
     color:#fff;
@@ -1724,7 +1728,12 @@ ul.topnav span,.vip span {
     border-bottom:#F60 2px solid;
 }
 
-.modal input[type=text],.modal input[type=password] {
+.modal input[type="text"], 
+.modal input[type="password"],
+.modal input[type="email"],
+.modal input[type="tel"],
+.modal input[type="url"],
+.modal input[type="search"]{
     width:230px;
     text-indent:3px;
 }
@@ -1739,6 +1748,7 @@ ul.topnav span,.vip span {
 .modal input[type="email"],
 .modal input[type="url"],
 .modal input[type="search"],
+.modal input[type="number"],
 .modal .submitbtn{
     color: #262626;
 }
@@ -1930,6 +1940,42 @@ ul.topnav span,.vip span {
     .contactform .form-control {
         width: 100%;
     }
+    #sms label{
+        float: none;
+        width: auto;
+    }
+    #sms input[type="text"], 
+    #sms input[type="password"],
+    #sms input[type="email"],
+    #sms input[type="url"],
+    #sms input[type="search"]{
+        /*width: 90%;*/
+    }
+    #sms .tel-first{
+        width: 95%;
+    }
+    #sms .tel-first label{
+        width: 230px;
+    }
+    .modal #country {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .modal #pre {
+        margin-right: 25px;
+    }
+    #SmscallbackCaptcha{
+        width: 50px !important;
+    }
+    .modal .hint, 
+    .modal .text, 
+    .contactform .hint{
+        margin-left: -15px;
+    }
+    .modal .infoleft,
+    .modal .inforight{
+        float: none;
+    }
 }
 @media (max-width:400px){
     body {
@@ -1944,6 +1990,10 @@ ul.topnav span,.vip span {
     .content_box img, 
     .content_box_fullwidth img{
         width: 100%;
+    }
+    #captchaCode {
+        display: inline-block;
+        width: inherit;
     }
 }
 @media (max-width:360px){}
