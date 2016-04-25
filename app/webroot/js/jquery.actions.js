@@ -62,6 +62,7 @@ $(document).ready(function() {
             s.push(b[c].charAt(0).toUpperCase() + b[c].substring(1));
         return s = s.join("");
     }
+
     if ($("#video").length > 0) {
         var a = $("#video").attr("rel");
         $("#youtube-player-container").tubeplayer({
@@ -84,10 +85,12 @@ $(document).ready(function() {
             }
         });
     }
+
     $.browser.msie && $(".topnav").css("margin-top", "27px"), ($.browser.safari || $.browser.chrome) && ($("#searchheader").css("margin", "58px 0px -20px"), $(".left_content").css({
         position: "relative",
         top: "4px"
     }));
+
     var c = $("div[title='where']").attr("class"),
             d = $("div[title='where']").attr("id");
     ("content" == c || "contacts" == c || "pages" == c) && $(".topnav>li:first>a").addClass("cMenu"), "gesamtobjekt" != c || "search" != d && "show" != d || ($($(".topnav > li")[1]).find("li#detailCats").find("ul > li > a").each(function() {
@@ -244,9 +247,7 @@ $(document).ready(function() {
             controlNav: !0,
             pauseOnHover: !0
         });
-    } else
-        ;
-    if ($("#sell").length > 0) {
+    } else if ($("#sell").length > 0) {
         $("#sell").nivoSlider({
             effect: "fade",
             animSpeed: 1e3,
@@ -256,12 +257,11 @@ $(document).ready(function() {
             controlNav: !0,
             pauseOnHover: !0
         });
-    } else
-        ;
+    }
 }), $(function() {
     function a() {
         //$(window).width() < 1280 ? ($("body").css("overflow", "auto"), $(".header").width("1280px"), $("body").width("1280px")) : ($("body").css("overflow-x", "hidden"), $(".header").width("auto"), $("body").width("auto"));
-        //$(window).width() < 1280 ? ($(".header").width($(window).width()), $("body").width($(window).width())) : ($(".header").width("auto"), $("body").width("auto"));
+        //$(window).width() < 1280 ? ($(".header").width($(window).width()), $("body").width($(window).width())) : ($(".header").width("auto"), $("body").width("auto"));        
     }
     a(), $(window).resize(a);
 });

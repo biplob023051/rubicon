@@ -133,13 +133,13 @@ else:
                 //debug(Configure::read('seoWording.string.estates.'.CakeSession::read('Config.language')));
                 ?>
                 <div class="row clearfix">
-                    <div class="col-md-8 col-sm-12">
+                    <div class="col-md-7 col-sm-12">
                         <?php
                         //echo $this->Html->link($this->Html->image('/imagesrc/resize.php?src=' . $data['Gesamtobjekt']['OBJ_NUMMER'] . '-1.jpg&q=100&w=521&h=353', array('class' => 'img-responsive', 'alt' => $alt)), $this->Flags->changeUrl($this->Session->read('Config.language'), Inflector::slug($linkcity) . '_' . Inflector::slug($data['Gesamtobjekt']['OBI_UET_BESCHREIBUNG']) . '-' . $data['Gesamtobjekt']['OBJ_NUMMER'] . '.html', true), array('escape' => false));
                         echo $this->Html->link($this->Html->image('/imagesrc/' . $data['Gesamtobjekt']['OBJ_NUMMER'] . '-1.jpg', array('class' => 'img-responsive', 'alt' => $alt)), $this->Flags->changeUrl($this->Session->read('Config.language'), Inflector::slug($linkcity) . '_' . Inflector::slug($data['Gesamtobjekt']['OBI_UET_BESCHREIBUNG']) . '-' . $data['Gesamtobjekt']['OBJ_NUMMER'] . '.html', true), array('escape' => false));
                         ?>
                     </div>
-                    <div class="col-md-4 col-sm-12 rightarea">
+                    <div class="col-md-5 col-sm-12 rightarea">
                         <div class="part1">
                             <h4 class="orange">
                                 <?php

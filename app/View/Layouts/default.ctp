@@ -53,7 +53,7 @@
         <?php endif; ?>
     </head>
     <body class="<?php echo CakeSession::read('Config.language'); ?>">
-        <?php //echo $this->params['controller'] . '/' . $this->params['action']; ?>
+        <?php // echo $this->params['controller'] . '/' . $this->params['action']; ?>
         <div class="header" id="mainHeader">
             <div class="navbar-header">
                 <?php echo $this->Html->link($this->Html->Image('Immobilien-Mallorca-Finest-Properties-Mallorca.png', array('class' => 'logo img-responsive', 'alt' => __('Immobilienmakler Finest Properties'))), $this->Flags->changeUrl($this->Session->read('Config.language'), '/'), array('escape' => false)); ?>
@@ -100,13 +100,12 @@
             </div>
         </div>
 
-
         <div class="device clearfix" id="main-body">
-            <div class="col-md-2 col-sm-3" id="leftnav">
+            <div class="col-lg-2 col-md-2 col-sm-3" id="leftnav">
                 <button type="button" class="close" onclick="toggleMenu('leftnav')"><img src="/img/close.png" alt="<?php echo __('Close'); ?>"/></button>
                 <?php echo $this->element('navigation'); ?>
             </div>
-            <div class="col-md-10 col-sm-9 no-pad-lft content-part">
+            <div class="col-lg-8 col-md-9 col-sm-9 no-pad-lft content-part">
                 <?php if (isset($page) && $page == 'home'): ?>
                     <div id="banner">
                         <img class="img-responsive" src="/img/Mallorca-Immobilien-Finest-Properties.jpg" alt="<?php echo __('Immobilienmakler Finest Properties'); ?>"/>

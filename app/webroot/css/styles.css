@@ -1,6 +1,6 @@
 @charset "utf-8";
 body {
-
+    color: #FFFFFF;
     font-family:"Swiss721BTWGL4-Roman",Arial;
     overflow-x:hidden;
     /*min-width:1280px;*/
@@ -1781,7 +1781,11 @@ ul.topnav span,.vip span {
         width: auto;
     }
     #leftnav{width: 25%;}
-    .content-part{width: 75%;}    
+    .content-part{width: 75%;}
+    .searchresultrows .rightarea {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
 @media screen and (max-width:768px){
     .top_nav{
