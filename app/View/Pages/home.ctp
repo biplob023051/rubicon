@@ -29,10 +29,10 @@
     <div class="content_box_fullwidth">
         <h2 class="h2home_content"><?php echo __('Finest Properties präsentiert Ihnen exklusive Immobilien Mallorca'); ?></h2>
         <div class="row">
-            <div class="col-md-3 col-sm-4 col-xs-4 form-group clearfix">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 form-group clearfix">
                 <?php echo $this->Html->Link($this->Html->Image('finest-office-video.jpg', array('class' => 'img-responsive', 'alt' => __('Finest Properties präsentiert Ihnen exklusive Immobilien Mallorca'))), array('controller' => 'content', 'action' => 'video', 'vid' => 'eygDwQeLEw4', 'language' => $this->Session->read('Config.language'), 'slug' => Inflector::slug(__('URLFinest Properties präsentiert Ihnen exklusive Immobilien Mallorca'))), array('escape' => false, 'title' => __('Finest Properties präsentiert Ihnen exklusive Immobilien Mallorca'))); ?>
             </div>
-            <div class="col-md-9 col-sm-8 col-xs-8">
+            <div class="col-lg-10 col-md-9 col-sm-8 col-xs-8">
                 <p><?php echo __('<strong>Finest Properties Mallorca</strong> präsentiert Ihnen exklusive Immobilien auf Mallorca. Aufgrund unserer langjährigen Erfahrung und Marktkenntnis können wir Ihnen auch die wirklich außergewöhnlichen Mallorca Immobilien zeigen, die nicht offiziell auf dem Immobilienmarkt verfügbar sind. In diesem Video erhalten Sie einen ersten Eindruck von unserer Arbeit als <strong>Immobilienmakler</strong> für Luxusimmobilien.'); ?></p>
                 <p><?php echo $this->Html->Link(__('Video ansehen'), array('controller' => 'content', 'action' => 'video', 'vid' => 'eygDwQeLEw4', 'language' => $this->Session->read('Config.language'), 'slug' => Inflector::slug(__('URLFinest Properties präsentiert Ihnen exklusive Immobilien Mallorca'))), array('escape' => false, 'title' => __('Finest Properties präsentiert Ihnen exklusive Immobilien Mallorca'))); ?></p>
             </div>
@@ -46,10 +46,10 @@
         <div class="col-md-6 content_box">
             <h2 class="h2home_content"><?php echo __('Villen an erster Meereslinie'); ?></h2>
             <div class="row">
-                <div class="col-md-5 col-sm-4 col-xs-4 form-group clearfix">
+                <div class="col-lg-4 col-md-5 col-sm-4 col-xs-4 form-group clearfix">
                     <?php echo $this->Html->Link($this->Html->Image('Mallorca-Villen-an-erster-Meereslinie.jpg', array('class' => 'img-responsive', 'alt' => __('Villen an erster Meereslinie'))), array('controller' => 'gesamtobjekt', 'action' => 'search', 'cat' => '100', 'multiple' => 1, 'language' => $this->Session->read('Config.language'), 'slug' => Inflector::slug(__('URLVillen an erster Meereslinie'))), array('escape' => false, 'title' => __('Villen an erster Meereslinie'))); ?>
                 </div>
-                <div class="col-md-7 col-sm-8 col-xs-8">
+                <div class="col-lg-8 col-md-7 col-sm-8 col-xs-8">
                     <p>
                         <?php echo __('Eine Villa direkt am Meer gelegen: der Traum von einer Immobilie auf Mallorca. Hier finden Sie Luxusimmobilien mit sensationellem, unverbautem Blick auf das Meer.'); ?><br/>
                         <?php echo $this->Html->Link(__('mehr Details'), array('controller' => 'gesamtobjekt', 'action' => 'search', 'cat' => '100', 'multiple' => 1, 'language' => $this->Session->read('Config.language'), 'slug' => Inflector::slug(__('URLVillen an erster Meereslinie'))), array('escape' => false, 'title' => __('Villen an erster Meereslinie'))); ?>
@@ -60,10 +60,10 @@
         <div class="col-md-6 content_box">
             <h2 class="h2home_content"><?php echo __('Die schönsten Ferienwohnungen auf der Insel'); ?></h2>
             <div class="row">
-                <div class="col-md-5 col-sm-4 col-xs-4 form-group clearfix">
+                <div class="col-lg-4 col-md-5 col-sm-4 col-xs-4 form-group clearfix">
                     <?php echo $this->Html->Link($this->Html->Image('Mallorca-Ferienwohnungen.jpg', array('class' => 'img-responsive', 'alt' => __('Die schönsten Ferienwohnungen auf der zauberhaften Insel')), array('alt' => __(''))), array('controller' => 'gesamtobjekt', 'action' => 'search', 'cat' => '1', 'multiple' => 1, 'language' => $this->Session->read('Config.language'), 'slug' => Inflector::slug(__('URLDie schönsten Ferienwohnungen auf der zauberhaften Insel'))), array('escape' => false, 'title' => __('Die schönsten Ferienwohnungen auf der zauberhaften Insel'))); ?>
                 </div>
-                <div class="col-md-7 col-sm-8 col-xs-8">
+                <div class="col-lg-8 col-md-7 col-sm-8 col-xs-8">
                     <p>
                         <?php echo __('<strong>Moderne Ferienwohnungen</strong> in den besten Wohnlagen Mallorcas. Genießen Sie Ihren  Urlaub in Ihrem neuen Ferienapartment oder bewohnen Sie ganzjährig eines der exklusiven Wohnungen aus unserem Angebot.'); ?><br />
                         <?php echo $this->Html->Link(__('mehr Details'), array('controller' => 'gesamtobjekt', 'action' => 'search', 'cat' => '1', 'multiple' => 1, 'language' => $this->Session->read('Config.language'), 'slug' => Inflector::slug(__('URLDie schönsten Ferienwohnungen auf der zauberhaften Insel'))), array('escape' => false, 'title' => __('Die schönsten Ferienwohnungen auf der zauberhaften Insel'))); ?>
@@ -79,10 +79,10 @@
         <div class="col-md-6 content_box">
             <h2 class="h2home_content"><?php echo __('Freistehende Villen und Fincas'); ?></h2>
             <div class="row">
-                <div class="col-md-5 col-sm-4 col-xs-4 form-group clearfix">
+                <div class="col-lg-4 col-md-5 col-sm-4 col-xs-4 form-group clearfix">
                     <?php echo $this->Html->Link($this->Html->Image('Mallorca-Immobilien.jpg', array('class' => 'img-responsive', 'alt' => __('Freistehende Villen und Fincas '))), array('controller' => 'gesamtobjekt', 'action' => 'search', 'cat' => '3', 'multiple' => 2, 'language' => $this->Session->read('Config.language'), 'slug' => Inflector::slug(__('URLFreistehende Villen und Fincas'))), array('escape' => false, 'title' => __('Freistehende Villen und Fincas'))); ?>
                 </div>
-                <div class="col-md-7 col-sm-8 col-xs-8">
+                <div class="col-lg-8 col-md-7 col-sm-8 col-xs-8">
                     <p>
                         <?php echo __('Genießen Sie das mediterran- milde Wetter das ganze Jahr über in einer Luxus Villa auf Mallorca. <strong>Villen Mallorca</strong> - ob als Erst- oder Zweitwohnsitz, Villen und Immobilien auf der beliebten Insel zu kaufen, ist eine sichere Investition für die Zukunft.'); ?><br/>
                         <?php echo $this->Html->Link(__('mehr Details'), array('controller' => 'gesamtobjekt', 'action' => 'search', 'cat' => '3', 'multiple' => 2, 'language' => $this->Session->read('Config.language'), 'slug' => Inflector::slug(__('URLFreistehende Villen und Fincas'))), array('escape' => false, 'title' => __('Freistehende Villen und Fincas'))); ?>
@@ -93,10 +93,10 @@
         <div class="col-md-6 content_box">
             <h2 class="h2home_content"><?php echo __('Grundstücke in besten Lagen vom Immobilienmakler'); ?></h2>
             <div class="row">
-                <div class="col-md-5 col-sm-4 col-xs-4 form-group clearfix">
+                <div class="col-lg-4 col-md-5 col-sm-4 col-xs-4 form-group clearfix">
                     <?php echo $this->Html->Link($this->Html->Image('Grundstuecke-Meerblick-Mallorca.jpg', array('class' => 'img-responsive', 'alt' => __('Grundstücke in besten Lagen vom Immobilienmakler Mallorca'))), array('controller' => 'gesamtobjekt', 'action' => 'search', 'cat' => '7', 'language' => $this->Session->read('Config.language'), 'slug' => Inflector::slug(__('URLGrundstücke in besten Lagen vom Immobilienmakler Mallorca'))), array('escape' => false, 'title' => __('Grundstücke in besten Lagen vom Immobilienmakler Mallorca'))); ?>
                 </div>
-                <div class="col-md-7 col-sm-8 col-xs-8">
+                <div class="col-lg-8 col-md-7 col-sm-8 col-xs-8">
                     <p>
                         <?php echo __('Auf Mallorca Immobilien kaufen oder bauen? Bauen oder investieren Sie in wertstabile Baugrundstücke. Finest Properties Mallorca bietet Ihnen über einen Immobilienmakler Mallorca eine sorgfältige Auswahl an Grundstücken zum Kaufen in den bevorzugten Lagen der Insel.'); ?><br />
                         <?php echo $this->Html->Link(__('mehr Details'), array('controller' => 'gesamtobjekt', 'action' => 'search', 'cat' => '7', 'language' => $this->Session->read('Config.language'), 'slug' => Inflector::slug(__('URLGrundstücke in besten Lagen vom Immobilienmakler Mallorca'))), array('escape' => false, 'title' => __('Grundstücke in besten Lagen vom Immobilienmakler Mallorca'))); ?>
@@ -112,10 +112,10 @@
         <div class="col-md-6 content_box">
             <h2 class="h2home_content"><?php echo __('Immobilien Mallorca kaufen - traumhafte Altstadtpaläste'); ?></h2>
             <div class="row">
-                <div class="col-md-5 col-sm-4 col-xs-4 form-group clearfix">
+                <div class="col-lg-4 col-md-5 col-sm-4 col-xs-4 form-group clearfix">
                     <?php echo $this->Html->Link($this->Html->Image('Palma-de-Mallorca-Altstadt-Immobilien.jpg', array('class' => 'img-responsive', 'alt' => __('Immobilien Mallorca kaufen - traumhafte Altstadtpaläste'))), array('controller' => 'gesamtobjekt', 'action' => 'search', 'cat' => '300', 'language' => $this->Session->read('Config.language'), 'slug' => Inflector::slug(__('URLImmobilien Mallorca kaufen - traumhafte Altstadtpaläste'))), array('escape' => false, 'title' => __('Immobilien Mallorca kaufen - traumhafte Altstadtpaläste'))); ?>
                 </div>
-                <div class="col-md-7 col-sm-8 col-xs-8">
+                <div class="col-lg-8 col-md-7 col-sm-8 col-xs-8">
                     <p>
                         <?php echo __('Immobilien mit Charakter: einzigartige Stadtjuwelen in der historischen Altstadt von Palma mit einem atemberaubenden Blick über die Stadt. Hier können Sie unser Angebot an hochwertig restaurierten Altstadtpalästen und traumhaften Villen einsehen.'); ?><br />
                         <?php echo $this->Html->Link(__('mehr Details'), array('controller' => 'gesamtobjekt', 'action' => 'search', 'cat' => '300', 'language' => $this->Session->read('Config.language'), 'slug' => Inflector::slug(__('URLImmobilien Mallorca kaufen - traumhafte Altstadtpaläste'))), array('escape' => false, 'title' => __('Immobilien Mallorca kaufen - traumhafte Altstadtpaläste'))); ?>
@@ -127,10 +127,10 @@
         <div class="col-md-6 content_box">
             <h2 class="h2home_content"><?php echo __('Immobilien veräußern'); ?></h2>        
             <div class="row">
-                <div class="col-md-5 col-sm-4 col-xs-4 form-group clearfix">
+                <div class="col-lg-4 col-md-5 col-sm-4 col-xs-4 form-group clearfix">
                     <?php echo $this->Html->Link($this->Html->Image('Mallorca-Immobilien-Verkaufen.jpg', array('class' => 'img-responsive', 'alt' => __('Immobilien veräußern'))), array('controller' => 'content', 'action' => 'sell', 'multiple' => 2, 'language' => $this->Session->read('Config.language'), 'slug' => Inflector::slug(__('URLImmobilien veräußern'))), array('escape' => false, 'title' => __('Immobilien veräußern'))); ?>
                 </div>
-                <div class="col-md-7 col-sm-8 col-xs-8">
+                <div class="col-lg-8 col-md-7 col-sm-8 col-xs-8">
                     <p>
                         <?php echo __('Sie möchten Ihre einzigartige Mallorca Immobilie verkaufen und suchen ein Immobilienbüro oder einen Immobilienmakler auf Mallorca, der sich auf die Vermarktung exklusiver Objekte versteht? Dann freuen wir uns auf Ihren Kontakt!'); ?><br />
                         <?php echo $this->Html->Link(__('mehr Details'), array('controller' => 'content', 'action' => 'sell', 'multiple' => 2, 'language' => $this->Session->read('Config.language'), 'slug' => Inflector::slug(__('URLImmobilien veräußern'))), array('escape' => false, 'title' => __('Immobilien veräußern'))); ?>

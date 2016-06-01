@@ -63,7 +63,7 @@ a:focus{
 
 .top_nav,.top_nav a {
     font-family:Swiss721BTWGL4-Roman,Arial;
-    font-size:16px;
+    font-size:15px;
 }
 
 .top_nav {
@@ -371,7 +371,7 @@ ul.topnav ul ul > span {
 }
 
 #searchheader {
-    float:left;
+    /*float:left;*/
     margin-top:60px;
     width:100%;
     border:0 solid #fff;
@@ -571,8 +571,8 @@ ul.topnav ul ul > span {
 }
 
 .spec_title {
-    /*width:160px;*/
     float:left;
+    width:160px;
 }
 
 .spec_titlex {
@@ -1908,7 +1908,10 @@ ul.topnav span,.vip span {
         z-index: 1030;
     }
     /*#appnav{display: inline-block !important;}*/
-    .content_box3 .text-right{text-align: center;}    
+    .content_box3 .text-right{text-align: center;}
+    #main-body {
+        margin-top: 10px;
+    }
 }
 @media (max-width:640px){
     #sell .nivo-controlNav{

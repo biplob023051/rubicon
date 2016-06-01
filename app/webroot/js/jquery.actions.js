@@ -239,6 +239,7 @@ $(document).ready(function() {
         return l.show(), $.post("/users/login", $(this).serializeArray(), p, "json"), !1;
     }), $("#slider").length > 0) {
         $("#slider").nivoSlider({
+            manualAdvance: true,
             effect: "fade",
             animSpeed: 1e3,
             pauseTime: 6e3,
