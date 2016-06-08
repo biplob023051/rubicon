@@ -56,7 +56,7 @@
                 slider.width(childWidth);
             }
             if (childHeight > slider.height()) {
-                slider.height(childHeight);
+                //slider.height(childHeight);
             }
             if (link != '') {
                 link.css('display', 'none');

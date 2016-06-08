@@ -140,7 +140,7 @@ else:
                         ?>
                     </div>
                     <div class="col-md-5 col-sm-12 rightarea">
-                        <div class="part1">
+                        <div class="part1 clearfix">
                             <h4 class="orange">
                                 <?php
                                 echo $this->Html->link($data['Gesamtobjekt']['OBJ_UET_UEBERSCHRIFT'], $this->Flags->changeUrl(
@@ -150,7 +150,7 @@ else:
                                 ?>
                             </h4>
                         </div>
-                        <div class="part2">
+                        <div class="part2 clearfix">
                             <?php $coords = $this->Coords->getGeo($data['Gesamtobjekt']['OBJ_ID']); ?>
                             <div class="info_rows">
                                 <?php echo __('Mallorca'); ?>
@@ -201,7 +201,7 @@ else:
                                 <?php endif; ?>
                             <?php endif; ?>
                         </div>
-                        <div class="part3">
+                        <div class="part3 clearfix">
                             <?php
                             $text = strip_tags($this->Menu->myTruncate($data['Gesamtobjekt']['OBJ_UET_WERBETEXT'], 135));
                             $laenge = strlen($text);
@@ -222,7 +222,7 @@ else:
                                 </span>
                             </div>
                         </div>
-                        <div class="clearfix" style="height: 20px;"></div>
+                        <!--<div class="clearfix" style="height: 20px;"></div>-->
                     </div>
                 </div>
             </div>

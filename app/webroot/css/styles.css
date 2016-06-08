@@ -372,7 +372,7 @@ ul.topnav ul ul > span {
 
 #searchheader {
     /*float:left;*/
-    margin-top:60px;
+    /*margin-top:60px;*/
     width:100%;
     border:0 solid #fff;
 }
@@ -1453,7 +1453,7 @@ h4 a {
 
 .nivoSlider#slider {
     width:100%;
-    height:631px;
+    height:590px;
 }
 
 #captchaCode {
@@ -1484,21 +1484,24 @@ h4 a {
 }
 
 .part1 {
-    height:94px;
+    /*height:94px;*/
     border:0 solid red;
     line-height:22px;
     font-size:8px;
+    margin-bottom: 30px;
 }
 
 .part2 {
-    height:172px;
+    /*height:172px;*/
     border:0 solid #ffd700;
+    margin-bottom: 30px;
 }
 
 .part3 {
-    height:48px;
+    /*height:48px;*/
     border:0 solid #00ff7f;
     line-height:16px;
+    margin-bottom: 30px;
 }
 
 .part4 {
@@ -1576,7 +1579,7 @@ h4 a {
 #ribbon {
     width:258px;
     height:48px;
-    z-index:1000;
+    z-index:100;
     position:absolute;
     display:inline;
     padding-top:5px;
@@ -1741,6 +1744,9 @@ ul.topnav span,.vip span {
 .staticcontentarea h2,#slider .nivo-controlNav {
     font-size:14px;
 }
+.searchresultrows  a  img {
+    border-bottom: 1px solid #ed6c05;
+}
 
 /* Misc Typo */
 .modal input[type="text"], 
@@ -1769,10 +1775,28 @@ ul.topnav span,.vip span {
 .no-mrgn-lft{margin-left: 0;}
 .mrgn-btm-15{margin-bottom: 15px;}
 
+.searchresultrows .rightarea {
+    padding-left: 30px;
+}
+.searchresultrows .rightarea .part1 {
+    margin-left: -30px;
+}
+
 /* @media Query Css For All Devices */
 @media (max-width:1024px){
     #leftnav{width: 20%;}
     .content-part{width: 80%;}
+    #slider.nivoSlider {
+        height: 535px;
+        max-height: 631px;
+        min-height: 374px;
+        width: 100%;
+    }
+
+    .searchresultrows .rightarea .part3{
+        height: auto;
+        margin-bottom: 10px;
+    }
 }
 @media (max-width:800px){
     .top_nav {
@@ -1797,7 +1821,26 @@ ul.topnav span,.vip span {
         margin-right: 25px;
     }
     .searchresultrows .rightarea {
-        padding-left: 30px;
+        padding-left: 60px;
+    }
+    #foundresults,
+    #resultsperpage,
+    #pricesort,
+    .page_navigator{
+        width: 50%;
+    }
+    .page_navigator {
+        text-align: center;
+    }
+    .page_numbers {
+        float: none;
+    }
+    .page_numbers ul li {
+        display: inline-block;
+        float: none;
+    }
+    #slider.nivoSlider {
+        height: 374px;
     }
 }
 @media (max-width:767px){
