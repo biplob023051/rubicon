@@ -20,7 +20,7 @@
             }
             $alt .= $objects[0]['Gesamtobjekt']['OBJ_UET_UEBERSCHRIFT'];
             ?>
-                                                                                <!--<img class="img-responsive" src="/imagesrc/resize.php?src=<?php //echo $objects[0]['Gesamtobjekt']['OBJ_NUMMER'] . $img;                  ?>.jpg&q=100&w=948&h=631" alt="<?php //echo $alt;                  ?>"/>-->
+                                                                                        <!--<img class="img-responsive" src="/imagesrc/resize.php?src=<?php //echo $objects[0]['Gesamtobjekt']['OBJ_NUMMER'] . $img;                    ?>.jpg&q=100&w=948&h=631" alt="<?php //echo $alt;                    ?>"/>-->
             <img class="img-responsive" src="/imagesrc/<?php echo $objects[0]['Gesamtobjekt']['OBJ_NUMMER'] . $img; ?>.jpg" alt="<?php echo $alt; ?>"/>
         <?php endforeach; ?>
     </div>
@@ -91,7 +91,7 @@
         </div>
         <div class="col-md-7 col-sm-8" style="color: #FFFFFF;">
             <div class="row clearfix" style="margin-top: 70px;">
-                <div class="col-md-7 col-sm-7 col-xs-7 form-group" style="color: #FFFFFF;">
+                <div class="col-md-7 col-sm-7 col-xs-7 form-group w_100_768" style="color: #FFFFFF;">
                     <table class="td-uline" width="100%">
                         <tr>
                             <td colspan="2">
@@ -139,7 +139,6 @@
                                 <?php endif; ?>
                             </td>
                         </tr>
-
                         <?php if (isset($rent)): ?>
                             <?php if (isset($onlyrent)): ?>
                                 <tr>
@@ -150,14 +149,12 @@
                                     <td colspan="2"><div class="row_rent"><?php echo __('Objekt kann angemietet werden, Preis auf Anfrage'); ?></div></td>
                                 </tr>
                             <?php endif; ?>
-
                             <?php /* 04.02.13 */ if ($objects[0]['Gesamtobjekt']['OBJ_ID'] != 1605): ?>
                                 <tr>
                                     <td colspan="2"><?php echo __('Die Maklercourtage beträgt 1,5 Monatsmieten zzgl. IVA und wird vom Mieter gezahlt.'); ?></td>
                                 </tr>
                             <?php endif; ?>
                         <?php endif; ?>
-
                         <tr>
                             <td colspan="2"><div class="spec_titlex"><?php echo __('Provisionsfrei für den Käufer'); ?></div></td>
                         </tr>
@@ -188,7 +185,6 @@
                                 </td>
                             </tr>
                         <?php endif; ?>
-
                         <tr>
                             <td colspan="2" style="border: none;">
                                 <div id="detail_contact_button">
@@ -198,7 +194,7 @@
                         </tr>
                     </table>
                 </div>
-                <div class="col-md-5 col-sm-5 col-xs-5" style="color: #FFFFFF;">
+                <div class="col-md-5 col-sm-5 col-xs-5 w_100_768" style="color: #FFFFFF;">
                     <script type="text/javascript">
                         function openPop(what) {
                             var ww;
@@ -230,8 +226,12 @@
                         <div class="add_details"><a href="/pdf/<?php echo $objects[0]['Gesamtobjekt']['PDF'] ?>" target="_blank"><img src="/img/pdf_icon.png" /><?php echo __('Exposé laden (PDF)'); ?></a></div>
                     <?php endif; ?>
                     <?php if ($this->Session->check('lastSearch')): ?>
-                        <div class="add_details"><a href="<?php echo $this->Session->read('lastSearch'); ?>"><img src="/img/display_icon.png" /><?php echo __('Zurück zur Auswahl'); ?></a></div>
-                            <?php endif; ?>
+                        <div class="add_details">
+                            <a href="<?php echo $this->Session->read('lastSearch'); ?>">
+                                <img src="/img/display_icon.png" /><?php echo __('Zurück zur Auswahl'); ?>
+                            </a>
+                        </div>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
@@ -283,7 +283,7 @@ if (isset($np) && is_array($np)) {
     ?>
 <?php endif; ?>
 <?php if (count($np) && !empty($np['next'])): ?>
-                                &nbsp;|&nbsp;
+                                        &nbsp;|&nbsp;
     <?php
     echo
     $this->Html->link(__('Nächstes Objekt'), '/' . $to . Inflector::slug($linkcitynext) . '_' .
@@ -341,9 +341,9 @@ endif;
 
 <?php if (isset($rent)): ?>
     <?php if (isset($onlyrent)): ?>
-                                                        <tr><td><div class="spec_title"><?php echo __('Mietpreis'); ?>:</div></td><td>&#8364; <?php echo $onlyrentprice ?></td></tr>
+                                                                        <tr><td><div class="spec_title"><?php echo __('Mietpreis'); ?>:</div></td><td>&#8364; <?php echo $onlyrentprice ?></td></tr>
     <?php else: ?>
-                                                        <tr><td colspan="2"><div class="row_rent"><?php echo __('Objekt kann angemietet werden, Preis auf Anfrage'); ?></div></td></tr>
+                                                                        <tr><td colspan="2"><div class="row_rent"><?php echo __('Objekt kann angemietet werden, Preis auf Anfrage'); ?></div></td></tr>
     <?php endif; ?>
 
     <?php /* 04.02.13 */ if ($objects[0]['Gesamtobjekt']['OBJ_ID'] != 1605): ?><tr><td colspan="2"><?php echo __('Die Maklercourtage beträgt 1,5 Monatsmieten zzgl. IVA und wird vom Mieter gezahlt.'); ?></td></tr><?php endif; ?>
@@ -351,9 +351,9 @@ endif;
 
                 <tr><td colspan="2"><div class="spec_titlex"><?php echo __('Provisionsfrei für den Käufer'); ?></div></td></tr>
 <?php if ($objects[0]['Gesamtobjekt']['obj_energiepasslevel'] != 8): ?>
-                                    <tr>
-                                        <td><div class="spec_title"><?php echo __('Energieeffizienzklasse'); ?>:</div></td>
-                                        <td><?php
+                                            <tr>
+                                                <td><div class="spec_title"><?php echo __('Energieeffizienzklasse'); ?>:</div></td>
+                                                <td><?php
     switch ($objects[0]['Gesamtobjekt']['obj_energiepasslevel']) {
         case 0: echo __('in Bearbeitung');
             break;
@@ -373,7 +373,7 @@ endif;
             break;
     }
     ?></td>
-                                    </tr>
+                                            </tr>
 <?php endif; ?>
 
                 <tr>
@@ -419,10 +419,10 @@ endif;
                     <div class="add_details"><a href="#" class="modalInput" rel="#sms"><img src="/img/phone_icon.png" /><?php echo __('SMS Rückruf-Service'); ?></a>span onclick="openPop('sms');" class="modalInput"><img src="/img/phone_icon.png" /><?php echo __('SMS Rückruf-Service'); ?></span</div>
             <div class="add_details"><a href="#" class="modalInput" rel="#contact"><img src="/img/mail_icon.png" /><?php echo __('Anfrage per E-Mail'); ?></a>span onclick="openPop('contact');" class="modalInput"><img src="/img/mail_icon.png" style="margin-top:3px" /><?php echo __('Anfrage per E-Mail'); ?></span</div>
 <?php if (!empty($objects[0]['Gesamtobjekt']['PDF'])): //debug($objects[0]['Gesamtobjekt']['PDF']);  ?>
-                                <div class="add_details"><a href="/pdf/<?php echo $objects[0]['Gesamtobjekt']['PDF'] ?>" target="_blank"><img src="/img/pdf_icon.png" /><?php echo __('Exposé laden (PDF)'); ?></a></div>
+                                        <div class="add_details"><a href="/pdf/<?php echo $objects[0]['Gesamtobjekt']['PDF'] ?>" target="_blank"><img src="/img/pdf_icon.png" /><?php echo __('Exposé laden (PDF)'); ?></a></div>
 <?php endif; ?>
 <?php if ($this->Session->check('lastSearch')): ?>
-                                <div class="add_details"><a href="<?php echo $this->Session->read('lastSearch'); ?>"><img src="/img/display_icon.png" /><?php echo __('Zurück zur Auswahl'); ?></a></div>
+                                        <div class="add_details"><a href="<?php echo $this->Session->read('lastSearch'); ?>"><img src="/img/display_icon.png" /><?php echo __('Zurück zur Auswahl'); ?></a></div>
 <?php endif; ?>
         </td>
     </tr>
@@ -442,7 +442,7 @@ endif;
     ?>
 <?php endif; ?>
 <?php if (count($np) && !empty($np['next'])): ?>
-                                &nbsp;|&nbsp;
+                                        &nbsp;|&nbsp;
     <?php
     echo
     $this->Html->link(__('Nächstes Objekt'), '/' . $to . Inflector::slug($linkcitynext) . '_' .

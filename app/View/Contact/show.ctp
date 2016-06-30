@@ -2,7 +2,7 @@
 $this->set('title_for_layout', __('Kontaktieren Sie unser Immobilienbüro in Mallorca Costa de la Calma'));
 $this->set('metadesc', __('Wir stehen Ihnen jederzeit zur Verfügung bei allen Fragen rund um den Kauf von Immobilien auf Mallorca. Nutzen Sie unseren Rückruf-Service oder schreiben Sie uns eine Email.'));
 ?>
-<!-- Google Code for Anfrage Conversion Page -->
+<!--Google Code for Anfrage Conversion Page-->
 <script type="text/javascript">
     /* <![CDATA[ */
     var google_conversion_id = 1019908970;

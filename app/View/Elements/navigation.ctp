@@ -11,7 +11,7 @@ $activeItem5 = '';
 $activeItem6 = '';
 $checkActiveCity = false;
 $listCats = '';
-$cats = $this->Mainmenu->getCategory(); //debug($cats);
+$cats = $this->Mainmenu->getCategory();
 $cities = $this->Mainmenu->getCities();
 
 foreach ($cats as $cat) {
@@ -55,7 +55,6 @@ foreach ($cats as $cat) {
                             $this->Session->read('Config.language'), array('controller' => 'gesamtobjekt', 'action' => 'search'), true, Inflector::slug($slugtext), $catsarray
                     ), array('class' => $activeItem, 'rel' => $cat['Objektarteninternet']['OBI_ID'])) . '</li>';
 }
-//debug($listCats);
 if (isset($this->params['controller']) && $this->params['controller'] == 'gesamtobjekt' &&
         isset($this->params['action']) && ($this->params['action'] == 'search' || $this->params['action'] == 'show')
 ) {

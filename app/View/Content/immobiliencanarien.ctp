@@ -3,8 +3,8 @@ $this->set('title_for_layout', __('Immobilien auf Gran Canaria'));
 $this->set('metadesc', __('Immobilien auf Gran Canaria'));
 ?>
 <div id="sell" class="nivoSlider">
-    <img src="/img/vip/canaren1.png" alt="" />
-    <img src="/img/vip/canaren2.png" alt="" />
+    <img src="/img/vip/canaren1.png" alt="" class="img-responsive"/>
+    <img src="/img/vip/canaren2.png" alt="" class="img-responsive"/>
 </div>
 <div class="clr"></div>
 <div class="border_orange"></div>
@@ -14,7 +14,7 @@ $this->set('metadesc', __('Immobilien auf Gran Canaria'));
         <h1 class="orange"><?php echo __('Immobilien auf Gran Canaria'); ?></h1>
         <p>
             <?php echo __('Ein Ferienhaus in Gran Canaria ist ein Traum den sich viele teilen. Natürlich muss man dafür das nötige Kleingeld haben doch ist die finanzielle Seite erst mal gesichert gibt es noch weitere Punkte die geklärt werden müssen.'); ?>
-            <?=$this->Html->Link('Roevenich Immobilien', 'http://www.roevenich-immobilien.de/', array('class' => 'whitelink', 'title' => 'Roevenich Immobilien')); ?>
+            <?php echo $this->Html->Link('Roevenich Immobilien', 'http://www.roevenich-immobilien.de/', array('class' => 'whitelink', 'title' => 'Roevenich Immobilien')); ?>
             <?php echo __('unterstützt Sie dabei Ihren Traum zu verwirklichen und schon bald stolzer Besitzer einer Immobilie auf Gran Canaria zu sein.'); ?>
         </p>
 
@@ -28,7 +28,7 @@ $this->set('metadesc', __('Immobilien auf Gran Canaria'));
         <h4><?php echo __('Referenzen'); ?></h4>
         <p>
             <?php echo __('Um Sie von unserer Kompetenz zu überzeugen stellen wir Ihnen gerne unsere '); ?>
-            <?=$this->Html->Link('Referenzen', 'http://www.roevenich-immobilien.de/diverses/referenzen-spanien.php', array('class' => 'whitelink', 'title' => 'Referenzen'));?>
+            <?php echo $this->Html->Link('Referenzen', 'http://www.roevenich-immobilien.de/diverses/referenzen-spanien.php', array('class' => 'whitelink', 'title' => 'Referenzen'));?>
             <?php echo __('zur Verfügung. Lassen Sie sich von anderen Kunden bestätigen, dass wir ein zuverlässiger Partner in Sachen Immobilien auf Gran Canaria sind.'); ?><br />
             <?php echo __('Auf unserer Internetseite finden Sie verschiedene Referenzen, die Ihnen mehr Sicherheit bieten.'); ?>
         </p>

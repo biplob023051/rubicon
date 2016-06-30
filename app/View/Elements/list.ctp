@@ -1,6 +1,4 @@
 ﻿<?php
-//debug($objects);
-//debug($this->params);
 if ($this->params['controller'] == 'bookmark' && !isset($objects)):
     ?>
     <div style="height: 54px;"></div>
@@ -16,16 +14,16 @@ elseif ($this->params->controller == 'gesamtobjekt' && !count($objects)):
     ?>
     <div style="height: 54px;"></div>
     <div class="border_orange_thin"></div>
-    <div class="searchresultrows"  style="min-height: 500px;">
+    <div class="searchresultrows" style="min-height: 500px;">
         <p><?php echo __('Keine Ergebnisse gefunden, bitte verändern Sie Ihre Sucheinstellungen!'); ?></p>
     </div>
     <?php
 else:
     ?>
-    <div id="searchheader">
+    <div id="searchheader" class="clearfix">
         <div id="foundresults" class="col-md-3 col-sm-3 col-xs-3">
             <?php if (!isset($this->params['models']['Bookmark'])): ?>
-                <?php //__('Objekte'); ?><?php echo count($this->Session->read('objectSlider')); ?>
+                <?php echo count($this->Session->read('objectSlider')); ?>
                 <?php if (isset($headerinfos['mixedCats'])): ?>
                     <?php if (count($this->Session->read('objectSlider')) == 1) echo __('Immobilie gefunden'); ?><?php if (count($this->Session->read('objectSlider')) != 1) echo __('Immobilien gefunden'); ?>
                 <?php else: ?>
@@ -37,7 +35,6 @@ else:
         </div>
         <div id="resultsperpage" class="col-md-3 col-sm-3 col-xs-3">
             <?php
-            //debug($this->params['named']);
             if ($this->Session->read('Config.language') != DEFAULT_LANGUAGE) {
                 $arg1 = array();
                 $arg2 = array();
@@ -83,12 +80,6 @@ else:
                 ));
             }
             ?>
-            <!--    --><?php //echo __('Objekte pro Seite');                       ?><!-- --><?php //echo $this->Html->image('dpdown.jpg');                      ?>
-            <!--        <ul class="drop_down_list">-->
-            <!--              <li>--><?php //echo $this->Paginator->link('5',array('limit' => '5'), $options = array('escape' => false));                      ?><!--</li>-->
-            <!--              <li>--><?php //echo $this->Paginator->link('10',array('limit' => '10'), $options = array('escape' => false));                      ?><!--</li>-->
-            <!--              <li>--><?php //echo $this->Paginator->link('15',array('limit' => '15'), $options = array('escape' => false));                      ?><!--</li>-->
-            <!--         </ul>-->
         </div>
         <div id="pricesort" class="col-md-3 col-sm-3 col-xs-3"><?php echo __('Preis:'); ?>
             <?php
@@ -96,8 +87,6 @@ else:
             $text = ($sortDir == 'asc') ? __('aufsteigend') : __('absteigend');
             ?>
             <?php
-            //debug($this->Paginator->sortDir());
-            //debug($this->Paginator->sortKey());
             echo $this->Paginator->sort('OBJ_PREIS', $text, $options = array('escape' => false, 'direction' => 'desc', 'class' => 'asc'));
             ?>
         </div>
@@ -118,9 +107,7 @@ else:
 
     <?php if (isset($objects) && count($objects) > 0): ?>
         <?php foreach ($objects as $key => $data): ?>
-            <?php //debug($data['Gesamtobjekt']); ?>
             <div class="searchresultrows" id="row_<?php echo $data['Gesamtobjekt']['OBJ_ID'] ?>">
-                <!--<a name="<?php // echo $data['Gesamtobjekt']['OBJ_ID']            ?>">-->
                 <?php
                 $alt = $data['Gesamtobjekt']['OBI_UET_BESCHREIBUNG'] . ' - ' . $data['Gesamtobjekt']['REG_NAME'] . ' - ';
                 $linkcity = ($data['Gesamtobjekt']['REG_ID'] > 1) ? $data['Gesamtobjekt']['REG_NAME'] : 'Mallorca';
@@ -130,12 +117,10 @@ else:
                 }
                 $alt .= $data['Gesamtobjekt']['OBJ_UET_UEBERSCHRIFT'];
                 $to = (CakeSession::read('Config.language') != DEFAULT_LANGUAGE) ? '/' . CakeSession::read('Config.language') . '/' : '';
-                //debug(Configure::read('seoWording.string.estates.'.CakeSession::read('Config.language')));
                 ?>
                 <div class="row clearfix">
                     <div class="col-md-7 col-sm-12">
                         <?php
-                        //echo $this->Html->link($this->Html->image('/imagesrc/resize.php?src=' . $data['Gesamtobjekt']['OBJ_NUMMER'] . '-1.jpg&q=100&w=521&h=353', array('class' => 'img-responsive', 'alt' => $alt)), $this->Flags->changeUrl($this->Session->read('Config.language'), Inflector::slug($linkcity) . '_' . Inflector::slug($data['Gesamtobjekt']['OBI_UET_BESCHREIBUNG']) . '-' . $data['Gesamtobjekt']['OBJ_NUMMER'] . '.html', true), array('escape' => false));
                         echo $this->Html->link($this->Html->image('/imagesrc/' . $data['Gesamtobjekt']['OBJ_NUMMER'] . '-1.jpg', array('class' => 'img-responsive', 'alt' => $alt)), $this->Flags->changeUrl($this->Session->read('Config.language'), Inflector::slug($linkcity) . '_' . Inflector::slug($data['Gesamtobjekt']['OBI_UET_BESCHREIBUNG']) . '-' . $data['Gesamtobjekt']['OBJ_NUMMER'] . '.html', true), array('escape' => false));
                         ?>
                     </div>
@@ -196,7 +181,7 @@ else:
                                 <?php if ($onlyrent): ?>
                                     <div class="info_rows"><div class="spec_title"><?php echo __('Mietpreis'); ?>:</div>&#8364; <?php echo $onlyrentprice ?></div>
                                 <?php else: ?>
-                                    <!--                    <div class="info_rows--><?php //echo ($rent)?'_rent':'';        ?><!--"><div class="spec_title">--><?php //__('Mietpreis');                      ?><!--:</div>--><?php //__('Preis auf Anfrage');                      ?><!--</div>-->
+                                    <!--                    <div class="info_rows--><?php //echo ($rent)?'_rent':'';         ?><!--"><div class="spec_title">--><?php //__('Mietpreis');                       ?><!--:</div>--><?php //__('Preis auf Anfrage');                       ?><!--</div>-->
                                     <div class="info_rows<?php echo ($rent) ? '_rent' : ''; ?>"><?php echo __('Objekt kann angemietet werden, Preis auf Anfrage'); ?></div>
                                 <?php endif; ?>
                             <?php endif; ?>
@@ -242,7 +227,7 @@ else:
             </div>
         </div>
         <div class="clearfix"></div>
-        <span style="font-size: 10px; float: right;"><?php //echo $this->Paginator->counter(array('format' => 'Seite %page% von %pages%, angezeigt werden %current% Ergebnisse von insgesamt %count%, beginnend bei %start%, endend bei %end%'));                    ?></span>
+        <span style="font-size: 10px; float: right;"><?php //echo $this->Paginator->counter(array('format' => 'Seite %page% von %pages%, angezeigt werden %current% Ergebnisse von insgesamt %count%, beginnend bei %start%, endend bei %end%'));                     ?></span>
     <?php endif; ?>
 
 <?php

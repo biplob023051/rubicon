@@ -1,9 +1,4 @@
 <?php
-//debug($this->Propertylinks->collectText($objects));
-//debug($this->params);
-//debug($this->params['named']);
-//debug($headerinfos['searchCat']);
-
 $cityname = '';
 if(
     isset($this->params['named']['cityR']) || isset($this->params['named']['cityB']) ||
@@ -263,5 +258,4 @@ if(isset($landing) && isset($type) && $this->Session->read('Config.language') !=
     </div>
 <?php
 endif;
-//$this->set('title_for_layout', __('Fincas Mallorca | Villas Mallorca | Traumvillen | Landhäuser'));
 ?>

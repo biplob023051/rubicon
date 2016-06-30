@@ -3,7 +3,6 @@ $output = array();
 if (empty($this->validationErrors['Objekt']) && empty($this->validationErrors['Contact']) && empty($this->validationErrors['Objektarten'])) $this->validationErrors = array();
 if (!empty($this->validationErrors)) {
 	$output = Set::insert($output, 'errors', array('message' => $errors['message']));
-    //debug($output);
     $errorMessages = array(
         'Contact' => array(
             'name' => array(
@@ -19,7 +18,6 @@ if (!empty($this->validationErrors)) {
             )
         )
     );
-    //debug($errors);
     foreach ($errors['data'] as $model => $errs) {
         foreach ($errs as $field => $message) {
         	$message = $message[0];
